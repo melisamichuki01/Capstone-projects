@@ -1,0 +1,3001 @@
+farmer_id,county,crop_type,farm_size_acres,rainfall_received_mm,soil_quality_score,fertilizer_used,years_insured,previous_claims_3yr,distance_to_market_km,claim_filed
+KE-FARM-0001,Trans Nzoia,Beans,7.4,577.9,8,1,10,1,13.1,0
+KE-FARM-0002,Laikipia,Sunflower,2.6,303.9,1,1,12,1,1.0,0
+KE-FARM-0003,Kitui,Sorghum,6.0,653.0,10,0,5,1,13.2,0
+KE-FARM-0004,Nakuru,Sunflower,4.5,910.1,9,0,3,1,1.4,0
+KE-FARM-0005,Laikipia,Sunflower,5.2,563.4,2,0,10,4,2.6,0
+KE-FARM-0006,Meru,Wheat,2.7,573.3,3,1,2,2,1.3,0
+KE-FARM-0007,Uasin Gishu,Sorghum,4.0,469.1,2,1,15,1,2.8,0
+KE-FARM-0008,Meru,Sorghum,6.5,672.2,8,1,9,1,16.0,0
+KE-FARM-0009,Nyandarua,Sorghum,2.0,499.4,2,0,13,1,1.4,0
+KE-FARM-0010,Nyandarua,Sunflower,6.6,753.2,10,0,1,0,51.4,0
+KE-FARM-0011,Uasin Gishu,Beans,3.6,501.4,2,1,5,0,4.0,0
+KE-FARM-0012,Trans Nzoia,Sorghum,0.7,651.3,1,1,5,0,25.5,0
+KE-FARM-0013,Trans Nzoia,Sunflower,0.5,593.0,7,1,8,1,2.1,0
+KE-FARM-0014,Nyandarua,Wheat,1.8,833.3,2,1,6,0,2.1,0
+KE-FARM-0015,Nyandarua,Beans,3.2,661.4,10,0,6,3,8.3,0
+KE-FARM-0016,Kitui,Wheat,7.3,808.1,5,0,6,0,1.0,0
+KE-FARM-0017,Nakuru,Beans,0.5,616.3,5,0,4,0,16.1,0
+KE-FARM-0018,Kitui,Sunflower,6.4,574.4,3,0,15,0,5.8,0
+KE-FARM-0019,Kitui,Maize,8.0,594.3,3,0,1,2,12.0,0
+KE-FARM-0020,Trans Nzoia,Beans,0.7,484.3,3,0,3,0,1.9,0
+KE-FARM-0021,Uasin Gishu,Wheat,7.6,679.8,6,0,13,1,10.3,0
+KE-FARM-0022,Trans Nzoia,Sunflower,19.0,496.4,4,0,13,2,9.0,0
+KE-FARM-0023,Nakuru,Beans,5.2,616.9,3,1,15,1,14.1,0
+KE-FARM-0024,Meru,Maize,6.1,728.3,2,0,10,2,3.5,0
+KE-FARM-0025,Nyandarua,Maize,20.8,837.5,3,1,12,1,27.1,0
+KE-FARM-0026,Nyandarua,Sorghum,3.7,624.4,4,1,11,1,32.5,0
+KE-FARM-0027,Nakuru,Sorghum,1.5,729.2,6,1,6,0,20.3,0
+KE-FARM-0028,Kitui,Wheat,7.3,711.3,4,1,5,0,8.5,0
+KE-FARM-0029,Uasin Gishu,Beans,3.8,542.6,8,0,10,2,5.5,1
+KE-FARM-0030,Nyandarua,Beans,3.5,916.2,3,1,1,0,1.0,1
+KE-FARM-0031,Laikipia,Sorghum,1.2,513.6,3,1,5,1,29.4,0
+KE-FARM-0032,Kitui,Beans,5.6,613.6,3,1,2,0,30.3,0
+KE-FARM-0033,Nyandarua,Beans,0.5,818.1,8,0,1,0,1.0,0
+KE-FARM-0034,Laikipia,Maize,10.3,814.4,4,0,4,0,4.4,0
+KE-FARM-0035,Nakuru,Sorghum,1.6,602.1,1,0,6,1,21.2,1
+KE-FARM-0036,Nakuru,Sunflower,0.5,748.6,2,1,7,2,1.0,1
+KE-FARM-0037,Kitui,Sorghum,2.3,566.4,10,1,9,0,2.2,0
+KE-FARM-0038,Nyandarua,Sunflower,0.5,526.7,2,0,5,2,38.5,1
+KE-FARM-0039,Trans Nzoia,Maize,4.6,418.1,3,1,8,0,18.8,0
+KE-FARM-0040,Laikipia,Wheat,9.3,708.6,6,1,8,0,24.3,0
+KE-FARM-0041,Uasin Gishu,Beans,7.3,724.4,8,1,11,1,1.5,0
+KE-FARM-0042,Nyandarua,Maize,0.5,514.8,1,1,9,1,2.4,0
+KE-FARM-0043,Uasin Gishu,Beans,0.5,640.2,9,1,3,1,9.3,0
+KE-FARM-0044,Nyandarua,Wheat,6.7,997.6,1,0,3,1,7.0,0
+KE-FARM-0045,Trans Nzoia,Wheat,10.3,772.0,10,1,9,0,3.5,0
+KE-FARM-0046,Trans Nzoia,Maize,2.5,464.8,2,0,7,2,21.5,1
+KE-FARM-0047,Kitui,Wheat,2.8,750.2,3,1,15,1,23.2,0
+KE-FARM-0048,Kitui,Sunflower,1.5,465.5,7,1,4,1,3.4,0
+KE-FARM-0049,Trans Nzoia,Wheat,9.0,165.7,9,1,15,0,1.7,0
+KE-FARM-0050,Meru,Beans,4.1,596.9,3,1,1,3,1.6,1
+KE-FARM-0051,Trans Nzoia,Beans,1.4,834.5,8,0,7,1,6.6,0
+KE-FARM-0052,Nakuru,Beans,1.4,809.6,9,0,10,3,1.4,0
+KE-FARM-0053,Nakuru,Beans,8.9,656.6,10,1,6,1,6.4,0
+KE-FARM-0054,Meru,Sunflower,0.5,518.7,7,0,3,0,6.2,0
+KE-FARM-0055,Laikipia,Sorghum,1.6,673.0,4,1,14,1,21.6,0
+KE-FARM-0056,Uasin Gishu,Maize,3.2,559.6,4,0,5,0,3.5,1
+KE-FARM-0057,Nyandarua,Beans,0.6,523.0,4,0,3,0,8.2,0
+KE-FARM-0058,Nyandarua,Wheat,0.5,759.3,6,0,8,0,13.6,0
+KE-FARM-0059,Meru,Beans,6.8,521.1,4,1,5,0,9.1,0
+KE-FARM-0060,Nakuru,Wheat,9.0,769.1,5,1,10,0,30.8,0
+KE-FARM-0061,Kitui,Wheat,6.9,511.2,9,0,10,1,9.2,0
+KE-FARM-0062,Nyandarua,Beans,9.2,908.8,7,0,6,0,23.2,0
+KE-FARM-0063,Nakuru,Sunflower,3.2,353.9,8,1,2,0,2.8,0
+KE-FARM-0064,Laikipia,Wheat,6.7,456.5,5,0,8,1,8.2,0
+KE-FARM-0065,Uasin Gishu,Wheat,1.9,576.7,5,1,9,0,7.8,0
+KE-FARM-0066,Laikipia,Beans,4.4,302.4,7,1,3,0,45.5,0
+KE-FARM-0067,Meru,Wheat,18.0,214.4,8,1,13,0,2.3,0
+KE-FARM-0068,Trans Nzoia,Wheat,1.0,303.7,9,1,15,1,1.5,0
+KE-FARM-0069,Trans Nzoia,Beans,2.0,556.2,2,1,6,1,9.5,0
+KE-FARM-0070,Trans Nzoia,Beans,2.6,560.0,3,1,6,2,2.5,0
+KE-FARM-0071,Laikipia,Maize,0.6,649.9,2,1,2,0,10.2,0
+KE-FARM-0072,Nyandarua,Sunflower,0.5,570.4,10,1,10,0,35.9,0
+KE-FARM-0073,Uasin Gishu,Sunflower,7.1,644.9,7,0,8,1,29.3,0
+KE-FARM-0074,Trans Nzoia,Wheat,15.1,532.5,2,1,5,1,2.6,0
+KE-FARM-0075,Meru,Sunflower,2.1,707.2,2,0,11,0,1.9,0
+KE-FARM-0076,Meru,Wheat,0.5,689.1,2,1,11,0,8.2,0
+KE-FARM-0077,Trans Nzoia,Maize,0.5,551.0,4,1,8,0,8.8,0
+KE-FARM-0078,Trans Nzoia,Beans,8.9,680.0,1,0,14,0,10.9,1
+KE-FARM-0079,Uasin Gishu,Beans,2.5,571.4,2,0,13,0,13.5,0
+KE-FARM-0080,Trans Nzoia,Beans,1.5,371.7,3,1,14,1,9.2,0
+KE-FARM-0081,Uasin Gishu,Sunflower,2.6,735.7,7,1,8,2,1.2,0
+KE-FARM-0082,Meru,Maize,1.5,464.0,10,1,15,1,15.6,0
+KE-FARM-0083,Trans Nzoia,Sunflower,2.7,734.1,1,1,12,0,1.0,1
+KE-FARM-0084,Laikipia,Sunflower,7.9,648.6,6,0,3,1,1.0,0
+KE-FARM-0085,Kitui,Maize,3.6,587.3,3,1,5,1,14.7,0
+KE-FARM-0086,Laikipia,Maize,4.7,318.5,3,1,7,2,7.9,1
+KE-FARM-0087,Meru,Maize,1.8,831.0,4,1,5,1,12.0,0
+KE-FARM-0088,Uasin Gishu,Maize,5.4,545.5,4,0,6,0,4.8,0
+KE-FARM-0089,Laikipia,Beans,4.4,695.2,7,1,2,0,1.0,0
+KE-FARM-0090,Uasin Gishu,Sorghum,0.5,582.9,3,0,8,1,4.0,0
+KE-FARM-0091,Laikipia,Sorghum,3.4,559.3,8,0,5,1,9.4,0
+KE-FARM-0092,Laikipia,Maize,1.2,628.9,8,1,6,0,2.6,0
+KE-FARM-0093,Uasin Gishu,Sorghum,6.5,604.0,7,0,1,0,11.6,0
+KE-FARM-0094,Nyandarua,Sorghum,2.2,560.0,2,0,10,0,15.8,0
+KE-FARM-0095,Laikipia,Maize,20.9,591.7,5,1,2,1,6.1,0
+KE-FARM-0096,Trans Nzoia,Sorghum,0.5,664.1,6,1,11,1,20.9,0
+KE-FARM-0097,Kitui,Sunflower,6.1,674.7,10,1,4,0,19.3,0
+KE-FARM-0098,Meru,Wheat,4.5,606.5,4,1,11,0,21.0,0
+KE-FARM-0099,Nyandarua,Wheat,5.8,693.1,10,1,9,0,10.8,0
+KE-FARM-0100,Uasin Gishu,Maize,1.5,536.4,5,0,6,4,3.6,0
+KE-FARM-0101,Nyandarua,Beans,2.7,933.7,9,1,8,1,6.6,0
+KE-FARM-0102,Nakuru,Maize,6.4,822.8,7,1,2,1,12.4,0
+KE-FARM-0103,Nakuru,Beans,1.1,714.4,2,1,10,0,2.4,1
+KE-FARM-0104,Laikipia,Wheat,1.0,308.8,1,0,15,1,13.4,0
+KE-FARM-0105,Laikipia,Maize,3.2,690.9,2,0,5,1,7.9,0
+KE-FARM-0106,Trans Nzoia,Sunflower,3.0,549.5,3,1,12,1,1.0,0
+KE-FARM-0107,Kitui,Sorghum,1.3,453.2,2,1,12,0,8.1,0
+KE-FARM-0108,Meru,Beans,1.4,545.7,3,1,13,1,1.0,0
+KE-FARM-0109,Nyandarua,Sorghum,1.3,469.8,10,1,1,3,1.0,0
+KE-FARM-0110,Nakuru,Sorghum,5.9,676.0,9,0,4,0,22.0,0
+KE-FARM-0111,Laikipia,Maize,4.2,842.4,4,1,10,3,6.7,0
+KE-FARM-0112,Meru,Sorghum,7.1,723.9,9,1,1,1,7.8,0
+KE-FARM-0113,Nyandarua,Sunflower,14.8,1014.4,3,1,11,2,3.3,0
+KE-FARM-0114,Laikipia,Sorghum,2.6,367.0,1,0,11,0,7.8,0
+KE-FARM-0115,Laikipia,Maize,0.5,524.1,5,1,9,1,1.8,0
+KE-FARM-0116,Nakuru,Sunflower,0.5,458.5,10,1,2,0,13.7,0
+KE-FARM-0117,Nakuru,Wheat,1.4,784.4,10,0,7,0,17.3,0
+KE-FARM-0118,Laikipia,Sorghum,10.8,566.9,2,1,3,0,19.4,0
+KE-FARM-0119,Uasin Gishu,Maize,3.0,628.4,4,0,14,0,1.1,0
+KE-FARM-0120,Laikipia,Wheat,1.3,695.1,2,1,2,3,8.2,0
+KE-FARM-0121,Meru,Wheat,2.0,381.8,2,1,13,0,16.5,0
+KE-FARM-0122,Laikipia,Beans,3.7,506.8,3,0,4,3,1.4,1
+KE-FARM-0123,Trans Nzoia,Sunflower,4.2,749.6,5,0,7,2,1.0,1
+KE-FARM-0124,Kitui,Sorghum,0.7,517.8,4,1,7,0,17.0,0
+KE-FARM-0125,Trans Nzoia,Maize,15.1,343.0,2,1,9,2,15.9,1
+KE-FARM-0126,Trans Nzoia,Beans,3.1,464.7,10,1,12,0,6.0,0
+KE-FARM-0127,Uasin Gishu,Sunflower,0.6,557.1,2,0,13,0,1.2,0
+KE-FARM-0128,Uasin Gishu,Beans,9.0,625.0,6,1,3,2,7.3,0
+KE-FARM-0129,Laikipia,Sunflower,0.5,589.4,7,0,7,0,5.0,0
+KE-FARM-0130,Trans Nzoia,Sunflower,9.5,507.9,10,1,6,1,7.3,0
+KE-FARM-0131,Uasin Gishu,Sorghum,22.7,740.9,6,1,10,1,5.8,0
+KE-FARM-0132,Nakuru,Sunflower,4.8,580.6,7,1,7,2,8.4,1
+KE-FARM-0133,Laikipia,Beans,5.9,631.4,1,1,7,3,13.0,0
+KE-FARM-0134,Meru,Sunflower,1.6,515.9,6,0,10,1,14.9,0
+KE-FARM-0135,Kitui,Sorghum,11.4,826.3,3,0,5,0,10.5,0
+KE-FARM-0136,Nyandarua,Sorghum,3.0,541.3,1,1,9,1,2.2,0
+KE-FARM-0137,Laikipia,Beans,5.3,611.2,8,1,7,1,5.1,0
+KE-FARM-0138,Nyandarua,Wheat,10.3,755.2,4,1,7,2,1.0,0
+KE-FARM-0139,Trans Nzoia,Wheat,14.8,642.0,10,1,12,1,6.0,0
+KE-FARM-0140,Kitui,Sunflower,7.2,638.3,8,1,14,0,35.2,0
+KE-FARM-0141,Nyandarua,Maize,1.4,304.0,10,1,3,0,10.3,0
+KE-FARM-0142,Trans Nzoia,Sunflower,13.6,702.1,4,1,1,1,1.7,0
+KE-FARM-0143,Nakuru,Beans,4.0,608.3,4,0,14,2,3.1,0
+KE-FARM-0144,Nyandarua,Beans,10.7,681.2,10,0,14,1,1.0,0
+KE-FARM-0145,Kitui,Beans,4.5,627.5,4,1,5,2,2.0,0
+KE-FARM-0146,Laikipia,Beans,1.5,516.1,6,1,8,1,6.7,0
+KE-FARM-0147,Trans Nzoia,Beans,1.8,734.1,9,1,5,0,4.2,0
+KE-FARM-0148,Laikipia,Sorghum,3.2,629.7,5,0,10,1,2.3,0
+KE-FARM-0149,Kitui,Wheat,6.2,406.6,10,1,3,1,1.6,0
+KE-FARM-0150,Uasin Gishu,Beans,1.5,796.3,8,0,9,2,10.7,0
+KE-FARM-0151,Trans Nzoia,Maize,3.5,385.4,8,1,2,2,8.2,0
+KE-FARM-0152,Nyandarua,Maize,1.7,735.1,4,0,15,0,18.5,0
+KE-FARM-0153,Trans Nzoia,Maize,6.8,823.0,10,0,3,0,2.0,0
+KE-FARM-0154,Laikipia,Maize,2.5,434.1,9,0,12,0,18.8,0
+KE-FARM-0155,Nakuru,Sorghum,0.5,581.6,9,0,4,0,8.6,0
+KE-FARM-0156,Trans Nzoia,Maize,0.7,567.6,5,1,10,2,3.1,0
+KE-FARM-0157,Nyandarua,Beans,0.5,574.4,6,0,1,0,3.2,1
+KE-FARM-0158,Uasin Gishu,Sunflower,2.8,874.5,5,0,11,0,4.9,0
+KE-FARM-0159,Meru,Maize,0.5,435.8,3,1,4,1,6.2,1
+KE-FARM-0160,Nakuru,Sorghum,0.5,554.0,8,1,4,1,1.0,0
+KE-FARM-0161,Uasin Gishu,Sorghum,11.3,825.5,9,0,9,1,18.5,0
+KE-FARM-0162,Trans Nzoia,Maize,8.2,551.6,4,0,8,0,1.3,0
+KE-FARM-0163,Laikipia,Sunflower,2.4,459.6,9,1,2,0,6.6,0
+KE-FARM-0164,Kitui,Maize,17.0,639.5,9,1,13,0,4.8,0
+KE-FARM-0165,Laikipia,Sorghum,0.5,720.8,7,1,7,1,7.2,0
+KE-FARM-0166,Nyandarua,Wheat,3.8,541.1,8,1,6,0,21.8,0
+KE-FARM-0167,Laikipia,Beans,3.8,683.2,3,0,7,1,45.2,0
+KE-FARM-0168,Nakuru,Sorghum,2.4,393.5,5,0,11,0,1.0,0
+KE-FARM-0169,Laikipia,Maize,2.0,401.8,3,1,4,2,5.0,0
+KE-FARM-0170,Nyandarua,Beans,2.4,534.0,7,1,14,2,17.0,0
+KE-FARM-0171,Meru,Maize,2.1,688.5,6,0,14,1,4.0,0
+KE-FARM-0172,Trans Nzoia,Maize,5.2,714.2,3,1,5,2,10.5,0
+KE-FARM-0173,Kitui,Wheat,0.6,422.7,9,0,6,1,48.6,0
+KE-FARM-0174,Trans Nzoia,Beans,0.9,708.7,1,0,9,0,10.4,0
+KE-FARM-0175,Laikipia,Beans,0.8,625.0,10,0,2,0,1.2,0
+KE-FARM-0176,Uasin Gishu,Wheat,1.2,468.1,3,0,11,1,18.5,0
+KE-FARM-0177,Trans Nzoia,Sorghum,3.0,399.9,10,1,9,0,34.0,1
+KE-FARM-0178,Meru,Maize,0.5,634.5,7,1,10,3,12.5,0
+KE-FARM-0179,Laikipia,Sunflower,8.1,793.4,3,0,1,2,5.4,1
+KE-FARM-0180,Kitui,Maize,1.4,605.3,3,1,4,0,29.6,0
+KE-FARM-0181,Nyandarua,Maize,0.7,459.8,2,1,12,2,34.6,1
+KE-FARM-0182,Meru,Sorghum,4.5,319.8,9,1,5,0,27.4,0
+KE-FARM-0183,Laikipia,Maize,0.5,829.4,4,1,9,1,5.3,0
+KE-FARM-0184,Meru,Wheat,3.9,756.3,10,0,15,0,15.6,0
+KE-FARM-0185,Trans Nzoia,Wheat,4.8,645.3,6,1,6,1,10.6,0
+KE-FARM-0186,Kitui,Beans,1.0,821.7,2,1,4,2,2.0,1
+KE-FARM-0187,Nyandarua,Sunflower,0.5,633.6,9,1,2,1,7.7,0
+KE-FARM-0188,Laikipia,Maize,1.8,520.3,7,1,5,0,13.8,0
+KE-FARM-0189,Nakuru,Maize,0.5,683.3,10,0,8,1,22.6,0
+KE-FARM-0190,Nyandarua,Sorghum,0.5,475.5,5,1,8,0,19.8,0
+KE-FARM-0191,Nakuru,Wheat,1.2,450.7,7,0,6,1,1.7,0
+KE-FARM-0192,Meru,Sunflower,1.4,715.7,4,0,11,0,6.7,0
+KE-FARM-0193,Uasin Gishu,Beans,3.0,728.4,10,0,1,0,6.5,0
+KE-FARM-0194,Nyandarua,Wheat,4.5,408.9,7,1,15,1,22.9,0
+KE-FARM-0195,Meru,Beans,3.6,414.5,2,0,8,0,1.0,0
+KE-FARM-0196,Nakuru,Sorghum,0.6,533.2,7,1,4,0,13.4,0
+KE-FARM-0197,Trans Nzoia,Sorghum,0.8,493.3,4,1,15,0,9.6,0
+KE-FARM-0198,Trans Nzoia,Maize,8.4,671.5,4,1,14,1,25.5,0
+KE-FARM-0199,Uasin Gishu,Sunflower,3.3,607.2,1,0,2,1,6.1,0
+KE-FARM-0200,Nyandarua,Beans,8.2,774.7,3,1,1,0,10.7,0
+KE-FARM-0201,Nyandarua,Wheat,1.9,647.6,5,1,7,0,36.0,0
+KE-FARM-0202,Nyandarua,Sorghum,3.8,503.3,5,1,2,0,13.6,0
+KE-FARM-0203,Meru,Maize,3.0,316.3,2,1,13,0,1.0,1
+KE-FARM-0204,Kitui,Maize,1.5,626.9,4,1,4,0,1.8,0
+KE-FARM-0205,Kitui,Beans,2.5,343.5,1,1,4,0,17.2,0
+KE-FARM-0206,Uasin Gishu,Sorghum,2.8,501.5,9,1,13,1,4.1,0
+KE-FARM-0207,Nyandarua,Sunflower,0.9,491.7,1,0,10,0,12.2,1
+KE-FARM-0208,Meru,Sorghum,1.5,523.7,6,1,15,0,12.0,0
+KE-FARM-0209,Trans Nzoia,Beans,6.3,402.6,7,1,1,0,50.7,0
+KE-FARM-0210,Nakuru,Beans,9.9,491.2,3,1,2,1,6.3,0
+KE-FARM-0211,Meru,Sorghum,1.8,771.9,1,1,1,0,13.4,0
+KE-FARM-0212,Kitui,Beans,1.5,771.5,7,0,6,0,1.0,0
+KE-FARM-0213,Kitui,Sorghum,0.9,829.9,3,1,13,0,6.2,0
+KE-FARM-0214,Trans Nzoia,Wheat,4.5,601.5,10,1,3,2,2.1,0
+KE-FARM-0215,Trans Nzoia,Sorghum,1.6,640.7,6,1,1,1,18.4,0
+KE-FARM-0216,Nakuru,Sorghum,17.6,774.1,6,0,12,0,18.3,0
+KE-FARM-0217,Trans Nzoia,Beans,1.6,379.4,4,1,8,0,2.7,0
+KE-FARM-0218,Uasin Gishu,Beans,2.0,720.8,6,1,14,1,3.8,0
+KE-FARM-0219,Nakuru,Maize,3.7,795.4,10,0,12,1,12.1,0
+KE-FARM-0220,Trans Nzoia,Maize,6.5,466.7,4,0,14,0,13.4,0
+KE-FARM-0221,Laikipia,Wheat,2.5,807.4,8,1,4,3,10.7,0
+KE-FARM-0222,Meru,Maize,2.2,908.7,9,0,10,0,57.1,0
+KE-FARM-0223,Trans Nzoia,Sorghum,21.7,716.7,2,1,7,0,20.3,0
+KE-FARM-0224,Uasin Gishu,Beans,0.5,689.2,7,0,10,0,5.4,0
+KE-FARM-0225,Nyandarua,Maize,9.0,432.0,9,1,2,0,4.0,0
+KE-FARM-0226,Trans Nzoia,Maize,0.6,760.4,9,1,15,3,9.1,1
+KE-FARM-0227,Kitui,Wheat,6.2,446.2,5,1,6,2,17.0,0
+KE-FARM-0228,Kitui,Wheat,3.8,655.5,1,1,6,0,6.5,0
+KE-FARM-0229,Kitui,Sorghum,1.7,670.7,6,1,7,1,13.4,0
+KE-FARM-0230,Nyandarua,Beans,8.3,105.6,8,1,12,1,1.0,0
+KE-FARM-0231,Kitui,Wheat,0.5,660.9,1,0,1,0,26.0,1
+KE-FARM-0232,Laikipia,Maize,1.0,993.2,2,1,14,1,14.9,0
+KE-FARM-0233,Trans Nzoia,Beans,3.3,286.2,1,0,12,1,5.0,1
+KE-FARM-0234,Kitui,Beans,1.7,591.9,5,1,1,2,4.8,0
+KE-FARM-0235,Nakuru,Maize,3.8,307.9,2,0,15,0,1.1,0
+KE-FARM-0236,Nyandarua,Wheat,0.5,465.9,10,0,2,1,16.9,0
+KE-FARM-0237,Laikipia,Maize,0.5,310.5,10,1,14,0,14.6,0
+KE-FARM-0238,Nakuru,Beans,0.5,623.9,4,0,11,0,9.9,0
+KE-FARM-0239,Nakuru,Sunflower,0.8,719.0,1,0,2,1,1.1,0
+KE-FARM-0240,Nakuru,Sunflower,2.5,661.5,7,1,5,0,3.0,1
+KE-FARM-0241,Nakuru,Sorghum,5.6,460.5,8,1,1,2,6.1,0
+KE-FARM-0242,Trans Nzoia,Maize,9.4,508.6,5,1,11,1,3.1,0
+KE-FARM-0243,Kitui,Maize,7.2,640.8,2,1,2,0,5.7,1
+KE-FARM-0244,Meru,Sorghum,0.9,465.2,8,0,6,0,2.6,0
+KE-FARM-0245,Trans Nzoia,Sorghum,2.3,400.7,1,1,3,0,4.3,1
+KE-FARM-0246,Trans Nzoia,Sorghum,0.9,564.1,7,0,4,2,10.6,1
+KE-FARM-0247,Laikipia,Beans,1.2,458.3,1,1,1,0,22.3,0
+KE-FARM-0248,Laikipia,Maize,2.8,661.7,6,1,5,1,4.9,0
+KE-FARM-0249,Kitui,Beans,0.5,794.8,6,1,4,0,11.8,0
+KE-FARM-0250,Meru,Sorghum,1.0,989.6,5,1,8,2,1.4,0
+KE-FARM-0251,Laikipia,Maize,11.0,650.7,2,0,3,1,7.8,0
+KE-FARM-0252,Kitui,Beans,2.5,696.9,2,1,10,1,25.5,0
+KE-FARM-0253,Kitui,Beans,2.4,510.1,9,1,1,1,1.0,0
+KE-FARM-0254,Uasin Gishu,Sorghum,0.5,519.4,5,0,14,0,3.1,0
+KE-FARM-0255,Meru,Maize,1.1,792.6,5,0,13,0,1.4,0
+KE-FARM-0256,Laikipia,Sorghum,8.0,558.6,7,1,10,0,7.6,0
+KE-FARM-0257,Meru,Maize,0.7,610.9,6,1,5,2,11.4,1
+KE-FARM-0258,Trans Nzoia,Sunflower,2.1,783.4,2,1,14,1,1.0,0
+KE-FARM-0259,Trans Nzoia,Wheat,0.5,559.7,1,1,15,0,1.0,1
+KE-FARM-0260,Meru,Wheat,2.6,825.1,5,0,1,0,20.4,0
+KE-FARM-0261,Uasin Gishu,Wheat,0.5,686.0,4,1,11,0,6.1,0
+KE-FARM-0262,Uasin Gishu,Sorghum,6.9,668.3,3,1,5,0,6.2,1
+KE-FARM-0263,Meru,Sunflower,7.0,502.8,2,0,9,1,28.9,0
+KE-FARM-0264,Laikipia,Maize,6.2,676.4,10,1,5,2,3.9,0
+KE-FARM-0265,Nyandarua,Beans,1.3,535.6,2,0,2,1,22.7,0
+KE-FARM-0266,Uasin Gishu,Maize,7.3,670.4,4,0,13,0,36.6,0
+KE-FARM-0267,Nakuru,Beans,3.1,584.7,2,0,15,0,2.8,0
+KE-FARM-0268,Trans Nzoia,Maize,1.9,745.0,4,1,2,0,7.2,0
+KE-FARM-0269,Meru,Sunflower,3.9,595.2,3,1,10,2,7.6,0
+KE-FARM-0270,Nakuru,Beans,0.5,905.7,9,1,9,0,20.1,0
+KE-FARM-0271,Meru,Sorghum,0.6,558.7,7,0,12,0,3.6,0
+KE-FARM-0272,Kitui,Maize,5.4,519.8,3,1,14,1,16.0,0
+KE-FARM-0273,Trans Nzoia,Maize,1.1,651.9,8,1,5,1,35.4,0
+KE-FARM-0274,Trans Nzoia,Beans,3.6,761.7,9,1,11,0,18.3,0
+KE-FARM-0275,Uasin Gishu,Sorghum,1.9,760.5,7,1,8,1,24.0,0
+KE-FARM-0276,Uasin Gishu,Sorghum,7.7,625.0,6,1,10,1,12.3,0
+KE-FARM-0277,Nakuru,Sunflower,12.2,650.9,4,0,4,0,23.4,0
+KE-FARM-0278,Kitui,Sorghum,8.6,651.1,5,1,2,2,1.8,0
+KE-FARM-0279,Meru,Sorghum,1.3,438.3,8,1,4,0,12.5,0
+KE-FARM-0280,Kitui,Sorghum,0.9,753.6,3,1,12,1,13.2,0
+KE-FARM-0281,Trans Nzoia,Wheat,2.6,411.3,2,0,11,0,5.8,1
+KE-FARM-0282,Nakuru,Sunflower,0.5,438.6,3,0,4,0,1.0,0
+KE-FARM-0283,Nyandarua,Maize,0.5,608.3,7,1,11,2,9.7,0
+KE-FARM-0284,Nakuru,Beans,3.2,552.0,8,0,9,0,1.0,0
+KE-FARM-0285,Laikipia,Maize,2.9,719.4,1,0,10,0,4.8,0
+KE-FARM-0286,Nakuru,Sunflower,20.9,667.1,7,1,11,0,5.0,0
+KE-FARM-0287,Kitui,Beans,0.9,620.7,9,1,6,1,68.3,0
+KE-FARM-0288,Laikipia,Sunflower,1.2,431.2,3,1,15,2,3.6,1
+KE-FARM-0289,Laikipia,Sorghum,0.5,604.0,3,1,10,0,17.2,0
+KE-FARM-0290,Laikipia,Beans,10.0,592.1,8,0,15,1,1.0,0
+KE-FARM-0291,Nyandarua,Sorghum,6.0,633.3,4,1,6,2,7.5,0
+KE-FARM-0292,Nakuru,Maize,6.9,535.5,8,0,5,0,7.7,0
+KE-FARM-0293,Kitui,Maize,9.3,678.4,5,1,6,0,9.9,0
+KE-FARM-0294,Nakuru,Beans,3.0,548.0,3,1,1,2,16.6,1
+KE-FARM-0295,Nyandarua,Beans,2.4,664.4,4,1,13,0,14.4,0
+KE-FARM-0296,Trans Nzoia,Sunflower,1.6,719.4,4,0,5,1,14.3,1
+KE-FARM-0297,Uasin Gishu,Sunflower,3.6,519.8,8,1,12,0,5.7,0
+KE-FARM-0298,Kitui,Sorghum,2.4,484.2,6,0,6,1,13.0,0
+KE-FARM-0299,Kitui,Beans,2.4,671.5,7,1,8,1,6.8,0
+KE-FARM-0300,Nakuru,Maize,11.1,401.8,9,1,4,1,1.0,0
+KE-FARM-0301,Uasin Gishu,Sunflower,16.5,766.7,6,1,14,0,22.1,0
+KE-FARM-0302,Meru,Sunflower,6.4,601.6,3,0,5,1,22.1,0
+KE-FARM-0303,Meru,Maize,5.7,582.8,3,1,4,1,3.9,0
+KE-FARM-0304,Nyandarua,Sunflower,4.6,681.9,3,1,7,0,24.5,1
+KE-FARM-0305,Meru,Sorghum,0.7,672.6,10,0,10,0,14.2,0
+KE-FARM-0306,Kitui,Beans,0.5,601.0,2,1,6,1,5.1,0
+KE-FARM-0307,Meru,Maize,4.7,731.8,1,0,14,1,4.0,1
+KE-FARM-0308,Trans Nzoia,Beans,5.2,499.1,10,1,4,2,36.9,0
+KE-FARM-0309,Trans Nzoia,Sunflower,0.5,706.9,1,1,6,0,12.5,0
+KE-FARM-0310,Trans Nzoia,Sunflower,10.5,438.2,4,1,13,0,4.8,0
+KE-FARM-0311,Meru,Maize,0.5,676.6,3,1,4,0,10.3,0
+KE-FARM-0312,Nyandarua,Sorghum,1.3,550.8,5,0,12,0,8.5,0
+KE-FARM-0313,Laikipia,Wheat,4.5,403.3,9,0,8,1,7.4,0
+KE-FARM-0314,Laikipia,Maize,0.7,638.5,8,1,11,0,10.3,0
+KE-FARM-0315,Uasin Gishu,Wheat,0.5,594.8,9,1,15,1,7.7,0
+KE-FARM-0316,Laikipia,Wheat,1.6,368.6,5,0,15,0,10.6,0
+KE-FARM-0317,Laikipia,Sorghum,5.8,283.0,8,1,3,2,23.8,0
+KE-FARM-0318,Trans Nzoia,Wheat,2.1,577.2,4,1,8,0,50.0,0
+KE-FARM-0319,Trans Nzoia,Wheat,4.2,842.7,5,0,13,0,12.4,1
+KE-FARM-0320,Meru,Sorghum,3.5,648.2,3,1,2,0,26.3,0
+KE-FARM-0321,Uasin Gishu,Wheat,0.5,499.8,5,0,6,2,19.5,1
+KE-FARM-0322,Nakuru,Wheat,17.9,762.3,3,1,8,1,3.5,0
+KE-FARM-0323,Kitui,Wheat,0.5,736.1,5,0,1,1,27.0,0
+KE-FARM-0324,Uasin Gishu,Maize,13.7,790.7,5,1,6,0,1.0,0
+KE-FARM-0325,Uasin Gishu,Maize,3.2,702.6,6,1,9,0,4.0,0
+KE-FARM-0326,Nyandarua,Maize,13.2,732.9,9,1,15,0,10.2,0
+KE-FARM-0327,Meru,Sorghum,0.5,709.7,1,1,13,2,7.5,0
+KE-FARM-0328,Nyandarua,Sunflower,2.7,528.4,10,1,10,1,7.8,0
+KE-FARM-0329,Uasin Gishu,Wheat,0.7,354.4,6,0,10,2,15.8,1
+KE-FARM-0330,Uasin Gishu,Wheat,0.5,521.8,1,1,2,0,2.2,0
+KE-FARM-0331,Uasin Gishu,Sorghum,3.8,765.7,6,1,11,1,40.2,0
+KE-FARM-0332,Laikipia,Wheat,0.9,542.8,2,1,13,1,5.8,0
+KE-FARM-0333,Kitui,Maize,3.5,578.2,8,0,1,1,29.9,0
+KE-FARM-0334,Kitui,Sunflower,0.5,425.1,3,0,2,0,4.8,1
+KE-FARM-0335,Nyandarua,Beans,1.6,517.3,10,1,5,0,9.2,0
+KE-FARM-0336,Uasin Gishu,Wheat,6.1,598.6,6,1,6,0,6.0,0
+KE-FARM-0337,Kitui,Maize,2.3,673.9,6,1,1,1,11.3,0
+KE-FARM-0338,Trans Nzoia,Beans,4.0,531.2,4,1,7,0,2.0,0
+KE-FARM-0339,Kitui,Sunflower,4.2,520.7,5,0,11,1,5.1,0
+KE-FARM-0340,Meru,Beans,7.4,726.3,2,1,4,2,1.0,0
+KE-FARM-0341,Meru,Maize,1.6,648.8,10,1,9,2,9.1,1
+KE-FARM-0342,Kitui,Beans,4.6,667.3,10,1,15,1,32.9,0
+KE-FARM-0343,Trans Nzoia,Sorghum,13.0,829.2,8,0,15,0,1.0,0
+KE-FARM-0344,Meru,Beans,5.2,524.2,10,0,15,2,10.8,0
+KE-FARM-0345,Laikipia,Wheat,2.7,592.6,7,0,6,0,14.9,0
+KE-FARM-0346,Kitui,Wheat,4.0,682.7,10,1,9,3,2.4,0
+KE-FARM-0347,Laikipia,Sorghum,5.4,469.3,6,0,1,2,3.2,0
+KE-FARM-0348,Kitui,Maize,3.8,634.4,7,0,4,1,2.3,0
+KE-FARM-0349,Nakuru,Wheat,0.5,603.3,1,1,2,0,3.5,0
+KE-FARM-0350,Nakuru,Sunflower,0.9,1016.6,5,0,6,2,1.2,0
+KE-FARM-0351,Nakuru,Wheat,6.7,615.0,7,0,15,0,4.6,0
+KE-FARM-0352,Meru,Wheat,1.3,773.5,1,0,4,2,4.6,0
+KE-FARM-0353,Laikipia,Maize,5.3,724.5,2,0,9,2,16.5,0
+KE-FARM-0354,Laikipia,Beans,1.9,426.5,9,1,14,1,16.1,0
+KE-FARM-0355,Laikipia,Wheat,3.0,367.7,3,1,3,1,15.9,0
+KE-FARM-0356,Trans Nzoia,Sorghum,0.5,637.1,6,1,1,1,8.4,0
+KE-FARM-0357,Laikipia,Beans,0.8,788.6,7,1,11,3,3.9,0
+KE-FARM-0358,Trans Nzoia,Sunflower,12.6,643.2,9,1,13,1,5.3,0
+KE-FARM-0359,Nakuru,Maize,8.8,611.8,5,1,11,0,3.8,0
+KE-FARM-0360,Nakuru,Sunflower,4.2,557.4,4,0,1,0,8.7,0
+KE-FARM-0361,Meru,Beans,2.5,401.4,2,0,12,3,27.8,1
+KE-FARM-0362,Kitui,Beans,4.5,455.9,3,1,9,0,3.3,0
+KE-FARM-0363,Nakuru,Beans,3.9,356.7,5,0,9,1,6.1,0
+KE-FARM-0364,Kitui,Sunflower,3.4,434.5,2,0,5,0,10.6,1
+KE-FARM-0365,Kitui,Beans,0.5,521.1,4,1,15,2,18.6,1
+KE-FARM-0366,Meru,Sunflower,4.0,716.4,1,1,2,0,2.9,0
+KE-FARM-0367,Uasin Gishu,Beans,5.9,533.2,4,0,9,3,3.3,0
+KE-FARM-0368,Uasin Gishu,Sorghum,20.5,638.3,7,0,13,0,21.6,0
+KE-FARM-0369,Nyandarua,Beans,0.5,620.3,3,1,12,1,1.0,0
+KE-FARM-0370,Meru,Sunflower,5.2,674.9,10,1,13,1,9.3,0
+KE-FARM-0371,Nyandarua,Wheat,3.4,444.8,8,0,8,1,19.7,1
+KE-FARM-0372,Nyandarua,Beans,2.3,758.9,6,1,13,1,25.5,0
+KE-FARM-0373,Uasin Gishu,Wheat,0.5,388.9,6,1,11,0,1.0,0
+KE-FARM-0374,Meru,Sorghum,2.1,532.8,1,1,10,1,4.6,0
+KE-FARM-0375,Uasin Gishu,Maize,1.8,596.9,5,0,10,0,3.0,0
+KE-FARM-0376,Nyandarua,Sorghum,1.4,714.0,3,0,6,0,8.4,0
+KE-FARM-0377,Meru,Beans,5.3,806.9,10,1,7,2,10.0,0
+KE-FARM-0378,Nyandarua,Wheat,4.8,715.2,1,1,12,2,80.0,0
+KE-FARM-0379,Laikipia,Wheat,3.6,812.4,8,0,6,2,7.2,0
+KE-FARM-0380,Kitui,Sunflower,11.2,475.6,7,1,15,0,8.0,0
+KE-FARM-0381,Meru,Wheat,1.7,778.6,7,0,15,0,5.3,0
+KE-FARM-0382,Meru,Sunflower,1.1,752.8,10,0,5,1,1.6,0
+KE-FARM-0383,Kitui,Maize,4.3,240.6,10,1,4,0,3.6,1
+KE-FARM-0384,Nyandarua,Beans,0.9,566.9,10,0,7,1,2.8,1
+KE-FARM-0385,Laikipia,Sunflower,1.5,690.3,4,1,4,3,16.2,1
+KE-FARM-0386,Trans Nzoia,Maize,1.0,522.7,6,1,10,0,7.9,0
+KE-FARM-0387,Kitui,Wheat,0.5,437.1,9,1,10,1,3.5,0
+KE-FARM-0388,Uasin Gishu,Wheat,7.0,917.1,3,1,10,1,6.7,0
+KE-FARM-0389,Nyandarua,Maize,1.2,616.7,9,1,9,0,2.5,0
+KE-FARM-0390,Kitui,Wheat,2.6,620.8,4,0,5,2,2.0,0
+KE-FARM-0391,Kitui,Maize,0.5,403.7,5,1,8,0,19.7,0
+KE-FARM-0392,Meru,Sunflower,4.8,508.1,7,1,12,0,29.0,0
+KE-FARM-0393,Uasin Gishu,Sunflower,1.6,465.3,6,0,13,0,1.0,0
+KE-FARM-0394,Uasin Gishu,Maize,5.5,761.8,10,0,15,1,14.5,0
+KE-FARM-0395,Uasin Gishu,Sunflower,2.1,675.7,8,0,12,0,6.0,0
+KE-FARM-0396,Kitui,Sunflower,0.9,514.4,8,1,12,2,4.9,0
+KE-FARM-0397,Trans Nzoia,Sunflower,2.9,684.1,8,1,6,1,11.7,0
+KE-FARM-0398,Nakuru,Sorghum,0.6,562.0,3,1,4,3,3.1,0
+KE-FARM-0399,Nyandarua,Beans,2.3,635.2,10,1,12,1,1.0,0
+KE-FARM-0400,Nakuru,Wheat,1.5,634.5,6,1,3,1,2.4,0
+KE-FARM-0401,Kitui,Sorghum,9.7,663.0,7,1,11,0,2.0,0
+KE-FARM-0402,Nakuru,Sunflower,0.5,644.9,9,1,6,2,1.0,0
+KE-FARM-0403,Kitui,Maize,4.7,663.2,10,1,1,1,3.9,0
+KE-FARM-0404,Nakuru,Sunflower,0.8,788.4,10,1,2,0,6.4,0
+KE-FARM-0405,Uasin Gishu,Beans,1.5,696.1,4,1,7,0,13.3,0
+KE-FARM-0406,Laikipia,Sunflower,2.1,549.5,5,1,15,1,3.9,0
+KE-FARM-0407,Uasin Gishu,Maize,9.5,585.3,8,1,4,2,2.2,0
+KE-FARM-0408,Uasin Gishu,Beans,1.1,784.5,1,1,5,1,2.6,1
+KE-FARM-0409,Meru,Sunflower,0.5,616.9,6,1,15,1,22.2,0
+KE-FARM-0410,Meru,Beans,1.5,543.9,4,1,11,1,2.3,0
+KE-FARM-0411,Nakuru,Wheat,0.5,505.3,5,1,10,0,21.1,0
+KE-FARM-0412,Kitui,Wheat,0.6,641.0,5,1,1,0,5.9,0
+KE-FARM-0413,Uasin Gishu,Sunflower,3.4,471.8,2,1,2,0,27.2,0
+KE-FARM-0414,Nakuru,Beans,0.5,792.7,8,0,4,2,5.2,0
+KE-FARM-0415,Meru,Maize,0.5,444.3,2,0,8,1,2.0,0
+KE-FARM-0416,Laikipia,Sunflower,5.0,821.7,4,1,10,0,8.0,0
+KE-FARM-0417,Nyandarua,Wheat,1.8,557.2,5,1,4,0,8.9,0
+KE-FARM-0418,Nakuru,Wheat,0.5,438.5,1,1,14,0,10.1,0
+KE-FARM-0419,Laikipia,Sunflower,1.2,628.4,6,1,3,1,5.3,1
+KE-FARM-0420,Nyandarua,Beans,4.1,457.0,2,1,3,0,1.0,0
+KE-FARM-0421,Trans Nzoia,Wheat,1.3,605.2,5,0,12,0,9.9,0
+KE-FARM-0422,Nakuru,Beans,2.7,513.4,6,0,5,1,27.0,0
+KE-FARM-0423,Nakuru,Wheat,0.5,741.8,8,1,3,0,31.6,0
+KE-FARM-0424,Trans Nzoia,Wheat,3.5,620.5,9,0,8,1,9.1,0
+KE-FARM-0425,Trans Nzoia,Sorghum,1.5,421.7,6,1,5,0,1.0,0
+KE-FARM-0426,Nakuru,Wheat,3.9,510.4,5,1,12,0,1.1,0
+KE-FARM-0427,Trans Nzoia,Maize,6.6,705.7,4,1,14,1,18.0,0
+KE-FARM-0428,Uasin Gishu,Sunflower,3.8,793.1,2,1,12,2,17.7,1
+KE-FARM-0429,Nyandarua,Sunflower,1.4,593.2,2,1,14,0,29.2,0
+KE-FARM-0430,Nyandarua,Beans,1.2,443.3,7,0,7,1,8.3,0
+KE-FARM-0431,Nyandarua,Wheat,1.6,758.1,5,1,11,0,19.9,0
+KE-FARM-0432,Uasin Gishu,Maize,0.7,705.1,7,1,8,2,17.4,1
+KE-FARM-0433,Kitui,Beans,0.8,796.0,1,0,5,1,8.9,0
+KE-FARM-0434,Trans Nzoia,Sorghum,6.3,643.5,1,0,8,1,15.3,0
+KE-FARM-0435,Laikipia,Beans,1.9,521.9,5,0,12,0,1.3,0
+KE-FARM-0436,Trans Nzoia,Beans,2.3,677.5,2,0,15,2,10.2,0
+KE-FARM-0437,Nakuru,Wheat,3.6,648.9,8,1,3,0,30.7,0
+KE-FARM-0438,Meru,Sorghum,3.6,513.8,3,1,15,0,1.8,0
+KE-FARM-0439,Nyandarua,Beans,0.5,629.8,1,1,14,1,13.6,0
+KE-FARM-0440,Trans Nzoia,Maize,7.1,570.7,2,1,12,0,3.9,0
+KE-FARM-0441,Laikipia,Maize,0.8,711.5,10,1,7,0,17.0,0
+KE-FARM-0442,Nakuru,Sunflower,5.1,673.8,10,0,8,0,11.9,0
+KE-FARM-0443,Uasin Gishu,Sorghum,5.9,442.3,7,1,7,2,26.1,0
+KE-FARM-0444,Kitui,Sorghum,5.0,427.1,6,1,14,1,12.4,0
+KE-FARM-0445,Uasin Gishu,Sunflower,3.5,586.5,8,1,2,0,5.3,0
+KE-FARM-0446,Laikipia,Beans,0.5,604.9,7,1,8,0,1.0,0
+KE-FARM-0447,Nakuru,Sorghum,1.8,714.1,10,1,6,0,15.7,0
+KE-FARM-0448,Nyandarua,Maize,3.7,677.0,8,0,10,2,5.3,0
+KE-FARM-0449,Trans Nzoia,Maize,2.0,818.8,3,1,3,0,11.1,0
+KE-FARM-0450,Nakuru,Wheat,8.0,529.9,6,1,4,0,1.1,0
+KE-FARM-0451,Kitui,Sorghum,1.5,521.4,7,0,7,2,22.2,0
+KE-FARM-0452,Uasin Gishu,Beans,1.4,456.0,10,1,3,2,5.7,0
+KE-FARM-0453,Kitui,Sunflower,1.2,712.4,1,1,1,0,25.2,0
+KE-FARM-0454,Kitui,Sunflower,1.6,603.3,1,0,6,1,12.3,0
+KE-FARM-0455,Laikipia,Beans,3.3,322.0,7,1,3,0,1.3,0
+KE-FARM-0456,Laikipia,Wheat,4.9,630.3,3,0,11,0,8.7,0
+KE-FARM-0457,Trans Nzoia,Sunflower,4.3,639.9,3,1,15,2,24.1,0
+KE-FARM-0458,Laikipia,Sorghum,6.6,578.3,5,0,10,0,16.1,0
+KE-FARM-0459,Laikipia,Wheat,8.7,644.5,6,1,6,0,5.4,0
+KE-FARM-0460,Nakuru,Sorghum,6.8,417.0,2,0,10,1,31.0,1
+KE-FARM-0461,Nyandarua,Maize,0.5,846.2,3,0,12,1,3.1,1
+KE-FARM-0462,Trans Nzoia,Wheat,5.3,657.0,6,0,3,3,4.7,0
+KE-FARM-0463,Nakuru,Sunflower,0.9,333.9,3,1,6,1,13.9,0
+KE-FARM-0464,Nyandarua,Wheat,0.6,599.1,5,1,11,1,2.7,0
+KE-FARM-0465,Kitui,Wheat,4.1,661.0,9,1,4,1,7.2,0
+KE-FARM-0466,Nakuru,Wheat,1.5,433.1,3,1,13,2,13.0,0
+KE-FARM-0467,Meru,Wheat,0.5,680.0,6,1,4,1,10.3,0
+KE-FARM-0468,Nakuru,Sorghum,0.6,852.1,5,0,10,3,1.7,0
+KE-FARM-0469,Laikipia,Maize,0.5,503.3,5,1,10,0,9.9,0
+KE-FARM-0470,Nyandarua,Beans,9.3,664.3,6,0,11,2,8.5,0
+KE-FARM-0471,Trans Nzoia,Wheat,0.5,631.3,6,1,2,0,8.2,0
+KE-FARM-0472,Trans Nzoia,Sunflower,0.9,745.2,1,1,14,0,17.5,0
+KE-FARM-0473,Nyandarua,Wheat,2.2,583.7,9,1,4,2,2.0,0
+KE-FARM-0474,Laikipia,Sunflower,1.8,440.0,5,0,11,0,13.9,0
+KE-FARM-0475,Uasin Gishu,Sorghum,9.7,735.6,1,1,12,1,14.3,0
+KE-FARM-0476,Nakuru,Sunflower,0.5,448.9,8,0,4,1,12.8,1
+KE-FARM-0477,Laikipia,Beans,2.9,871.3,7,0,11,2,7.1,1
+KE-FARM-0478,Meru,Maize,4.6,684.1,7,0,7,0,5.0,0
+KE-FARM-0479,Kitui,Sunflower,10.7,510.2,5,1,5,1,5.0,0
+KE-FARM-0480,Nyandarua,Sunflower,3.9,766.3,1,1,8,1,13.2,0
+KE-FARM-0481,Nakuru,Maize,6.5,598.6,9,0,7,1,6.9,0
+KE-FARM-0482,Trans Nzoia,Beans,0.5,566.8,9,0,10,0,4.1,0
+KE-FARM-0483,Kitui,Wheat,2.0,497.9,8,1,9,0,9.8,0
+KE-FARM-0484,Uasin Gishu,Sunflower,1.9,318.3,5,1,8,2,18.1,0
+KE-FARM-0485,Meru,Maize,8.7,690.7,3,0,15,0,1.0,1
+KE-FARM-0486,Trans Nzoia,Sorghum,0.7,355.8,8,0,9,0,35.8,0
+KE-FARM-0487,Nyandarua,Maize,0.7,481.0,1,1,1,0,1.0,0
+KE-FARM-0488,Nakuru,Sorghum,1.6,664.9,3,1,10,1,7.2,0
+KE-FARM-0489,Nyandarua,Beans,0.5,524.9,7,1,13,2,8.2,0
+KE-FARM-0490,Kitui,Wheat,0.8,623.6,4,1,12,1,1.5,0
+KE-FARM-0491,Nakuru,Maize,13.4,417.9,7,0,3,0,24.7,0
+KE-FARM-0492,Laikipia,Sunflower,2.2,547.7,5,0,5,1,6.4,0
+KE-FARM-0493,Uasin Gishu,Beans,4.0,624.5,6,0,9,0,1.5,0
+KE-FARM-0494,Laikipia,Maize,5.2,457.3,7,0,8,2,12.4,0
+KE-FARM-0495,Laikipia,Sunflower,1.8,853.0,10,1,14,1,10.9,0
+KE-FARM-0496,Nyandarua,Maize,0.6,504.4,7,1,10,1,32.9,0
+KE-FARM-0497,Kitui,Sorghum,0.9,806.8,7,1,7,2,5.8,0
+KE-FARM-0498,Uasin Gishu,Maize,1.5,574.8,7,0,2,3,3.1,0
+KE-FARM-0499,Nakuru,Maize,4.0,364.7,7,1,15,2,1.0,1
+KE-FARM-0500,Nakuru,Maize,2.0,429.5,3,1,11,1,13.2,1
+KE-FARM-0501,Meru,Beans,0.5,626.4,3,0,6,0,9.6,1
+KE-FARM-0502,Trans Nzoia,Maize,3.0,754.9,7,1,4,0,36.0,0
+KE-FARM-0503,Meru,Sunflower,10.2,865.5,2,0,5,2,12.5,0
+KE-FARM-0504,Meru,Sorghum,6.7,619.2,2,0,14,1,27.1,0
+KE-FARM-0505,Nakuru,Sorghum,7.0,423.4,3,1,5,1,47.8,0
+KE-FARM-0506,Nyandarua,Maize,6.3,641.8,4,1,13,2,5.6,0
+KE-FARM-0507,Laikipia,Beans,1.6,476.2,6,0,4,0,1.6,0
+KE-FARM-0508,Kitui,Beans,5.8,658.8,8,0,4,0,2.2,0
+KE-FARM-0509,Laikipia,Sunflower,0.6,458.8,10,1,15,0,3.8,0
+KE-FARM-0510,Laikipia,Maize,4.3,286.6,10,1,4,1,7.1,0
+KE-FARM-0511,Uasin Gishu,Sorghum,4.1,797.5,7,1,11,1,1.3,0
+KE-FARM-0512,Nakuru,Beans,0.5,566.0,4,0,2,0,3.6,0
+KE-FARM-0513,Kitui,Maize,6.2,607.4,2,0,1,0,3.7,0
+KE-FARM-0514,Nyandarua,Beans,9.3,749.5,2,0,12,4,1.0,0
+KE-FARM-0515,Uasin Gishu,Beans,1.2,881.8,4,0,2,1,4.4,0
+KE-FARM-0516,Trans Nzoia,Sorghum,6.7,708.0,6,0,7,1,1.2,1
+KE-FARM-0517,Nyandarua,Wheat,0.5,615.5,3,0,12,1,5.6,0
+KE-FARM-0518,Meru,Sunflower,3.7,669.4,6,1,1,0,2.2,0
+KE-FARM-0519,Nyandarua,Sunflower,2.7,555.8,5,0,6,0,17.3,0
+KE-FARM-0520,Nyandarua,Sorghum,3.2,605.4,5,1,4,0,1.0,0
+KE-FARM-0521,Laikipia,Beans,10.4,621.7,2,0,2,0,20.1,0
+KE-FARM-0522,Nyandarua,Maize,8.2,482.0,8,1,15,2,8.7,0
+KE-FARM-0523,Meru,Beans,6.2,603.2,5,0,15,0,6.1,0
+KE-FARM-0524,Meru,Sorghum,1.3,655.1,2,1,3,0,8.0,0
+KE-FARM-0525,Nakuru,Sunflower,9.7,677.6,7,0,7,1,4.7,0
+KE-FARM-0526,Nyandarua,Beans,0.5,665.6,9,1,6,1,1.4,0
+KE-FARM-0527,Laikipia,Sunflower,7.7,399.1,9,1,15,1,14.5,0
+KE-FARM-0528,Nyandarua,Maize,1.6,784.4,1,1,15,0,26.3,0
+KE-FARM-0529,Trans Nzoia,Sunflower,0.5,771.9,7,0,6,0,30.0,0
+KE-FARM-0530,Trans Nzoia,Sunflower,4.4,585.6,9,1,8,0,11.1,1
+KE-FARM-0531,Laikipia,Wheat,1.1,668.3,6,1,8,0,5.3,0
+KE-FARM-0532,Nakuru,Wheat,1.1,567.5,1,0,6,1,6.5,0
+KE-FARM-0533,Nakuru,Wheat,1.5,712.8,2,1,1,0,10.7,1
+KE-FARM-0534,Meru,Sunflower,0.5,477.9,4,1,10,0,17.3,0
+KE-FARM-0535,Meru,Sorghum,0.8,801.4,4,1,13,2,4.7,0
+KE-FARM-0536,Uasin Gishu,Sunflower,0.5,705.3,2,1,7,0,24.9,0
+KE-FARM-0537,Laikipia,Sorghum,2.4,708.8,8,1,8,0,3.9,0
+KE-FARM-0538,Nyandarua,Sorghum,0.5,584.2,2,1,5,0,7.6,0
+KE-FARM-0539,Kitui,Wheat,4.6,388.1,3,1,13,1,32.5,0
+KE-FARM-0540,Laikipia,Beans,1.1,732.6,4,1,11,2,27.8,0
+KE-FARM-0541,Uasin Gishu,Maize,11.5,393.1,9,1,4,0,11.9,0
+KE-FARM-0542,Meru,Wheat,8.2,734.4,10,1,7,0,3.9,0
+KE-FARM-0543,Laikipia,Wheat,1.4,484.2,1,1,12,0,2.5,0
+KE-FARM-0544,Laikipia,Beans,6.1,361.9,8,0,12,1,1.0,0
+KE-FARM-0545,Meru,Maize,6.5,600.1,5,1,11,2,12.3,0
+KE-FARM-0546,Uasin Gishu,Sunflower,17.2,777.4,7,0,13,0,7.0,0
+KE-FARM-0547,Meru,Sunflower,3.6,455.2,8,0,6,1,8.5,0
+KE-FARM-0548,Nakuru,Wheat,0.5,839.9,5,0,12,0,6.4,0
+KE-FARM-0549,Nyandarua,Maize,4.2,698.5,8,1,6,0,6.6,0
+KE-FARM-0550,Meru,Wheat,3.9,623.5,10,0,14,0,8.5,0
+KE-FARM-0551,Uasin Gishu,Sorghum,4.1,534.7,8,1,3,1,24.6,0
+KE-FARM-0552,Trans Nzoia,Wheat,1.5,545.1,9,1,11,2,1.0,0
+KE-FARM-0553,Nakuru,Wheat,7.9,664.5,2,0,10,1,16.2,0
+KE-FARM-0554,Trans Nzoia,Sunflower,12.8,726.9,3,0,15,1,5.0,0
+KE-FARM-0555,Kitui,Sunflower,1.0,511.0,1,1,4,0,13.7,0
+KE-FARM-0556,Meru,Sunflower,0.5,479.0,4,1,5,0,29.7,0
+KE-FARM-0557,Nakuru,Sorghum,0.9,567.9,5,1,9,1,3.7,0
+KE-FARM-0558,Nyandarua,Sunflower,6.9,809.0,1,1,8,0,1.0,0
+KE-FARM-0559,Meru,Maize,4.5,417.5,8,1,3,0,2.6,0
+KE-FARM-0560,Nyandarua,Beans,4.0,771.4,2,1,6,0,2.5,1
+KE-FARM-0561,Laikipia,Maize,2.1,606.3,1,1,10,1,13.5,0
+KE-FARM-0562,Trans Nzoia,Maize,3.4,352.1,2,1,1,1,1.0,0
+KE-FARM-0563,Nakuru,Sunflower,1.5,530.8,5,1,3,0,1.0,0
+KE-FARM-0564,Nyandarua,Beans,2.6,691.5,9,0,10,2,11.8,0
+KE-FARM-0565,Uasin Gishu,Beans,6.3,870.3,9,1,14,2,8.1,0
+KE-FARM-0566,Nyandarua,Beans,15.9,400.9,2,1,12,1,5.4,1
+KE-FARM-0567,Uasin Gishu,Sorghum,10.8,177.1,2,1,7,2,8.6,0
+KE-FARM-0568,Meru,Sunflower,10.9,403.6,3,0,7,0,13.3,0
+KE-FARM-0569,Nakuru,Beans,2.1,769.6,7,1,2,2,1.1,0
+KE-FARM-0570,Nyandarua,Sorghum,2.5,330.9,3,0,3,1,8.1,1
+KE-FARM-0571,Kitui,Wheat,4.9,824.6,1,0,15,0,17.4,0
+KE-FARM-0572,Nyandarua,Wheat,10.2,782.2,6,0,7,0,4.5,0
+KE-FARM-0573,Kitui,Sorghum,0.6,628.7,3,1,12,1,14.4,0
+KE-FARM-0574,Nakuru,Sorghum,1.5,506.0,1,0,6,0,18.7,0
+KE-FARM-0575,Nyandarua,Sunflower,0.6,608.3,4,0,13,1,17.2,0
+KE-FARM-0576,Uasin Gishu,Sunflower,3.8,691.7,1,0,7,0,10.5,0
+KE-FARM-0577,Nyandarua,Wheat,1.5,668.8,1,1,10,0,12.6,0
+KE-FARM-0578,Trans Nzoia,Beans,1.6,860.9,2,0,9,1,15.5,0
+KE-FARM-0579,Meru,Wheat,0.5,561.0,10,0,8,1,13.2,0
+KE-FARM-0580,Laikipia,Beans,1.7,404.9,8,1,6,2,6.0,1
+KE-FARM-0581,Uasin Gishu,Beans,7.9,378.4,2,1,12,0,1.7,0
+KE-FARM-0582,Trans Nzoia,Sunflower,1.1,348.4,2,0,14,1,3.7,1
+KE-FARM-0583,Kitui,Maize,4.8,629.4,10,0,4,0,2.3,0
+KE-FARM-0584,Meru,Maize,4.0,564.8,10,0,14,0,4.5,0
+KE-FARM-0585,Nakuru,Sorghum,8.0,604.9,8,1,13,0,6.7,0
+KE-FARM-0586,Uasin Gishu,Sunflower,0.6,519.4,6,1,10,0,32.0,0
+KE-FARM-0587,Laikipia,Beans,15.2,433.5,4,1,9,0,32.1,0
+KE-FARM-0588,Meru,Maize,3.5,692.2,3,0,7,1,14.7,0
+KE-FARM-0589,Kitui,Beans,21.6,230.5,1,1,5,1,39.2,1
+KE-FARM-0590,Laikipia,Maize,9.7,479.8,3,0,2,1,62.2,0
+KE-FARM-0591,Nakuru,Maize,1.0,718.0,9,0,9,2,21.7,0
+KE-FARM-0592,Nakuru,Maize,0.5,464.9,5,1,14,1,1.0,0
+KE-FARM-0593,Kitui,Sunflower,1.2,658.8,6,1,7,1,5.6,0
+KE-FARM-0594,Uasin Gishu,Wheat,3.0,480.0,5,0,9,0,7.6,0
+KE-FARM-0595,Kitui,Beans,0.8,531.6,1,1,11,1,1.3,0
+KE-FARM-0596,Nyandarua,Sunflower,0.7,686.2,10,1,9,1,16.5,0
+KE-FARM-0597,Nakuru,Sunflower,2.5,408.3,1,1,10,0,1.6,0
+KE-FARM-0598,Meru,Sunflower,0.5,711.8,4,1,5,1,4.8,0
+KE-FARM-0599,Nyandarua,Sunflower,0.5,606.9,3,1,7,2,1.0,1
+KE-FARM-0600,Trans Nzoia,Sunflower,2.2,788.5,8,1,5,1,7.4,0
+KE-FARM-0601,Laikipia,Sorghum,0.5,631.2,7,1,15,0,9.1,0
+KE-FARM-0602,Nyandarua,Beans,2.0,439.6,7,1,3,0,13.3,0
+KE-FARM-0603,Laikipia,Sunflower,2.6,859.2,8,0,10,0,4.1,0
+KE-FARM-0604,Kitui,Beans,2.4,452.1,10,1,8,2,8.9,0
+KE-FARM-0605,Nyandarua,Sorghum,8.1,565.9,7,0,8,1,13.2,0
+KE-FARM-0606,Kitui,Sorghum,3.0,743.6,10,0,9,1,14.4,0
+KE-FARM-0607,Trans Nzoia,Beans,2.5,318.0,2,1,11,0,3.6,0
+KE-FARM-0608,Nakuru,Maize,2.1,816.0,4,0,14,2,1.0,0
+KE-FARM-0609,Trans Nzoia,Wheat,6.8,427.4,6,1,12,1,1.0,0
+KE-FARM-0610,Nakuru,Maize,9.0,531.8,3,1,6,0,14.6,0
+KE-FARM-0611,Kitui,Maize,7.7,643.3,3,1,2,3,4.9,0
+KE-FARM-0612,Nakuru,Maize,4.5,593.7,6,0,3,2,1.4,0
+KE-FARM-0613,Laikipia,Sunflower,0.6,718.4,1,0,13,1,2.0,0
+KE-FARM-0614,Meru,Sorghum,1.3,359.9,1,1,11,2,14.5,1
+KE-FARM-0615,Trans Nzoia,Maize,0.5,709.1,5,1,12,1,9.1,0
+KE-FARM-0616,Nyandarua,Sorghum,10.7,721.1,1,0,10,0,7.0,0
+KE-FARM-0617,Trans Nzoia,Beans,4.3,754.4,10,0,11,0,9.8,0
+KE-FARM-0618,Laikipia,Wheat,5.5,361.6,8,1,15,1,1.5,0
+KE-FARM-0619,Nakuru,Beans,1.5,379.7,2,0,6,1,3.8,1
+KE-FARM-0620,Laikipia,Beans,7.5,548.6,6,1,1,1,4.7,0
+KE-FARM-0621,Uasin Gishu,Sunflower,1.2,395.9,10,1,14,1,3.8,0
+KE-FARM-0622,Uasin Gishu,Wheat,0.5,329.4,10,1,2,1,20.0,0
+KE-FARM-0623,Nyandarua,Beans,1.9,542.2,5,0,8,3,8.7,0
+KE-FARM-0624,Laikipia,Beans,3.4,635.1,10,0,11,0,13.1,0
+KE-FARM-0625,Kitui,Wheat,2.6,1019.8,4,0,8,0,2.7,1
+KE-FARM-0626,Nyandarua,Wheat,7.9,682.3,1,1,6,0,3.1,0
+KE-FARM-0627,Kitui,Beans,0.5,862.8,3,1,3,1,2.6,0
+KE-FARM-0628,Nyandarua,Wheat,3.2,593.4,4,1,14,2,11.6,0
+KE-FARM-0629,Uasin Gishu,Beans,2.9,683.9,2,1,2,1,4.3,0
+KE-FARM-0630,Nyandarua,Beans,1.3,578.1,2,0,13,0,5.2,0
+KE-FARM-0631,Uasin Gishu,Sunflower,6.9,1002.5,2,1,6,0,12.3,0
+KE-FARM-0632,Nakuru,Maize,5.6,497.2,1,1,1,2,35.7,0
+KE-FARM-0633,Kitui,Beans,5.3,517.5,10,1,14,0,1.8,0
+KE-FARM-0634,Laikipia,Sorghum,8.4,719.5,2,0,10,1,1.0,0
+KE-FARM-0635,Nyandarua,Maize,5.1,631.1,6,1,6,0,2.2,0
+KE-FARM-0636,Uasin Gishu,Maize,1.1,536.4,3,1,9,0,13.3,0
+KE-FARM-0637,Trans Nzoia,Maize,4.9,744.1,10,1,7,0,2.2,0
+KE-FARM-0638,Kitui,Sunflower,1.5,593.8,5,0,9,1,8.8,0
+KE-FARM-0639,Nyandarua,Beans,1.1,592.8,1,1,2,1,8.9,0
+KE-FARM-0640,Meru,Sunflower,0.5,634.6,8,0,11,1,3.5,0
+KE-FARM-0641,Nakuru,Beans,5.5,339.9,4,1,14,0,1.0,0
+KE-FARM-0642,Nakuru,Sunflower,5.0,361.0,9,1,5,3,5.1,0
+KE-FARM-0643,Trans Nzoia,Sunflower,1.1,763.0,4,1,9,2,2.1,0
+KE-FARM-0644,Uasin Gishu,Sorghum,5.5,498.5,2,1,7,0,2.0,0
+KE-FARM-0645,Nyandarua,Sunflower,10.0,580.1,3,1,9,1,7.4,0
+KE-FARM-0646,Kitui,Wheat,0.5,841.9,5,0,14,0,11.2,0
+KE-FARM-0647,Uasin Gishu,Sorghum,1.1,586.8,10,0,11,1,1.0,0
+KE-FARM-0648,Nakuru,Sunflower,5.5,568.5,6,1,6,1,8.6,0
+KE-FARM-0649,Uasin Gishu,Maize,1.3,734.4,7,1,15,0,2.8,0
+KE-FARM-0650,Nakuru,Wheat,3.9,510.3,4,0,7,0,11.2,0
+KE-FARM-0651,Uasin Gishu,Wheat,0.5,780.4,7,0,10,1,16.6,0
+KE-FARM-0652,Trans Nzoia,Wheat,2.4,731.3,10,1,5,1,16.5,0
+KE-FARM-0653,Laikipia,Sorghum,5.4,874.5,3,1,6,0,4.6,0
+KE-FARM-0654,Trans Nzoia,Sunflower,4.6,496.4,7,1,1,1,8.4,0
+KE-FARM-0655,Trans Nzoia,Sunflower,6.8,805.0,4,0,1,1,15.8,0
+KE-FARM-0656,Laikipia,Maize,8.4,683.1,8,1,2,0,1.0,0
+KE-FARM-0657,Laikipia,Maize,5.9,401.2,9,1,11,0,9.3,0
+KE-FARM-0658,Nyandarua,Wheat,4.5,210.6,7,1,14,2,18.1,0
+KE-FARM-0659,Kitui,Maize,0.5,480.3,8,1,4,0,4.7,0
+KE-FARM-0660,Kitui,Sorghum,3.1,643.9,8,0,11,1,6.1,0
+KE-FARM-0661,Nyandarua,Sunflower,0.5,665.6,2,1,9,1,12.0,0
+KE-FARM-0662,Trans Nzoia,Wheat,6.6,591.1,9,0,7,0,1.0,0
+KE-FARM-0663,Trans Nzoia,Maize,1.5,592.5,6,0,6,2,4.9,1
+KE-FARM-0664,Nakuru,Sorghum,3.3,581.1,4,1,15,2,3.5,0
+KE-FARM-0665,Nakuru,Sorghum,1.3,754.7,5,1,1,0,1.0,0
+KE-FARM-0666,Kitui,Maize,6.1,384.6,10,1,5,1,2.2,0
+KE-FARM-0667,Nyandarua,Sunflower,8.7,640.2,5,1,11,0,5.0,0
+KE-FARM-0668,Meru,Maize,2.0,476.6,7,1,12,3,2.2,0
+KE-FARM-0669,Meru,Wheat,7.9,464.0,9,1,13,5,9.2,1
+KE-FARM-0670,Nyandarua,Maize,1.2,776.4,7,0,4,0,6.0,0
+KE-FARM-0671,Nakuru,Sorghum,3.1,452.5,9,1,5,1,1.0,0
+KE-FARM-0672,Kitui,Maize,7.8,579.1,4,0,11,2,3.2,0
+KE-FARM-0673,Kitui,Sunflower,1.6,893.8,10,1,9,1,1.0,0
+KE-FARM-0674,Nakuru,Beans,12.3,725.7,10,0,12,0,4.4,0
+KE-FARM-0675,Meru,Maize,0.5,531.8,4,1,3,0,3.0,0
+KE-FARM-0676,Uasin Gishu,Sunflower,0.5,544.1,6,1,4,0,11.7,0
+KE-FARM-0677,Uasin Gishu,Sunflower,9.4,415.9,8,1,8,0,3.7,0
+KE-FARM-0678,Nakuru,Sorghum,0.5,795.1,9,1,3,1,4.7,0
+KE-FARM-0679,Uasin Gishu,Sunflower,19.3,751.7,1,1,13,0,12.9,0
+KE-FARM-0680,Laikipia,Sunflower,12.1,703.0,1,1,3,2,6.6,0
+KE-FARM-0681,Nyandarua,Sunflower,0.6,719.5,8,1,13,0,8.1,0
+KE-FARM-0682,Nyandarua,Sunflower,3.1,483.8,7,1,9,1,18.4,0
+KE-FARM-0683,Nakuru,Wheat,0.8,367.8,9,0,5,2,2.3,1
+KE-FARM-0684,Trans Nzoia,Wheat,2.2,684.1,3,0,10,1,45.3,1
+KE-FARM-0685,Meru,Sorghum,0.5,733.3,10,0,1,0,23.0,0
+KE-FARM-0686,Nakuru,Maize,1.0,841.1,5,0,7,1,3.4,0
+KE-FARM-0687,Uasin Gishu,Sunflower,1.8,569.9,3,1,7,2,22.3,1
+KE-FARM-0688,Meru,Maize,2.3,548.0,5,0,15,2,14.0,0
+KE-FARM-0689,Trans Nzoia,Maize,15.2,564.1,10,0,6,2,26.7,1
+KE-FARM-0690,Uasin Gishu,Sorghum,6.6,700.6,1,0,6,1,11.7,0
+KE-FARM-0691,Kitui,Sunflower,5.3,557.7,4,1,3,0,11.2,0
+KE-FARM-0692,Laikipia,Sunflower,3.1,592.2,6,1,3,0,1.0,0
+KE-FARM-0693,Uasin Gishu,Beans,7.3,724.7,2,1,10,1,6.4,0
+KE-FARM-0694,Laikipia,Maize,1.7,506.1,7,1,11,0,2.2,0
+KE-FARM-0695,Meru,Maize,4.9,808.7,8,0,9,0,3.9,0
+KE-FARM-0696,Laikipia,Wheat,20.3,695.0,1,1,1,0,38.5,1
+KE-FARM-0697,Meru,Beans,1.5,321.4,4,1,7,2,1.0,1
+KE-FARM-0698,Meru,Wheat,4.5,522.7,4,0,13,0,12.8,0
+KE-FARM-0699,Meru,Wheat,7.4,296.3,5,1,12,1,1.9,0
+KE-FARM-0700,Meru,Wheat,9.9,570.5,4,1,11,2,1.0,0
+KE-FARM-0701,Meru,Sorghum,5.1,525.3,9,1,10,1,7.0,0
+KE-FARM-0702,Uasin Gishu,Sorghum,1.3,725.2,7,1,7,0,1.8,0
+KE-FARM-0703,Meru,Wheat,1.6,467.8,2,0,8,0,33.7,0
+KE-FARM-0704,Uasin Gishu,Beans,0.5,658.2,1,0,6,2,2.3,1
+KE-FARM-0705,Meru,Maize,5.7,685.3,9,0,8,2,2.1,0
+KE-FARM-0706,Laikipia,Beans,0.5,638.6,1,0,1,2,1.0,1
+KE-FARM-0707,Kitui,Sunflower,8.0,771.0,6,0,1,0,4.0,0
+KE-FARM-0708,Meru,Sorghum,0.5,910.2,2,1,9,0,1.0,0
+KE-FARM-0709,Trans Nzoia,Maize,0.8,616.8,4,0,12,2,6.9,0
+KE-FARM-0710,Meru,Maize,2.6,660.8,6,1,4,3,7.0,0
+KE-FARM-0711,Meru,Sunflower,5.4,468.0,5,1,3,0,1.0,0
+KE-FARM-0712,Laikipia,Sunflower,0.6,447.1,6,1,6,1,2.7,0
+KE-FARM-0713,Nyandarua,Wheat,2.3,755.1,3,1,10,2,17.8,0
+KE-FARM-0714,Laikipia,Sorghum,2.6,735.2,5,1,12,2,6.2,0
+KE-FARM-0715,Trans Nzoia,Sorghum,1.0,445.6,2,1,13,1,5.7,0
+KE-FARM-0716,Nyandarua,Beans,0.5,403.8,7,1,12,0,12.0,0
+KE-FARM-0717,Nakuru,Wheat,7.2,502.7,3,1,9,2,12.5,0
+KE-FARM-0718,Nakuru,Wheat,2.8,578.8,1,1,10,0,14.4,0
+KE-FARM-0719,Trans Nzoia,Wheat,0.5,538.6,8,0,11,0,17.7,0
+KE-FARM-0720,Laikipia,Wheat,6.5,624.1,8,1,4,3,2.6,0
+KE-FARM-0721,Uasin Gishu,Sorghum,15.8,737.6,3,1,9,1,1.0,0
+KE-FARM-0722,Trans Nzoia,Sorghum,3.7,669.3,7,1,15,0,4.8,0
+KE-FARM-0723,Kitui,Wheat,2.8,680.4,9,0,5,1,19.3,0
+KE-FARM-0724,Nyandarua,Beans,8.4,232.3,8,1,13,2,1.0,0
+KE-FARM-0725,Nyandarua,Maize,12.2,357.9,3,1,7,1,8.6,1
+KE-FARM-0726,Meru,Maize,5.6,480.5,2,0,3,0,12.1,0
+KE-FARM-0727,Nakuru,Beans,2.4,505.3,10,1,3,1,6.6,0
+KE-FARM-0728,Nyandarua,Wheat,3.6,726.0,7,1,12,1,2.9,0
+KE-FARM-0729,Trans Nzoia,Sorghum,4.8,468.2,7,1,3,0,3.9,0
+KE-FARM-0730,Nyandarua,Maize,0.9,700.0,9,1,8,0,1.0,0
+KE-FARM-0731,Trans Nzoia,Sunflower,2.4,482.2,5,1,14,0,3.5,0
+KE-FARM-0732,Uasin Gishu,Sunflower,7.1,419.9,4,1,6,3,1.0,0
+KE-FARM-0733,Meru,Beans,4.3,426.8,8,0,9,2,13.0,0
+KE-FARM-0734,Nakuru,Wheat,2.1,938.7,4,1,9,2,22.8,0
+KE-FARM-0735,Nyandarua,Maize,4.4,478.9,4,1,8,1,10.0,0
+KE-FARM-0736,Trans Nzoia,Wheat,0.5,703.6,2,1,1,0,10.7,0
+KE-FARM-0737,Laikipia,Maize,2.1,366.3,1,1,6,1,6.4,1
+KE-FARM-0738,Nakuru,Beans,6.3,812.8,4,0,4,0,1.7,0
+KE-FARM-0739,Uasin Gishu,Beans,1.0,652.4,7,1,4,0,1.0,0
+KE-FARM-0740,Trans Nzoia,Sunflower,0.8,641.1,9,0,3,2,4.2,0
+KE-FARM-0741,Kitui,Wheat,12.0,662.1,9,0,12,0,13.9,0
+KE-FARM-0742,Kitui,Sunflower,0.9,678.6,10,0,9,1,32.3,0
+KE-FARM-0743,Meru,Wheat,1.2,721.4,1,0,2,1,5.6,0
+KE-FARM-0744,Meru,Sunflower,14.0,510.1,5,1,1,2,4.5,1
+KE-FARM-0745,Uasin Gishu,Sorghum,5.3,501.4,7,0,14,1,5.9,0
+KE-FARM-0746,Uasin Gishu,Sorghum,4.8,607.4,7,0,15,0,5.6,0
+KE-FARM-0747,Meru,Sorghum,7.7,702.7,10,1,10,1,9.8,0
+KE-FARM-0748,Nyandarua,Sorghum,0.5,590.0,6,1,3,1,13.2,0
+KE-FARM-0749,Nyandarua,Maize,4.9,716.1,10,0,13,0,15.4,0
+KE-FARM-0750,Trans Nzoia,Sorghum,2.8,692.7,4,0,15,3,10.5,0
+KE-FARM-0751,Laikipia,Beans,7.1,567.5,3,0,4,1,5.8,0
+KE-FARM-0752,Trans Nzoia,Beans,2.8,337.9,9,0,4,1,30.0,0
+KE-FARM-0753,Laikipia,Maize,3.9,524.5,10,0,6,0,12.4,0
+KE-FARM-0754,Uasin Gishu,Sorghum,2.6,861.4,4,1,1,1,5.6,0
+KE-FARM-0755,Nakuru,Sorghum,2.6,651.0,8,0,1,1,5.9,0
+KE-FARM-0756,Trans Nzoia,Sorghum,5.8,504.1,1,1,2,0,17.0,0
+KE-FARM-0757,Trans Nzoia,Sunflower,4.0,637.6,7,1,4,0,5.8,0
+KE-FARM-0758,Laikipia,Wheat,4.0,701.5,6,1,7,1,7.3,0
+KE-FARM-0759,Uasin Gishu,Sunflower,2.4,504.1,1,1,6,0,3.4,0
+KE-FARM-0760,Uasin Gishu,Wheat,3.0,785.3,4,1,15,0,18.3,0
+KE-FARM-0761,Kitui,Sorghum,5.5,674.4,5,1,11,0,7.4,0
+KE-FARM-0762,Laikipia,Sorghum,7.0,435.0,8,1,9,2,8.0,0
+KE-FARM-0763,Uasin Gishu,Sunflower,4.8,728.5,4,0,7,0,21.3,0
+KE-FARM-0764,Meru,Sunflower,10.3,538.6,3,0,12,0,25.3,0
+KE-FARM-0765,Nyandarua,Wheat,6.9,573.1,2,1,5,2,17.4,1
+KE-FARM-0766,Kitui,Beans,3.3,447.6,4,1,6,3,1.0,0
+KE-FARM-0767,Meru,Wheat,4.5,694.7,10,1,10,2,5.9,0
+KE-FARM-0768,Nakuru,Sunflower,10.4,577.7,4,1,9,3,4.2,0
+KE-FARM-0769,Trans Nzoia,Sunflower,3.9,701.1,10,1,1,1,2.4,0
+KE-FARM-0770,Kitui,Maize,7.0,517.4,5,1,11,3,24.0,0
+KE-FARM-0771,Nakuru,Sunflower,4.7,500.2,7,1,9,1,22.1,0
+KE-FARM-0772,Trans Nzoia,Maize,3.2,488.0,9,1,6,2,6.3,0
+KE-FARM-0773,Nyandarua,Beans,1.1,659.4,2,1,12,0,1.4,0
+KE-FARM-0774,Uasin Gishu,Wheat,2.2,497.9,5,1,4,1,1.0,0
+KE-FARM-0775,Meru,Wheat,13.7,569.5,10,0,12,1,5.8,0
+KE-FARM-0776,Laikipia,Maize,4.3,522.2,9,1,5,0,1.0,0
+KE-FARM-0777,Meru,Wheat,3.3,666.0,3,0,13,1,9.4,0
+KE-FARM-0778,Nyandarua,Sunflower,10.8,339.7,1,0,1,1,9.4,1
+KE-FARM-0779,Nakuru,Sorghum,3.5,637.1,2,1,7,1,22.9,1
+KE-FARM-0780,Laikipia,Maize,3.0,859.7,6,0,13,0,2.1,0
+KE-FARM-0781,Uasin Gishu,Wheat,5.7,785.4,5,1,15,0,4.6,0
+KE-FARM-0782,Nyandarua,Maize,5.0,507.5,1,0,15,0,19.6,0
+KE-FARM-0783,Laikipia,Maize,0.9,674.2,1,1,13,0,6.4,0
+KE-FARM-0784,Nyandarua,Sorghum,2.5,645.1,4,0,8,0,1.0,0
+KE-FARM-0785,Nyandarua,Sunflower,2.6,820.4,4,1,11,0,1.2,0
+KE-FARM-0786,Uasin Gishu,Maize,1.9,223.5,6,0,5,1,16.8,1
+KE-FARM-0787,Kitui,Wheat,2.9,766.9,6,1,2,0,13.6,0
+KE-FARM-0788,Trans Nzoia,Beans,2.1,559.9,10,0,8,1,20.9,0
+KE-FARM-0789,Laikipia,Maize,0.9,488.5,6,1,10,0,1.3,0
+KE-FARM-0790,Uasin Gishu,Maize,2.1,484.2,1,0,7,0,14.3,0
+KE-FARM-0791,Nyandarua,Sorghum,0.5,405.0,10,0,10,0,10.6,0
+KE-FARM-0792,Uasin Gishu,Sunflower,3.4,507.9,9,0,9,0,2.6,1
+KE-FARM-0793,Kitui,Beans,7.7,438.0,7,1,4,0,36.5,0
+KE-FARM-0794,Trans Nzoia,Wheat,5.2,627.0,7,1,11,1,8.4,0
+KE-FARM-0795,Meru,Beans,1.8,688.5,7,1,9,0,23.7,0
+KE-FARM-0796,Laikipia,Wheat,0.5,561.5,2,0,4,1,19.6,0
+KE-FARM-0797,Trans Nzoia,Sunflower,0.9,825.0,2,1,3,0,4.1,1
+KE-FARM-0798,Nakuru,Wheat,3.2,517.7,6,1,15,3,7.7,0
+KE-FARM-0799,Laikipia,Sorghum,0.9,553.7,7,0,11,1,5.6,0
+KE-FARM-0800,Trans Nzoia,Sorghum,3.1,529.1,3,1,3,0,12.3,0
+KE-FARM-0801,Nyandarua,Sorghum,1.1,689.8,4,1,10,1,8.9,0
+KE-FARM-0802,Laikipia,Sorghum,7.6,704.9,3,0,2,0,15.4,0
+KE-FARM-0803,Laikipia,Beans,2.0,674.3,7,0,10,2,1.0,0
+KE-FARM-0804,Uasin Gishu,Sunflower,1.1,581.4,7,0,3,1,11.6,0
+KE-FARM-0805,Nyandarua,Wheat,6.7,398.9,4,1,14,0,3.8,0
+KE-FARM-0806,Nakuru,Wheat,1.7,552.1,7,0,8,0,2.5,0
+KE-FARM-0807,Meru,Sorghum,0.5,821.7,5,0,11,1,16.2,0
+KE-FARM-0808,Kitui,Sorghum,3.4,752.0,1,0,8,3,1.0,1
+KE-FARM-0809,Trans Nzoia,Maize,3.5,644.1,10,0,2,0,2.6,0
+KE-FARM-0810,Uasin Gishu,Sunflower,5.0,542.3,4,0,11,0,2.3,0
+KE-FARM-0811,Trans Nzoia,Beans,1.1,598.0,7,1,2,3,5.4,0
+KE-FARM-0812,Nakuru,Wheat,2.3,543.0,2,0,2,0,3.9,0
+KE-FARM-0813,Nakuru,Maize,1.3,779.0,2,1,10,1,12.7,0
+KE-FARM-0814,Laikipia,Maize,0.5,474.2,1,1,7,0,12.0,0
+KE-FARM-0815,Kitui,Wheat,8.4,738.6,2,1,15,2,3.9,0
+KE-FARM-0816,Nakuru,Beans,5.2,520.6,10,1,6,0,5.7,0
+KE-FARM-0817,Trans Nzoia,Maize,1.4,798.1,8,0,12,0,2.3,0
+KE-FARM-0818,Nyandarua,Maize,3.7,664.0,8,1,11,1,11.1,0
+KE-FARM-0819,Nyandarua,Sunflower,0.9,487.6,8,1,1,1,5.0,0
+KE-FARM-0820,Laikipia,Beans,8.8,553.6,1,1,2,1,1.4,0
+KE-FARM-0821,Meru,Maize,0.5,706.7,1,1,14,0,1.4,0
+KE-FARM-0822,Trans Nzoia,Beans,0.5,525.1,10,1,1,2,3.9,0
+KE-FARM-0823,Trans Nzoia,Wheat,2.8,603.3,4,1,15,1,13.8,0
+KE-FARM-0824,Nakuru,Sorghum,3.5,523.1,6,1,12,0,1.0,0
+KE-FARM-0825,Kitui,Maize,3.5,863.9,8,1,11,0,3.0,0
+KE-FARM-0826,Trans Nzoia,Sunflower,0.5,889.7,2,1,7,0,1.8,0
+KE-FARM-0827,Uasin Gishu,Wheat,1.5,819.5,3,1,6,1,31.3,0
+KE-FARM-0828,Meru,Beans,2.8,581.3,6,1,2,0,12.2,0
+KE-FARM-0829,Nakuru,Wheat,1.0,539.6,10,1,2,2,2.7,0
+KE-FARM-0830,Uasin Gishu,Maize,8.2,483.1,4,0,2,0,2.3,0
+KE-FARM-0831,Laikipia,Beans,0.5,830.4,2,1,8,1,19.5,0
+KE-FARM-0832,Nyandarua,Sorghum,2.7,739.6,7,0,14,0,2.1,0
+KE-FARM-0833,Laikipia,Wheat,4.7,746.8,4,1,7,3,58.3,0
+KE-FARM-0834,Nyandarua,Maize,1.2,562.5,8,0,1,1,3.3,0
+KE-FARM-0835,Laikipia,Sunflower,3.9,336.3,8,0,4,0,1.0,0
+KE-FARM-0836,Trans Nzoia,Beans,7.1,370.8,7,1,11,2,11.7,1
+KE-FARM-0837,Uasin Gishu,Wheat,0.8,608.6,10,0,4,0,9.4,0
+KE-FARM-0838,Nyandarua,Wheat,10.0,521.6,9,1,7,0,80.0,0
+KE-FARM-0839,Nakuru,Sorghum,3.2,504.3,4,1,2,2,16.2,0
+KE-FARM-0840,Uasin Gishu,Sorghum,1.4,651.8,7,0,4,0,5.6,0
+KE-FARM-0841,Nakuru,Sunflower,2.3,752.0,10,0,1,0,11.3,0
+KE-FARM-0842,Uasin Gishu,Sunflower,1.5,494.8,10,1,13,0,17.0,0
+KE-FARM-0843,Uasin Gishu,Maize,5.2,404.2,1,0,15,2,7.2,1
+KE-FARM-0844,Laikipia,Maize,6.4,498.4,4,1,13,0,3.2,0
+KE-FARM-0845,Nyandarua,Sunflower,7.2,443.4,2,1,11,0,2.4,0
+KE-FARM-0846,Nyandarua,Sunflower,17.0,688.9,9,0,11,1,3.5,0
+KE-FARM-0847,Kitui,Beans,6.3,599.4,5,0,4,1,18.8,0
+KE-FARM-0848,Uasin Gishu,Sorghum,3.7,882.1,3,1,11,0,4.8,0
+KE-FARM-0849,Trans Nzoia,Maize,1.7,710.2,4,1,15,1,3.4,0
+KE-FARM-0850,Trans Nzoia,Sorghum,3.1,872.1,6,0,14,1,16.4,0
+KE-FARM-0851,Nakuru,Sorghum,0.5,389.4,10,0,1,1,1.0,0
+KE-FARM-0852,Nakuru,Sunflower,5.5,112.1,1,1,2,1,9.0,1
+KE-FARM-0853,Laikipia,Beans,2.4,636.4,7,1,2,2,20.7,0
+KE-FARM-0854,Uasin Gishu,Wheat,0.5,618.5,8,1,12,0,5.3,0
+KE-FARM-0855,Nakuru,Beans,0.5,581.6,7,1,10,5,3.1,0
+KE-FARM-0856,Nakuru,Beans,2.0,614.4,7,1,12,0,6.8,0
+KE-FARM-0857,Meru,Sorghum,3.5,431.4,9,1,3,0,12.6,0
+KE-FARM-0858,Uasin Gishu,Beans,2.5,684.5,4,1,8,1,7.3,0
+KE-FARM-0859,Laikipia,Maize,3.9,710.4,7,1,11,1,1.0,0
+KE-FARM-0860,Nakuru,Sorghum,2.6,420.0,9,1,6,1,1.0,0
+KE-FARM-0861,Laikipia,Maize,4.3,547.0,5,1,6,1,12.8,0
+KE-FARM-0862,Nyandarua,Wheat,1.0,556.2,2,1,9,0,5.1,0
+KE-FARM-0863,Laikipia,Sorghum,0.5,499.4,5,1,8,2,15.4,0
+KE-FARM-0864,Trans Nzoia,Wheat,3.6,425.8,4,1,2,0,10.5,0
+KE-FARM-0865,Trans Nzoia,Sorghum,2.7,601.9,8,0,15,0,8.7,0
+KE-FARM-0866,Laikipia,Sunflower,0.5,639.1,5,0,6,0,23.2,0
+KE-FARM-0867,Trans Nzoia,Beans,1.9,508.5,9,1,1,0,1.0,0
+KE-FARM-0868,Nyandarua,Sunflower,0.5,436.4,9,0,13,0,1.7,1
+KE-FARM-0869,Uasin Gishu,Wheat,3.0,661.6,3,1,14,0,9.8,0
+KE-FARM-0870,Trans Nzoia,Beans,2.0,484.9,10,0,9,4,1.0,0
+KE-FARM-0871,Trans Nzoia,Sorghum,3.8,553.6,6,1,4,1,10.4,0
+KE-FARM-0872,Laikipia,Beans,6.6,534.6,6,0,4,0,41.4,0
+KE-FARM-0873,Nyandarua,Maize,1.4,786.9,4,1,9,3,21.1,0
+KE-FARM-0874,Kitui,Beans,13.1,491.8,10,1,3,0,8.9,0
+KE-FARM-0875,Kitui,Maize,3.1,858.8,3,0,5,1,22.4,0
+KE-FARM-0876,Kitui,Beans,3.9,712.8,1,1,1,3,1.2,0
+KE-FARM-0877,Kitui,Maize,4.6,873.1,7,0,6,0,6.1,0
+KE-FARM-0878,Uasin Gishu,Wheat,4.4,699.7,5,0,3,0,5.6,0
+KE-FARM-0879,Laikipia,Sunflower,2.9,566.8,10,1,1,1,4.1,0
+KE-FARM-0880,Laikipia,Sorghum,2.2,462.4,7,0,10,0,1.0,0
+KE-FARM-0881,Meru,Beans,0.5,546.7,1,1,6,0,22.2,1
+KE-FARM-0882,Nyandarua,Sunflower,0.5,823.1,8,0,14,2,15.0,0
+KE-FARM-0883,Kitui,Sorghum,1.8,592.8,3,1,12,0,10.6,0
+KE-FARM-0884,Uasin Gishu,Sorghum,1.6,699.1,7,1,10,0,1.4,0
+KE-FARM-0885,Nyandarua,Maize,2.0,631.0,3,1,2,0,4.8,1
+KE-FARM-0886,Kitui,Wheat,0.6,637.4,3,1,8,2,25.8,0
+KE-FARM-0887,Uasin Gishu,Wheat,5.4,643.2,10,1,14,0,9.6,0
+KE-FARM-0888,Nyandarua,Sunflower,7.8,674.3,9,1,13,2,9.2,1
+KE-FARM-0889,Laikipia,Wheat,11.2,477.9,2,1,15,0,24.4,0
+KE-FARM-0890,Laikipia,Beans,2.7,558.8,4,0,11,1,8.2,0
+KE-FARM-0891,Nakuru,Wheat,4.8,646.4,6,1,12,2,9.1,1
+KE-FARM-0892,Trans Nzoia,Sunflower,7.7,624.5,3,0,2,1,4.2,0
+KE-FARM-0893,Kitui,Wheat,2.2,530.8,10,0,4,1,4.6,0
+KE-FARM-0894,Meru,Beans,1.5,662.5,10,1,14,1,11.6,0
+KE-FARM-0895,Nyandarua,Maize,11.0,484.3,7,1,3,2,3.9,0
+KE-FARM-0896,Meru,Sunflower,2.9,416.5,7,1,9,0,8.2,0
+KE-FARM-0897,Nakuru,Maize,2.8,644.2,5,1,2,2,3.3,0
+KE-FARM-0898,Trans Nzoia,Maize,0.8,420.2,3,0,3,0,1.8,1
+KE-FARM-0899,Nyandarua,Maize,0.5,642.0,2,0,7,0,6.1,0
+KE-FARM-0900,Uasin Gishu,Sorghum,7.4,306.8,4,0,4,1,2.5,1
+KE-FARM-0901,Kitui,Sorghum,3.8,491.3,4,1,6,3,22.9,0
+KE-FARM-0902,Trans Nzoia,Maize,1.6,550.9,8,1,3,1,3.6,0
+KE-FARM-0903,Laikipia,Sunflower,0.9,359.0,8,0,1,1,9.1,0
+KE-FARM-0904,Nakuru,Beans,3.2,544.1,5,1,11,0,3.1,0
+KE-FARM-0905,Trans Nzoia,Beans,3.5,777.8,6,1,6,0,3.0,0
+KE-FARM-0906,Kitui,Wheat,0.9,409.5,8,1,4,1,4.3,1
+KE-FARM-0907,Trans Nzoia,Sunflower,7.6,548.2,1,1,2,2,24.8,1
+KE-FARM-0908,Kitui,Sorghum,0.5,855.4,5,1,7,2,5.0,1
+KE-FARM-0909,Laikipia,Maize,1.8,440.7,4,1,15,0,17.2,0
+KE-FARM-0910,Nyandarua,Wheat,4.6,809.6,4,0,10,0,2.2,0
+KE-FARM-0911,Uasin Gishu,Beans,1.3,558.1,2,0,13,1,1.0,0
+KE-FARM-0912,Laikipia,Sorghum,7.0,615.3,10,0,12,2,15.2,0
+KE-FARM-0913,Uasin Gishu,Sorghum,5.4,793.7,1,1,15,0,7.8,0
+KE-FARM-0914,Nyandarua,Maize,6.2,527.2,6,1,13,0,7.0,0
+KE-FARM-0915,Trans Nzoia,Beans,0.5,694.7,7,1,5,2,3.2,0
+KE-FARM-0916,Uasin Gishu,Sunflower,0.6,732.7,5,0,6,0,1.0,0
+KE-FARM-0917,Nakuru,Sorghum,1.4,502.4,8,1,6,1,6.6,0
+KE-FARM-0918,Nakuru,Maize,2.9,485.8,9,1,14,0,20.2,0
+KE-FARM-0919,Kitui,Sunflower,5.5,565.7,2,1,9,0,1.3,0
+KE-FARM-0920,Laikipia,Beans,7.2,570.4,4,1,12,0,26.5,0
+KE-FARM-0921,Nyandarua,Sorghum,4.9,438.2,9,1,2,0,3.2,0
+KE-FARM-0922,Kitui,Sunflower,10.6,503.8,5,0,12,0,7.6,0
+KE-FARM-0923,Laikipia,Sunflower,5.4,100.0,3,0,6,0,1.0,0
+KE-FARM-0924,Laikipia,Sunflower,1.5,549.9,6,0,9,1,5.5,0
+KE-FARM-0925,Kitui,Sorghum,1.2,734.2,3,1,12,0,1.3,0
+KE-FARM-0926,Meru,Sorghum,4.8,350.0,5,0,4,1,1.0,0
+KE-FARM-0927,Laikipia,Wheat,0.9,530.5,3,1,13,0,34.0,0
+KE-FARM-0928,Meru,Beans,0.5,966.3,6,1,12,0,13.1,0
+KE-FARM-0929,Nakuru,Maize,3.0,596.6,10,0,13,1,12.7,0
+KE-FARM-0930,Nakuru,Sunflower,6.9,803.5,5,1,13,0,1.0,0
+KE-FARM-0931,Laikipia,Wheat,0.5,448.2,9,0,11,1,26.5,0
+KE-FARM-0932,Nakuru,Maize,6.3,667.3,3,1,6,3,6.3,0
+KE-FARM-0933,Nyandarua,Wheat,6.7,422.7,6,1,7,0,19.1,0
+KE-FARM-0934,Meru,Sorghum,2.6,660.2,8,0,1,3,1.0,0
+KE-FARM-0935,Meru,Sunflower,0.5,726.3,7,1,5,0,3.5,0
+KE-FARM-0936,Laikipia,Maize,0.8,690.7,6,1,4,0,55.3,0
+KE-FARM-0937,Nakuru,Maize,4.9,548.3,2,1,13,0,5.6,0
+KE-FARM-0938,Uasin Gishu,Maize,5.0,641.2,7,1,13,0,21.9,0
+KE-FARM-0939,Kitui,Maize,9.1,642.7,8,0,13,0,4.0,0
+KE-FARM-0940,Kitui,Maize,3.5,699.9,1,1,10,1,7.5,0
+KE-FARM-0941,Meru,Wheat,0.5,581.4,9,0,15,0,19.3,0
+KE-FARM-0942,Laikipia,Sunflower,0.5,739.7,4,0,15,0,9.3,0
+KE-FARM-0943,Laikipia,Sorghum,5.1,815.2,8,0,2,0,12.9,0
+KE-FARM-0944,Nyandarua,Sorghum,0.8,552.3,10,0,2,0,2.6,0
+KE-FARM-0945,Trans Nzoia,Sorghum,1.6,607.0,7,1,2,0,1.7,0
+KE-FARM-0946,Trans Nzoia,Sorghum,2.7,464.3,10,0,7,0,2.6,0
+KE-FARM-0947,Meru,Wheat,0.5,651.0,7,1,11,1,6.8,0
+KE-FARM-0948,Kitui,Beans,1.1,652.0,2,1,13,2,16.1,0
+KE-FARM-0949,Nyandarua,Sunflower,2.1,608.7,1,1,11,0,4.4,0
+KE-FARM-0950,Nyandarua,Maize,1.3,620.0,4,1,4,0,8.3,0
+KE-FARM-0951,Nyandarua,Beans,0.6,888.3,2,0,15,3,16.3,0
+KE-FARM-0952,Meru,Sorghum,5.2,167.0,8,1,6,3,2.7,0
+KE-FARM-0953,Trans Nzoia,Beans,6.7,525.5,10,1,7,0,21.5,0
+KE-FARM-0954,Kitui,Sunflower,1.2,548.4,7,0,9,0,30.6,0
+KE-FARM-0955,Nyandarua,Maize,6.0,818.5,8,1,11,1,1.0,0
+KE-FARM-0956,Kitui,Maize,1.9,671.3,6,1,2,2,1.0,0
+KE-FARM-0957,Nakuru,Sunflower,2.8,675.0,1,0,10,1,1.0,0
+KE-FARM-0958,Laikipia,Sunflower,7.8,789.0,9,0,12,2,15.0,1
+KE-FARM-0959,Laikipia,Sorghum,5.5,573.0,6,0,13,0,2.1,0
+KE-FARM-0960,Kitui,Maize,6.5,697.8,10,1,9,0,12.9,0
+KE-FARM-0961,Uasin Gishu,Beans,0.6,520.4,1,1,11,0,5.8,1
+KE-FARM-0962,Uasin Gishu,Wheat,0.5,442.0,1,1,5,1,18.1,1
+KE-FARM-0963,Meru,Wheat,9.0,869.1,8,1,13,0,16.5,0
+KE-FARM-0964,Meru,Sunflower,2.0,655.4,6,1,6,0,32.1,0
+KE-FARM-0965,Laikipia,Sorghum,1.4,696.7,8,1,6,1,2.9,0
+KE-FARM-0966,Nakuru,Wheat,5.2,438.0,8,1,11,0,2.6,0
+KE-FARM-0967,Trans Nzoia,Maize,7.2,676.6,8,1,3,1,1.0,0
+KE-FARM-0968,Trans Nzoia,Sunflower,7.9,866.7,10,1,11,0,5.3,0
+KE-FARM-0969,Meru,Beans,1.5,558.4,7,1,11,1,6.1,0
+KE-FARM-0970,Nakuru,Sunflower,7.6,411.6,7,1,10,2,33.4,0
+KE-FARM-0971,Meru,Beans,0.5,627.6,10,1,7,0,17.8,0
+KE-FARM-0972,Trans Nzoia,Sunflower,0.5,444.6,4,0,15,2,1.8,0
+KE-FARM-0973,Kitui,Sunflower,3.9,366.3,9,0,13,0,16.0,1
+KE-FARM-0974,Meru,Sunflower,0.5,489.8,2,1,7,1,2.0,0
+KE-FARM-0975,Nyandarua,Beans,1.6,526.1,9,0,8,2,1.0,0
+KE-FARM-0976,Kitui,Beans,4.5,451.9,10,1,5,0,18.1,0
+KE-FARM-0977,Meru,Sunflower,1.6,799.0,3,1,2,2,37.3,0
+KE-FARM-0978,Laikipia,Wheat,0.8,883.4,2,0,15,0,1.0,0
+KE-FARM-0979,Meru,Sorghum,1.3,692.7,4,0,13,0,16.8,0
+KE-FARM-0980,Laikipia,Sorghum,2.4,657.6,5,0,3,0,19.6,0
+KE-FARM-0981,Nakuru,Sorghum,2.6,578.7,2,0,9,2,1.3,0
+KE-FARM-0982,Trans Nzoia,Beans,6.1,465.6,1,1,15,0,3.3,0
+KE-FARM-0983,Kitui,Beans,5.5,840.4,10,1,6,1,13.2,0
+KE-FARM-0984,Kitui,Wheat,2.4,590.6,5,1,8,0,16.5,0
+KE-FARM-0985,Uasin Gishu,Sorghum,7.5,530.6,9,1,8,0,4.4,0
+KE-FARM-0986,Uasin Gishu,Sorghum,0.5,752.2,5,1,14,0,1.7,0
+KE-FARM-0987,Trans Nzoia,Sunflower,1.2,589.0,10,1,5,1,10.5,0
+KE-FARM-0988,Uasin Gishu,Beans,7.0,746.6,9,1,1,0,12.1,0
+KE-FARM-0989,Kitui,Sorghum,1.9,538.5,10,1,6,1,7.0,0
+KE-FARM-0990,Meru,Wheat,15.9,752.6,6,0,7,1,1.6,0
+KE-FARM-0991,Nakuru,Wheat,2.5,747.0,3,0,9,2,18.6,0
+KE-FARM-0992,Nakuru,Sorghum,6.3,798.7,4,0,2,2,10.4,0
+KE-FARM-0993,Trans Nzoia,Beans,2.1,493.6,4,0,12,0,20.3,0
+KE-FARM-0994,Uasin Gishu,Wheat,2.2,587.5,1,1,13,0,27.0,0
+KE-FARM-0995,Meru,Sunflower,1.9,892.2,3,0,2,0,16.4,0
+KE-FARM-0996,Nakuru,Wheat,5.1,563.0,3,1,10,0,31.9,0
+KE-FARM-0997,Nakuru,Maize,3.2,721.7,1,1,1,2,30.8,0
+KE-FARM-0998,Nyandarua,Maize,11.5,943.6,9,1,5,0,9.7,0
+KE-FARM-0999,Nyandarua,Beans,1.2,322.6,1,1,2,0,13.0,1
+KE-FARM-1000,Kitui,Sorghum,0.5,558.1,9,0,3,1,12.0,0
+KE-FARM-1001,Nakuru,Beans,2.0,600.3,1,1,2,2,9.7,0
+KE-FARM-1002,Trans Nzoia,Beans,3.8,330.2,2,0,11,1,1.0,1
+KE-FARM-1003,Laikipia,Beans,7.9,531.6,2,1,4,1,4.4,0
+KE-FARM-1004,Laikipia,Beans,1.7,454.3,6,1,11,0,1.1,0
+KE-FARM-1005,Meru,Sunflower,4.2,728.7,7,1,3,2,3.6,1
+KE-FARM-1006,Nakuru,Sunflower,1.7,340.1,1,1,9,0,1.0,0
+KE-FARM-1007,Nakuru,Wheat,3.8,883.4,3,1,10,0,25.3,0
+KE-FARM-1008,Kitui,Maize,8.6,703.5,2,0,12,1,6.0,0
+KE-FARM-1009,Nakuru,Beans,1.1,441.9,8,0,2,1,2.1,0
+KE-FARM-1010,Trans Nzoia,Wheat,2.1,754.0,9,1,7,0,8.8,0
+KE-FARM-1011,Nyandarua,Maize,20.0,689.5,2,1,15,1,2.2,0
+KE-FARM-1012,Nakuru,Sorghum,8.1,594.2,2,1,11,2,16.3,0
+KE-FARM-1013,Nakuru,Sunflower,3.3,491.8,10,0,14,1,3.7,0
+KE-FARM-1014,Kitui,Maize,2.9,682.1,9,1,3,0,3.8,0
+KE-FARM-1015,Uasin Gishu,Sorghum,1.3,618.4,4,1,10,0,20.4,0
+KE-FARM-1016,Kitui,Maize,2.9,496.6,5,1,8,1,8.2,0
+KE-FARM-1017,Kitui,Sunflower,7.5,398.5,9,1,4,0,21.8,0
+KE-FARM-1018,Trans Nzoia,Sunflower,4.6,472.4,6,1,14,0,5.3,0
+KE-FARM-1019,Meru,Wheat,1.4,524.5,10,0,4,0,4.2,0
+KE-FARM-1020,Nakuru,Beans,0.9,774.4,9,1,9,0,7.1,0
+KE-FARM-1021,Kitui,Maize,1.2,729.1,9,0,11,0,1.0,0
+KE-FARM-1022,Kitui,Maize,0.7,532.5,7,0,3,0,1.7,0
+KE-FARM-1023,Uasin Gishu,Sorghum,0.5,538.3,10,1,7,0,2.5,0
+KE-FARM-1024,Kitui,Sunflower,2.2,748.7,9,1,1,0,17.0,0
+KE-FARM-1025,Laikipia,Maize,0.5,640.1,5,1,7,2,13.2,0
+KE-FARM-1026,Meru,Sunflower,0.8,638.0,5,1,10,1,2.1,0
+KE-FARM-1027,Nakuru,Maize,3.2,494.5,8,1,11,0,3.2,0
+KE-FARM-1028,Nakuru,Wheat,0.7,581.5,10,0,2,4,28.9,0
+KE-FARM-1029,Uasin Gishu,Beans,0.5,600.6,4,1,12,2,1.0,0
+KE-FARM-1030,Trans Nzoia,Maize,1.5,586.3,9,0,14,1,7.9,0
+KE-FARM-1031,Nakuru,Sunflower,1.0,710.1,7,1,14,1,7.4,0
+KE-FARM-1032,Laikipia,Wheat,2.9,714.8,7,0,6,0,12.9,0
+KE-FARM-1033,Nakuru,Maize,0.5,462.2,3,1,15,1,3.0,0
+KE-FARM-1034,Laikipia,Sorghum,5.6,525.0,4,1,13,1,27.3,0
+KE-FARM-1035,Meru,Beans,9.5,496.9,7,0,9,0,5.3,0
+KE-FARM-1036,Meru,Maize,5.4,808.3,5,1,6,0,3.4,0
+KE-FARM-1037,Nyandarua,Wheat,3.0,938.0,3,0,3,2,4.1,0
+KE-FARM-1038,Nyandarua,Sorghum,7.9,530.5,1,0,1,1,4.3,0
+KE-FARM-1039,Laikipia,Wheat,4.7,574.9,7,0,12,0,2.2,0
+KE-FARM-1040,Trans Nzoia,Wheat,0.5,726.3,6,1,12,2,26.3,1
+KE-FARM-1041,Nakuru,Sorghum,2.0,493.9,10,1,15,0,1.9,0
+KE-FARM-1042,Kitui,Wheat,7.6,729.7,7,1,4,1,21.4,0
+KE-FARM-1043,Nakuru,Sorghum,1.7,596.9,2,1,4,1,5.2,0
+KE-FARM-1044,Nyandarua,Maize,0.5,338.4,4,1,13,1,3.1,0
+KE-FARM-1045,Kitui,Sorghum,5.5,404.9,2,1,8,0,2.2,0
+KE-FARM-1046,Laikipia,Sorghum,6.5,549.3,8,1,10,1,7.0,0
+KE-FARM-1047,Kitui,Beans,0.7,783.4,7,1,10,1,11.1,0
+KE-FARM-1048,Nakuru,Sorghum,3.1,466.1,1,1,14,0,22.8,0
+KE-FARM-1049,Nakuru,Sorghum,0.9,519.9,2,0,13,1,10.6,0
+KE-FARM-1050,Trans Nzoia,Maize,5.1,631.7,2,1,7,1,6.6,0
+KE-FARM-1051,Uasin Gishu,Beans,1.3,349.7,4,1,10,0,1.0,0
+KE-FARM-1052,Kitui,Sunflower,1.5,644.8,3,0,7,1,24.7,0
+KE-FARM-1053,Nyandarua,Maize,7.5,368.4,1,1,7,0,23.3,0
+KE-FARM-1054,Nyandarua,Maize,2.6,685.1,2,0,12,1,4.8,1
+KE-FARM-1055,Uasin Gishu,Sunflower,4.4,478.7,9,0,2,0,1.0,0
+KE-FARM-1056,Nakuru,Sorghum,2.1,458.7,1,0,9,0,13.2,1
+KE-FARM-1057,Trans Nzoia,Wheat,1.4,640.9,9,1,6,0,15.7,0
+KE-FARM-1058,Trans Nzoia,Beans,3.9,719.1,7,1,2,0,7.8,0
+KE-FARM-1059,Nyandarua,Wheat,0.7,656.4,2,1,1,1,5.2,0
+KE-FARM-1060,Trans Nzoia,Sunflower,1.9,631.1,2,0,11,0,19.0,0
+KE-FARM-1061,Meru,Maize,0.9,633.3,5,1,1,0,2.1,0
+KE-FARM-1062,Uasin Gishu,Maize,4.8,657.3,5,1,1,0,5.8,0
+KE-FARM-1063,Nakuru,Beans,11.5,667.2,4,0,4,1,1.0,0
+KE-FARM-1064,Meru,Maize,21.6,540.9,10,1,4,1,1.8,0
+KE-FARM-1065,Uasin Gishu,Maize,2.4,698.2,10,0,14,0,28.3,0
+KE-FARM-1066,Laikipia,Beans,1.2,480.3,3,0,12,0,8.6,0
+KE-FARM-1067,Kitui,Beans,2.3,763.7,4,1,9,1,16.4,0
+KE-FARM-1068,Nyandarua,Sunflower,7.5,717.4,10,1,13,1,6.7,0
+KE-FARM-1069,Trans Nzoia,Maize,0.9,927.1,4,0,12,0,18.0,0
+KE-FARM-1070,Laikipia,Maize,12.2,677.1,2,0,12,0,7.7,0
+KE-FARM-1071,Trans Nzoia,Sunflower,1.7,736.4,5,0,1,0,1.0,0
+KE-FARM-1072,Meru,Sorghum,17.0,365.9,5,0,3,0,23.0,0
+KE-FARM-1073,Nakuru,Sorghum,7.3,741.3,5,0,3,1,1.6,0
+KE-FARM-1074,Nakuru,Sorghum,6.6,776.5,10,1,8,0,6.0,0
+KE-FARM-1075,Nakuru,Sunflower,1.5,825.7,1,1,2,0,6.5,1
+KE-FARM-1076,Trans Nzoia,Maize,0.5,618.1,6,1,6,0,1.0,0
+KE-FARM-1077,Laikipia,Sunflower,1.9,548.7,2,1,11,1,1.0,0
+KE-FARM-1078,Nakuru,Sunflower,1.4,436.6,7,1,4,0,14.4,0
+KE-FARM-1079,Laikipia,Sorghum,0.5,450.3,4,0,13,1,3.6,0
+KE-FARM-1080,Trans Nzoia,Wheat,2.8,596.2,5,0,10,0,5.3,0
+KE-FARM-1081,Meru,Maize,2.1,337.3,5,1,6,1,8.3,0
+KE-FARM-1082,Laikipia,Sorghum,4.0,484.8,5,0,13,1,4.7,0
+KE-FARM-1083,Meru,Wheat,3.9,613.4,2,0,5,1,14.9,0
+KE-FARM-1084,Trans Nzoia,Wheat,0.5,610.1,5,0,12,2,21.6,0
+KE-FARM-1085,Trans Nzoia,Beans,15.1,454.6,3,1,9,1,1.0,1
+KE-FARM-1086,Nyandarua,Maize,0.8,414.9,4,1,9,1,10.1,0
+KE-FARM-1087,Trans Nzoia,Wheat,2.4,437.3,2,1,1,1,3.8,0
+KE-FARM-1088,Trans Nzoia,Sorghum,2.7,566.9,4,1,3,1,8.8,0
+KE-FARM-1089,Uasin Gishu,Beans,6.7,919.5,9,1,1,1,6.6,0
+KE-FARM-1090,Nakuru,Maize,0.5,759.1,8,1,6,0,4.1,0
+KE-FARM-1091,Nyandarua,Sunflower,2.2,632.1,3,0,12,1,1.0,0
+KE-FARM-1092,Kitui,Sorghum,4.0,683.1,1,0,3,2,8.2,0
+KE-FARM-1093,Nyandarua,Wheat,1.0,752.4,1,0,14,1,1.2,1
+KE-FARM-1094,Nyandarua,Wheat,3.9,701.3,6,0,1,0,1.7,0
+KE-FARM-1095,Kitui,Sorghum,10.3,553.8,3,0,6,0,40.3,0
+KE-FARM-1096,Uasin Gishu,Wheat,24.0,473.2,4,0,5,1,3.8,0
+KE-FARM-1097,Meru,Beans,0.5,581.2,1,0,12,0,8.8,1
+KE-FARM-1098,Trans Nzoia,Maize,1.1,750.6,8,1,12,1,3.2,0
+KE-FARM-1099,Nakuru,Beans,1.5,559.4,1,1,8,1,20.1,0
+KE-FARM-1100,Laikipia,Wheat,2.0,434.3,5,1,14,0,3.3,0
+KE-FARM-1101,Kitui,Sunflower,1.1,341.5,6,1,2,1,4.6,0
+KE-FARM-1102,Meru,Maize,0.9,581.8,2,1,8,1,9.4,0
+KE-FARM-1103,Kitui,Maize,12.4,446.2,7,0,12,0,20.4,1
+KE-FARM-1104,Trans Nzoia,Sorghum,10.0,534.5,7,0,5,1,16.9,0
+KE-FARM-1105,Uasin Gishu,Sorghum,0.5,818.4,1,0,8,1,3.1,0
+KE-FARM-1106,Kitui,Sunflower,1.7,591.9,4,1,12,0,17.7,0
+KE-FARM-1107,Trans Nzoia,Maize,2.1,487.4,4,1,10,1,12.1,0
+KE-FARM-1108,Trans Nzoia,Sunflower,1.1,646.3,5,0,4,1,45.9,0
+KE-FARM-1109,Uasin Gishu,Sorghum,4.0,888.1,1,0,15,1,27.4,0
+KE-FARM-1110,Nyandarua,Sorghum,4.1,581.9,1,1,4,2,7.6,0
+KE-FARM-1111,Nyandarua,Maize,7.6,246.7,7,0,10,1,13.9,0
+KE-FARM-1112,Nakuru,Beans,5.4,697.5,9,1,15,4,8.4,1
+KE-FARM-1113,Nakuru,Wheat,3.1,652.0,1,0,15,0,9.0,0
+KE-FARM-1114,Nyandarua,Sorghum,4.2,613.5,2,1,4,0,1.1,0
+KE-FARM-1115,Meru,Sorghum,1.3,567.1,6,0,14,0,1.0,0
+KE-FARM-1116,Laikipia,Beans,3.6,478.9,6,1,11,2,1.0,0
+KE-FARM-1117,Trans Nzoia,Beans,2.7,827.2,2,0,15,1,34.0,0
+KE-FARM-1118,Laikipia,Sunflower,0.6,324.3,9,1,6,0,1.3,0
+KE-FARM-1119,Trans Nzoia,Sunflower,1.1,553.7,4,1,4,0,1.0,0
+KE-FARM-1120,Nyandarua,Wheat,1.4,550.1,7,0,9,1,3.7,0
+KE-FARM-1121,Nakuru,Wheat,10.3,728.0,6,1,9,1,8.9,0
+KE-FARM-1122,Meru,Maize,1.0,785.3,3,1,3,1,29.7,0
+KE-FARM-1123,Nakuru,Sunflower,1.4,566.0,8,1,7,0,12.0,0
+KE-FARM-1124,Laikipia,Sorghum,1.8,628.9,7,1,12,0,3.2,0
+KE-FARM-1125,Nakuru,Sunflower,4.4,641.7,9,1,5,0,28.0,0
+KE-FARM-1126,Nyandarua,Sorghum,0.5,758.0,3,1,15,0,1.0,0
+KE-FARM-1127,Meru,Beans,12.3,754.9,1,0,12,0,38.7,0
+KE-FARM-1128,Laikipia,Sunflower,8.0,519.2,2,1,9,1,1.0,0
+KE-FARM-1129,Meru,Beans,3.4,665.7,1,1,2,1,14.0,0
+KE-FARM-1130,Trans Nzoia,Wheat,4.5,657.5,5,1,3,1,1.0,0
+KE-FARM-1131,Nakuru,Wheat,0.5,582.6,10,1,10,3,26.8,0
+KE-FARM-1132,Meru,Maize,1.7,656.1,2,1,5,0,1.2,0
+KE-FARM-1133,Uasin Gishu,Sunflower,6.4,603.0,3,1,12,0,1.0,0
+KE-FARM-1134,Nakuru,Beans,0.5,623.7,8,1,5,1,22.0,0
+KE-FARM-1135,Trans Nzoia,Sorghum,1.3,396.6,10,1,10,1,1.0,0
+KE-FARM-1136,Meru,Wheat,3.5,462.3,5,1,12,1,16.0,0
+KE-FARM-1137,Laikipia,Wheat,1.2,722.7,4,1,15,0,13.7,0
+KE-FARM-1138,Trans Nzoia,Sorghum,10.9,418.4,5,1,14,0,9.1,1
+KE-FARM-1139,Uasin Gishu,Beans,0.6,670.5,10,1,14,1,4.7,0
+KE-FARM-1140,Meru,Beans,6.4,587.8,6,1,7,2,24.7,0
+KE-FARM-1141,Kitui,Sunflower,2.8,754.6,7,0,13,0,20.5,0
+KE-FARM-1142,Kitui,Sunflower,5.6,697.3,9,0,14,2,5.6,1
+KE-FARM-1143,Nyandarua,Maize,1.5,532.0,1,1,8,1,2.6,0
+KE-FARM-1144,Nakuru,Wheat,2.9,566.5,4,1,8,0,3.2,0
+KE-FARM-1145,Laikipia,Sunflower,7.8,302.2,9,0,14,1,2.5,0
+KE-FARM-1146,Nyandarua,Beans,2.5,580.4,5,0,1,1,7.8,0
+KE-FARM-1147,Meru,Sorghum,1.8,409.5,8,1,14,3,20.3,1
+KE-FARM-1148,Kitui,Beans,3.1,567.2,1,1,1,0,14.9,0
+KE-FARM-1149,Kitui,Wheat,5.1,504.3,4,1,3,1,15.9,0
+KE-FARM-1150,Kitui,Beans,2.3,468.5,9,1,1,1,5.9,0
+KE-FARM-1151,Meru,Maize,11.2,778.2,1,1,1,0,3.9,0
+KE-FARM-1152,Kitui,Wheat,1.4,408.6,1,0,10,3,14.2,1
+KE-FARM-1153,Trans Nzoia,Sorghum,2.6,455.5,4,0,8,0,15.8,0
+KE-FARM-1154,Meru,Maize,5.7,495.3,3,1,1,0,11.9,1
+KE-FARM-1155,Laikipia,Wheat,4.7,527.8,7,0,9,0,1.0,0
+KE-FARM-1156,Nyandarua,Sorghum,8.0,468.5,3,1,2,0,8.9,0
+KE-FARM-1157,Laikipia,Maize,23.0,546.1,1,1,9,1,4.3,0
+KE-FARM-1158,Uasin Gishu,Maize,2.2,645.3,10,1,14,0,2.2,0
+KE-FARM-1159,Kitui,Wheat,0.5,700.5,2,1,7,0,11.9,0
+KE-FARM-1160,Uasin Gishu,Sunflower,0.5,693.2,10,0,9,0,3.1,0
+KE-FARM-1161,Nakuru,Maize,5.2,313.8,4,1,3,0,24.4,0
+KE-FARM-1162,Nakuru,Maize,8.3,657.0,1,0,1,1,3.5,0
+KE-FARM-1163,Uasin Gishu,Sorghum,1.0,666.3,1,0,1,0,8.1,0
+KE-FARM-1164,Meru,Beans,0.7,500.6,8,1,11,0,17.6,0
+KE-FARM-1165,Laikipia,Wheat,0.5,850.2,7,0,15,1,5.1,0
+KE-FARM-1166,Uasin Gishu,Wheat,6.9,763.1,8,1,10,0,17.6,0
+KE-FARM-1167,Nakuru,Sunflower,1.5,572.5,4,1,6,1,12.9,0
+KE-FARM-1168,Uasin Gishu,Sunflower,2.1,510.6,6,0,7,2,25.4,1
+KE-FARM-1169,Meru,Wheat,2.8,847.7,3,0,9,2,3.9,0
+KE-FARM-1170,Uasin Gishu,Sunflower,7.3,597.1,8,1,6,1,1.1,0
+KE-FARM-1171,Laikipia,Sorghum,4.2,612.8,4,1,5,0,5.6,0
+KE-FARM-1172,Nyandarua,Wheat,3.8,610.9,3,1,14,3,15.4,0
+KE-FARM-1173,Meru,Sunflower,0.8,945.5,4,1,2,1,6.0,0
+KE-FARM-1174,Nakuru,Wheat,2.9,567.5,6,1,2,0,3.0,0
+KE-FARM-1175,Laikipia,Beans,5.0,596.5,7,1,8,1,1.0,0
+KE-FARM-1176,Uasin Gishu,Maize,14.5,475.3,7,0,15,0,3.8,0
+KE-FARM-1177,Uasin Gishu,Wheat,0.9,541.6,4,1,1,0,12.5,0
+KE-FARM-1178,Nyandarua,Maize,0.5,445.3,8,1,8,0,1.6,1
+KE-FARM-1179,Nakuru,Sunflower,0.5,478.4,7,1,11,1,4.2,0
+KE-FARM-1180,Nakuru,Maize,1.9,328.5,2,1,10,1,1.0,0
+KE-FARM-1181,Trans Nzoia,Wheat,6.9,732.2,8,1,11,0,12.8,0
+KE-FARM-1182,Nakuru,Beans,0.5,623.5,9,0,7,1,21.3,0
+KE-FARM-1183,Nyandarua,Sunflower,2.4,635.9,5,1,7,2,8.4,0
+KE-FARM-1184,Kitui,Wheat,1.6,592.1,4,1,5,1,1.0,0
+KE-FARM-1185,Trans Nzoia,Sunflower,0.5,610.8,4,1,3,1,2.5,0
+KE-FARM-1186,Trans Nzoia,Sorghum,2.4,842.9,4,0,7,1,5.8,0
+KE-FARM-1187,Uasin Gishu,Maize,1.2,484.7,6,1,7,0,8.9,0
+KE-FARM-1188,Uasin Gishu,Sorghum,1.7,641.8,4,1,7,0,6.9,0
+KE-FARM-1189,Nakuru,Wheat,4.9,640.9,7,1,12,2,24.8,1
+KE-FARM-1190,Trans Nzoia,Beans,2.9,771.3,7,0,15,0,27.9,0
+KE-FARM-1191,Uasin Gishu,Sunflower,0.5,665.8,5,1,15,1,1.1,0
+KE-FARM-1192,Nyandarua,Maize,13.0,673.3,5,0,11,0,1.5,0
+KE-FARM-1193,Uasin Gishu,Sunflower,4.0,411.3,10,1,2,2,4.4,1
+KE-FARM-1194,Meru,Wheat,5.8,478.7,8,1,3,0,5.5,0
+KE-FARM-1195,Meru,Sunflower,0.5,425.0,7,0,3,2,8.8,0
+KE-FARM-1196,Uasin Gishu,Maize,0.5,228.6,7,1,4,0,14.8,0
+KE-FARM-1197,Trans Nzoia,Wheat,0.5,659.6,6,1,12,0,1.5,0
+KE-FARM-1198,Kitui,Sunflower,0.8,560.8,7,1,9,1,16.2,0
+KE-FARM-1199,Kitui,Beans,2.1,659.9,7,1,10,0,9.4,0
+KE-FARM-1200,Trans Nzoia,Wheat,11.0,605.3,10,1,15,2,39.6,0
+KE-FARM-1201,Laikipia,Wheat,2.4,636.1,2,1,1,1,10.5,0
+KE-FARM-1202,Kitui,Beans,1.4,800.7,10,0,15,0,12.6,0
+KE-FARM-1203,Meru,Sorghum,3.3,601.1,2,0,15,2,2.2,0
+KE-FARM-1204,Nyandarua,Maize,0.5,700.3,10,1,12,1,14.6,0
+KE-FARM-1205,Trans Nzoia,Sorghum,3.8,554.7,7,0,7,0,1.0,0
+KE-FARM-1206,Nakuru,Sunflower,3.4,723.7,10,1,7,0,10.7,0
+KE-FARM-1207,Meru,Beans,6.3,414.1,7,0,11,2,1.0,1
+KE-FARM-1208,Nyandarua,Sorghum,17.3,324.4,7,1,4,3,1.2,0
+KE-FARM-1209,Nyandarua,Wheat,1.2,916.0,5,1,13,0,1.1,0
+KE-FARM-1210,Trans Nzoia,Sunflower,2.9,875.4,1,1,11,1,1.0,0
+KE-FARM-1211,Nyandarua,Sunflower,9.6,308.2,2,1,1,1,3.9,0
+KE-FARM-1212,Trans Nzoia,Sorghum,6.2,594.6,9,1,3,1,51.8,0
+KE-FARM-1213,Kitui,Sorghum,2.7,622.5,8,1,5,1,4.3,0
+KE-FARM-1214,Uasin Gishu,Beans,11.6,708.4,8,0,12,0,14.3,0
+KE-FARM-1215,Meru,Maize,0.5,860.9,10,1,2,0,1.4,0
+KE-FARM-1216,Laikipia,Sorghum,10.7,440.8,1,1,7,2,6.1,0
+KE-FARM-1217,Uasin Gishu,Sorghum,0.5,448.8,6,1,14,0,2.0,1
+KE-FARM-1218,Meru,Wheat,3.2,599.8,9,1,10,0,2.1,0
+KE-FARM-1219,Trans Nzoia,Sunflower,8.8,455.5,8,0,10,4,1.1,0
+KE-FARM-1220,Meru,Maize,1.2,192.9,3,0,7,0,5.7,0
+KE-FARM-1221,Kitui,Wheat,2.6,565.9,4,1,12,1,1.0,0
+KE-FARM-1222,Trans Nzoia,Beans,1.6,728.6,3,1,10,0,24.1,0
+KE-FARM-1223,Uasin Gishu,Beans,12.2,596.9,6,1,5,0,5.9,0
+KE-FARM-1224,Nakuru,Sorghum,6.9,693.6,9,1,15,1,18.2,0
+KE-FARM-1225,Nakuru,Sorghum,4.9,672.2,8,0,12,0,38.9,0
+KE-FARM-1226,Meru,Beans,3.5,446.0,10,0,10,1,11.3,1
+KE-FARM-1227,Nakuru,Sorghum,6.9,610.2,4,1,15,2,23.2,0
+KE-FARM-1228,Trans Nzoia,Maize,2.0,371.2,2,0,6,1,1.5,0
+KE-FARM-1229,Nyandarua,Sorghum,2.4,523.2,8,0,1,0,17.7,0
+KE-FARM-1230,Trans Nzoia,Sunflower,5.2,607.6,8,1,4,0,3.2,0
+KE-FARM-1231,Nyandarua,Sorghum,1.8,599.8,6,1,4,1,6.4,0
+KE-FARM-1232,Uasin Gishu,Wheat,0.5,406.4,8,0,11,1,10.4,1
+KE-FARM-1233,Laikipia,Maize,0.5,436.7,9,1,8,0,23.4,1
+KE-FARM-1234,Nyandarua,Wheat,0.5,643.6,1,1,15,0,24.2,0
+KE-FARM-1235,Nakuru,Wheat,8.2,724.1,9,0,2,1,1.0,0
+KE-FARM-1236,Trans Nzoia,Sunflower,2.6,569.0,2,1,1,2,4.5,0
+KE-FARM-1237,Uasin Gishu,Maize,5.0,561.4,1,1,7,4,15.8,0
+KE-FARM-1238,Nakuru,Maize,2.0,739.7,8,1,6,2,12.1,0
+KE-FARM-1239,Uasin Gishu,Maize,1.2,484.2,8,1,5,1,1.0,0
+KE-FARM-1240,Laikipia,Maize,1.7,859.1,4,1,12,0,6.0,0
+KE-FARM-1241,Kitui,Maize,6.3,398.2,8,0,13,0,17.7,0
+KE-FARM-1242,Trans Nzoia,Sunflower,3.9,757.3,7,0,13,1,13.4,0
+KE-FARM-1243,Meru,Sorghum,11.1,680.9,2,0,13,1,5.3,0
+KE-FARM-1244,Trans Nzoia,Wheat,4.6,961.5,5,1,8,0,13.3,0
+KE-FARM-1245,Laikipia,Maize,3.4,431.8,10,0,11,1,8.0,0
+KE-FARM-1246,Trans Nzoia,Sorghum,3.8,249.9,4,1,15,1,24.4,1
+KE-FARM-1247,Meru,Sorghum,11.4,787.4,3,0,13,0,8.8,0
+KE-FARM-1248,Nyandarua,Wheat,6.2,379.3,1,1,2,1,5.1,0
+KE-FARM-1249,Uasin Gishu,Sunflower,0.5,692.4,5,0,2,0,19.9,0
+KE-FARM-1250,Meru,Beans,3.1,777.3,10,1,9,0,1.0,0
+KE-FARM-1251,Nakuru,Beans,4.7,657.0,8,0,1,1,23.1,0
+KE-FARM-1252,Laikipia,Sorghum,5.5,634.8,9,0,6,3,11.9,1
+KE-FARM-1253,Nyandarua,Wheat,1.0,660.1,7,1,13,1,28.2,0
+KE-FARM-1254,Nakuru,Beans,8.1,725.6,1,1,13,0,2.9,0
+KE-FARM-1255,Nakuru,Sorghum,12.5,688.1,1,0,3,0,11.9,0
+KE-FARM-1256,Laikipia,Sunflower,1.1,417.5,1,0,15,0,16.6,0
+KE-FARM-1257,Nyandarua,Beans,8.6,873.7,2,1,13,3,12.1,0
+KE-FARM-1258,Kitui,Sorghum,0.5,607.7,1,1,5,1,2.4,0
+KE-FARM-1259,Nakuru,Sorghum,0.5,677.8,4,1,8,1,3.2,0
+KE-FARM-1260,Nakuru,Maize,0.6,706.6,10,1,7,2,8.4,0
+KE-FARM-1261,Nyandarua,Sunflower,0.5,773.4,9,0,13,2,5.9,1
+KE-FARM-1262,Trans Nzoia,Maize,7.5,757.8,4,1,12,1,13.3,0
+KE-FARM-1263,Nakuru,Wheat,0.5,619.8,4,1,4,2,4.8,0
+KE-FARM-1264,Uasin Gishu,Maize,1.3,610.1,7,1,8,2,19.6,0
+KE-FARM-1265,Nyandarua,Maize,0.5,661.3,9,0,11,0,5.7,0
+KE-FARM-1266,Nakuru,Beans,1.4,765.0,7,1,11,2,1.0,0
+KE-FARM-1267,Laikipia,Sorghum,0.5,433.1,1,0,10,0,1.0,1
+KE-FARM-1268,Meru,Sunflower,4.4,696.6,1,1,11,0,10.4,0
+KE-FARM-1269,Uasin Gishu,Maize,0.6,467.1,4,1,14,2,7.8,0
+KE-FARM-1270,Meru,Sunflower,7.6,877.7,4,1,2,0,7.8,0
+KE-FARM-1271,Meru,Maize,6.8,655.1,1,1,7,1,15.6,0
+KE-FARM-1272,Nakuru,Wheat,0.5,537.6,6,1,5,1,4.7,0
+KE-FARM-1273,Uasin Gishu,Maize,9.0,664.3,10,1,11,1,53.9,0
+KE-FARM-1274,Uasin Gishu,Beans,0.5,601.4,2,1,6,4,29.1,0
+KE-FARM-1275,Trans Nzoia,Sorghum,1.1,576.0,5,0,3,0,1.0,0
+KE-FARM-1276,Meru,Wheat,0.5,328.6,8,0,11,1,22.6,0
+KE-FARM-1277,Uasin Gishu,Maize,1.6,446.4,3,1,10,3,11.4,0
+KE-FARM-1278,Trans Nzoia,Sunflower,2.9,578.9,9,0,7,4,7.0,1
+KE-FARM-1279,Nyandarua,Wheat,6.4,346.7,7,1,7,0,8.7,1
+KE-FARM-1280,Trans Nzoia,Wheat,1.6,511.9,9,1,2,1,18.4,0
+KE-FARM-1281,Laikipia,Maize,4.9,525.0,1,1,1,0,30.2,0
+KE-FARM-1282,Kitui,Wheat,0.8,483.1,5,1,10,2,8.2,0
+KE-FARM-1283,Nakuru,Sunflower,5.6,715.9,3,1,2,0,2.0,0
+KE-FARM-1284,Nyandarua,Wheat,1.1,468.0,4,1,12,2,10.2,0
+KE-FARM-1285,Kitui,Sunflower,0.6,613.3,4,1,8,1,1.0,0
+KE-FARM-1286,Kitui,Maize,0.8,547.0,7,0,11,3,10.1,0
+KE-FARM-1287,Nyandarua,Sorghum,0.8,582.2,10,1,10,0,16.5,0
+KE-FARM-1288,Laikipia,Wheat,2.9,841.0,8,0,3,1,4.4,0
+KE-FARM-1289,Trans Nzoia,Sorghum,7.5,627.0,10,1,11,1,1.0,0
+KE-FARM-1290,Nakuru,Sunflower,0.5,656.0,5,1,4,0,11.8,0
+KE-FARM-1291,Trans Nzoia,Wheat,4.9,485.2,10,1,8,1,4.1,0
+KE-FARM-1292,Uasin Gishu,Beans,4.2,693.9,7,1,3,2,2.9,0
+KE-FARM-1293,Trans Nzoia,Sorghum,8.2,687.6,3,1,6,1,11.7,0
+KE-FARM-1294,Nyandarua,Wheat,1.1,673.1,3,1,2,1,34.9,0
+KE-FARM-1295,Nakuru,Sorghum,2.4,418.6,3,0,3,0,13.7,1
+KE-FARM-1296,Trans Nzoia,Wheat,10.4,512.2,4,1,1,0,6.8,0
+KE-FARM-1297,Nakuru,Maize,4.3,815.0,6,1,9,2,9.2,0
+KE-FARM-1298,Nakuru,Sorghum,2.0,496.8,5,0,4,0,1.5,0
+KE-FARM-1299,Uasin Gishu,Beans,0.6,835.5,8,1,6,1,16.8,0
+KE-FARM-1300,Uasin Gishu,Beans,1.2,518.0,5,0,15,1,9.3,0
+KE-FARM-1301,Nyandarua,Sunflower,3.5,622.2,5,1,7,1,33.8,0
+KE-FARM-1302,Laikipia,Wheat,5.1,571.9,10,0,2,2,38.9,0
+KE-FARM-1303,Kitui,Sorghum,0.5,473.3,2,0,8,0,4.4,1
+KE-FARM-1304,Nakuru,Sunflower,3.7,475.4,5,1,12,1,44.7,0
+KE-FARM-1305,Laikipia,Sorghum,3.2,494.4,7,0,9,0,31.4,0
+KE-FARM-1306,Kitui,Wheat,2.9,622.2,2,0,14,2,10.2,0
+KE-FARM-1307,Kitui,Beans,4.7,733.6,6,1,10,3,4.1,0
+KE-FARM-1308,Nyandarua,Maize,7.3,612.5,7,1,11,2,14.0,0
+KE-FARM-1309,Kitui,Beans,1.6,595.0,5,1,2,1,3.2,0
+KE-FARM-1310,Kitui,Sunflower,8.8,781.6,9,1,5,2,9.9,0
+KE-FARM-1311,Nakuru,Maize,0.7,606.2,4,1,2,0,1.0,0
+KE-FARM-1312,Nakuru,Sunflower,0.8,518.6,10,1,11,0,9.9,0
+KE-FARM-1313,Meru,Wheat,1.2,450.3,1,0,5,0,30.3,1
+KE-FARM-1314,Laikipia,Maize,0.5,790.6,8,0,7,0,2.7,0
+KE-FARM-1315,Trans Nzoia,Sunflower,1.0,550.6,8,1,6,1,15.1,0
+KE-FARM-1316,Uasin Gishu,Wheat,0.5,513.2,7,1,4,0,3.5,0
+KE-FARM-1317,Trans Nzoia,Beans,6.9,500.2,8,0,14,1,12.3,0
+KE-FARM-1318,Laikipia,Wheat,0.6,782.1,2,1,2,0,12.0,1
+KE-FARM-1319,Uasin Gishu,Sorghum,5.5,514.1,3,1,7,0,2.0,0
+KE-FARM-1320,Trans Nzoia,Wheat,0.5,748.6,9,1,12,1,9.1,0
+KE-FARM-1321,Meru,Wheat,11.9,565.4,1,1,10,1,19.6,0
+KE-FARM-1322,Uasin Gishu,Sorghum,5.0,418.7,8,0,9,1,4.8,0
+KE-FARM-1323,Nakuru,Sunflower,0.5,550.1,8,1,1,1,12.4,0
+KE-FARM-1324,Trans Nzoia,Sunflower,5.8,595.1,7,0,3,0,11.2,0
+KE-FARM-1325,Uasin Gishu,Wheat,2.9,582.7,5,1,7,0,3.0,0
+KE-FARM-1326,Meru,Sorghum,6.0,579.0,4,1,15,2,25.1,0
+KE-FARM-1327,Kitui,Sorghum,3.0,551.7,10,1,14,0,8.3,0
+KE-FARM-1328,Uasin Gishu,Beans,4.1,482.2,10,0,9,2,4.4,1
+KE-FARM-1329,Uasin Gishu,Sunflower,6.2,601.6,10,1,13,1,1.8,0
+KE-FARM-1330,Meru,Maize,2.1,681.1,10,1,5,0,6.4,0
+KE-FARM-1331,Kitui,Sunflower,0.5,380.6,6,1,7,0,13.1,0
+KE-FARM-1332,Trans Nzoia,Sunflower,7.6,794.9,1,1,15,1,9.8,0
+KE-FARM-1333,Nyandarua,Beans,1.9,100.0,5,0,10,0,13.0,0
+KE-FARM-1334,Trans Nzoia,Maize,2.7,611.3,4,1,7,0,15.7,0
+KE-FARM-1335,Kitui,Beans,0.5,669.9,4,1,4,1,5.8,0
+KE-FARM-1336,Laikipia,Maize,2.7,509.5,7,1,5,0,7.3,0
+KE-FARM-1337,Meru,Wheat,17.2,281.1,9,0,2,1,43.0,1
+KE-FARM-1338,Trans Nzoia,Maize,1.3,585.5,8,0,8,0,34.4,0
+KE-FARM-1339,Uasin Gishu,Beans,2.0,625.5,8,1,12,2,5.4,0
+KE-FARM-1340,Meru,Sunflower,4.6,427.7,5,1,15,0,11.6,0
+KE-FARM-1341,Nakuru,Maize,6.7,475.5,6,0,15,1,3.1,0
+KE-FARM-1342,Kitui,Maize,2.2,744.4,2,0,1,0,1.7,1
+KE-FARM-1343,Trans Nzoia,Sorghum,1.5,617.7,3,1,2,1,14.6,1
+KE-FARM-1344,Meru,Sunflower,11.1,373.7,5,0,12,2,5.7,0
+KE-FARM-1345,Trans Nzoia,Wheat,4.5,667.5,2,1,3,2,1.9,0
+KE-FARM-1346,Meru,Beans,0.5,460.4,3,1,7,1,14.2,0
+KE-FARM-1347,Uasin Gishu,Wheat,0.5,483.8,4,1,6,0,24.7,0
+KE-FARM-1348,Nakuru,Sunflower,2.6,629.6,6,1,14,2,27.1,0
+KE-FARM-1349,Nakuru,Maize,1.0,615.7,5,1,7,0,9.1,0
+KE-FARM-1350,Laikipia,Maize,1.2,539.6,10,0,11,0,6.5,0
+KE-FARM-1351,Meru,Sunflower,8.4,524.4,4,1,5,1,1.5,0
+KE-FARM-1352,Trans Nzoia,Maize,0.5,562.4,2,0,14,1,15.7,0
+KE-FARM-1353,Nakuru,Maize,5.0,482.9,5,1,4,1,29.1,0
+KE-FARM-1354,Kitui,Maize,1.3,763.4,5,1,15,0,22.0,0
+KE-FARM-1355,Nakuru,Beans,5.7,364.6,7,1,15,3,13.9,0
+KE-FARM-1356,Nyandarua,Beans,5.1,563.9,1,1,7,0,1.0,0
+KE-FARM-1357,Nyandarua,Sorghum,0.5,381.1,4,1,3,0,5.2,1
+KE-FARM-1358,Nakuru,Wheat,2.8,740.4,5,1,13,3,5.3,0
+KE-FARM-1359,Meru,Sunflower,0.6,563.7,8,1,10,0,22.5,0
+KE-FARM-1360,Laikipia,Sunflower,8.0,441.5,8,1,7,0,1.0,0
+KE-FARM-1361,Nakuru,Sunflower,8.2,702.8,1,1,2,2,7.6,1
+KE-FARM-1362,Uasin Gishu,Sorghum,2.2,256.2,5,1,12,0,1.5,0
+KE-FARM-1363,Trans Nzoia,Beans,2.4,642.1,10,0,12,0,10.9,0
+KE-FARM-1364,Laikipia,Sorghum,1.4,772.7,1,0,8,0,15.7,1
+KE-FARM-1365,Uasin Gishu,Sunflower,5.0,626.9,1,0,12,2,10.3,0
+KE-FARM-1366,Laikipia,Wheat,1.8,524.0,2,0,6,2,15.8,0
+KE-FARM-1367,Uasin Gishu,Maize,1.2,413.7,2,1,12,1,9.4,0
+KE-FARM-1368,Trans Nzoia,Beans,2.3,762.4,9,1,15,2,2.1,0
+KE-FARM-1369,Trans Nzoia,Beans,0.5,739.1,4,1,3,1,4.8,0
+KE-FARM-1370,Nyandarua,Sorghum,5.5,503.2,3,1,3,0,31.4,0
+KE-FARM-1371,Meru,Beans,0.5,507.2,1,1,5,0,3.4,0
+KE-FARM-1372,Uasin Gishu,Sunflower,4.1,778.0,2,1,3,2,1.0,0
+KE-FARM-1373,Nyandarua,Sunflower,0.8,679.7,6,1,6,0,4.9,0
+KE-FARM-1374,Uasin Gishu,Sorghum,1.1,332.0,9,1,2,1,4.6,1
+KE-FARM-1375,Nyandarua,Sunflower,4.0,570.6,5,1,8,1,6.4,0
+KE-FARM-1376,Trans Nzoia,Wheat,19.8,565.1,4,1,13,1,8.2,0
+KE-FARM-1377,Laikipia,Sorghum,6.0,637.1,5,1,11,1,48.8,0
+KE-FARM-1378,Kitui,Wheat,1.0,600.9,9,1,12,0,14.1,0
+KE-FARM-1379,Nyandarua,Maize,0.8,523.1,7,0,11,0,1.0,0
+KE-FARM-1380,Uasin Gishu,Wheat,8.0,626.8,8,1,9,0,12.5,0
+KE-FARM-1381,Uasin Gishu,Maize,2.3,532.8,4,1,13,2,17.4,0
+KE-FARM-1382,Kitui,Maize,0.6,1112.1,8,1,15,1,22.6,0
+KE-FARM-1383,Meru,Wheat,7.9,618.4,6,1,7,0,5.5,0
+KE-FARM-1384,Trans Nzoia,Sorghum,6.8,597.8,5,0,14,1,3.8,0
+KE-FARM-1385,Uasin Gishu,Sunflower,16.5,876.4,7,1,3,1,18.3,0
+KE-FARM-1386,Nakuru,Sunflower,9.6,395.3,6,1,11,2,15.0,1
+KE-FARM-1387,Laikipia,Maize,7.6,583.5,3,1,14,1,7.7,0
+KE-FARM-1388,Nyandarua,Maize,0.5,457.6,5,1,10,1,1.3,0
+KE-FARM-1389,Meru,Sorghum,0.5,695.3,9,0,4,0,10.5,0
+KE-FARM-1390,Kitui,Beans,3.4,525.8,7,0,12,0,1.0,0
+KE-FARM-1391,Laikipia,Wheat,3.0,687.0,4,1,10,2,1.1,0
+KE-FARM-1392,Trans Nzoia,Maize,2.4,676.2,7,0,2,1,4.0,0
+KE-FARM-1393,Meru,Sunflower,2.0,717.1,5,1,9,0,4.6,0
+KE-FARM-1394,Nyandarua,Sorghum,2.3,678.7,2,1,14,1,6.2,0
+KE-FARM-1395,Nyandarua,Wheat,3.4,566.4,6,0,5,1,4.1,0
+KE-FARM-1396,Kitui,Sorghum,0.5,390.4,7,1,12,0,1.0,1
+KE-FARM-1397,Nakuru,Wheat,1.2,751.4,8,1,2,1,1.7,0
+KE-FARM-1398,Kitui,Wheat,2.9,811.4,6,0,10,1,1.2,0
+KE-FARM-1399,Trans Nzoia,Maize,5.1,459.3,8,0,6,2,5.6,1
+KE-FARM-1400,Meru,Sorghum,0.8,710.4,7,1,7,0,2.4,0
+KE-FARM-1401,Meru,Sorghum,3.2,424.4,2,1,13,0,3.5,0
+KE-FARM-1402,Uasin Gishu,Sunflower,5.0,630.5,6,1,2,0,6.4,0
+KE-FARM-1403,Nakuru,Sunflower,2.4,661.4,9,1,15,1,2.7,0
+KE-FARM-1404,Nakuru,Maize,0.5,536.1,6,1,1,0,2.8,0
+KE-FARM-1405,Meru,Maize,2.4,614.3,4,1,13,0,17.9,0
+KE-FARM-1406,Meru,Beans,1.4,727.2,7,1,7,1,7.9,0
+KE-FARM-1407,Laikipia,Sunflower,10.6,583.6,3,1,1,1,19.4,0
+KE-FARM-1408,Laikipia,Wheat,0.5,498.7,5,0,3,1,7.2,0
+KE-FARM-1409,Laikipia,Sorghum,4.2,416.4,1,1,4,1,24.0,1
+KE-FARM-1410,Nakuru,Maize,0.5,541.4,10,1,2,0,2.9,0
+KE-FARM-1411,Uasin Gishu,Sorghum,2.4,423.8,3,1,7,0,9.6,0
+KE-FARM-1412,Nyandarua,Sorghum,3.2,543.4,8,1,5,0,7.0,0
+KE-FARM-1413,Laikipia,Beans,1.4,530.2,9,0,1,0,25.1,0
+KE-FARM-1414,Uasin Gishu,Sunflower,2.4,720.6,9,1,12,2,5.4,0
+KE-FARM-1415,Kitui,Maize,0.7,611.0,10,1,12,1,19.3,0
+KE-FARM-1416,Trans Nzoia,Sorghum,1.5,982.1,2,1,8,0,8.3,1
+KE-FARM-1417,Laikipia,Maize,3.9,298.0,4,1,10,0,12.3,0
+KE-FARM-1418,Kitui,Wheat,1.4,647.0,5,1,7,0,21.8,0
+KE-FARM-1419,Nyandarua,Beans,9.2,532.3,3,1,4,2,57.8,0
+KE-FARM-1420,Trans Nzoia,Wheat,4.0,456.6,1,1,2,0,13.1,0
+KE-FARM-1421,Trans Nzoia,Maize,2.3,595.5,6,0,15,1,3.8,0
+KE-FARM-1422,Nyandarua,Maize,0.5,584.3,10,1,7,1,3.6,0
+KE-FARM-1423,Laikipia,Sunflower,2.8,761.7,2,1,11,2,3.7,0
+KE-FARM-1424,Nakuru,Sorghum,5.8,613.7,9,1,2,1,1.0,0
+KE-FARM-1425,Nyandarua,Sorghum,1.2,496.1,1,0,6,0,1.0,0
+KE-FARM-1426,Nyandarua,Wheat,6.6,650.1,9,1,1,1,8.7,0
+KE-FARM-1427,Nyandarua,Beans,1.2,565.6,7,0,14,1,16.6,0
+KE-FARM-1428,Trans Nzoia,Sorghum,6.9,431.2,10,1,7,1,1.0,0
+KE-FARM-1429,Uasin Gishu,Sunflower,0.5,562.7,2,0,7,1,8.4,0
+KE-FARM-1430,Kitui,Wheat,8.0,634.6,6,1,12,0,4.6,0
+KE-FARM-1431,Nakuru,Wheat,2.8,610.8,8,1,4,1,22.3,0
+KE-FARM-1432,Laikipia,Sunflower,1.4,649.5,2,1,4,0,1.6,0
+KE-FARM-1433,Laikipia,Beans,1.2,521.0,5,1,15,0,8.3,0
+KE-FARM-1434,Kitui,Sunflower,2.3,647.6,6,1,10,1,35.4,0
+KE-FARM-1435,Uasin Gishu,Beans,27.8,618.0,3,0,5,1,4.2,0
+KE-FARM-1436,Nyandarua,Sunflower,1.0,619.2,2,1,2,0,13.5,0
+KE-FARM-1437,Nakuru,Sunflower,0.5,604.9,6,0,9,2,21.4,0
+KE-FARM-1438,Laikipia,Maize,3.5,926.4,3,0,10,1,2.1,1
+KE-FARM-1439,Kitui,Wheat,2.7,766.5,2,0,4,1,49.0,0
+KE-FARM-1440,Meru,Sunflower,3.0,644.3,1,1,11,0,16.6,0
+KE-FARM-1441,Kitui,Sunflower,4.4,480.0,8,1,9,1,1.5,0
+KE-FARM-1442,Laikipia,Sorghum,1.2,556.2,1,1,14,0,3.7,0
+KE-FARM-1443,Nyandarua,Wheat,9.7,842.4,5,1,3,0,9.8,0
+KE-FARM-1444,Meru,Sorghum,2.3,515.6,6,0,9,1,21.6,0
+KE-FARM-1445,Uasin Gishu,Wheat,0.6,575.1,3,1,1,0,2.2,0
+KE-FARM-1446,Nakuru,Sorghum,5.4,566.8,7,0,7,0,13.1,0
+KE-FARM-1447,Uasin Gishu,Sunflower,4.1,655.2,2,1,4,2,3.2,0
+KE-FARM-1448,Uasin Gishu,Sunflower,1.5,534.5,7,0,7,0,16.4,0
+KE-FARM-1449,Kitui,Maize,3.9,626.5,2,0,14,0,11.5,1
+KE-FARM-1450,Nakuru,Sorghum,1.0,537.9,5,1,10,2,7.4,1
+KE-FARM-1451,Nakuru,Beans,2.4,797.2,7,1,15,1,10.5,0
+KE-FARM-1452,Laikipia,Maize,9.2,497.1,3,1,6,0,20.9,0
+KE-FARM-1453,Laikipia,Sorghum,0.6,746.6,4,1,4,3,4.9,0
+KE-FARM-1454,Nakuru,Sorghum,2.0,512.2,1,0,4,0,14.7,0
+KE-FARM-1455,Meru,Maize,6.9,471.9,3,1,8,2,1.7,0
+KE-FARM-1456,Trans Nzoia,Sunflower,14.0,494.9,9,1,7,1,12.1,0
+KE-FARM-1457,Laikipia,Sorghum,2.4,343.3,10,0,4,2,13.9,1
+KE-FARM-1458,Trans Nzoia,Sunflower,2.8,665.8,5,0,11,0,5.9,0
+KE-FARM-1459,Kitui,Maize,3.4,425.4,8,0,6,1,15.8,0
+KE-FARM-1460,Meru,Sunflower,10.8,546.3,2,1,6,0,8.1,1
+KE-FARM-1461,Nakuru,Wheat,7.8,714.2,3,0,1,2,27.5,0
+KE-FARM-1462,Meru,Beans,0.7,709.4,7,1,13,2,1.2,0
+KE-FARM-1463,Laikipia,Sorghum,2.3,385.3,10,1,2,1,1.4,0
+KE-FARM-1464,Uasin Gishu,Beans,2.5,646.6,4,0,4,1,18.5,0
+KE-FARM-1465,Kitui,Sunflower,6.2,771.1,9,1,6,1,18.5,0
+KE-FARM-1466,Nakuru,Sorghum,3.7,504.5,7,1,6,0,6.4,0
+KE-FARM-1467,Nyandarua,Sunflower,4.2,677.0,1,1,1,0,33.2,0
+KE-FARM-1468,Kitui,Wheat,25.3,428.5,4,1,8,0,11.4,0
+KE-FARM-1469,Trans Nzoia,Maize,0.5,657.8,10,1,2,0,40.7,0
+KE-FARM-1470,Meru,Sorghum,1.0,619.7,6,1,13,0,7.6,0
+KE-FARM-1471,Nakuru,Wheat,2.1,699.2,6,0,5,5,2.3,0
+KE-FARM-1472,Kitui,Wheat,1.7,689.9,10,0,4,2,5.9,0
+KE-FARM-1473,Meru,Sorghum,0.5,397.0,6,1,5,1,39.4,0
+KE-FARM-1474,Nakuru,Sunflower,0.5,620.5,5,0,5,3,4.6,0
+KE-FARM-1475,Laikipia,Wheat,4.6,817.9,3,1,15,0,31.5,0
+KE-FARM-1476,Kitui,Beans,8.5,272.2,2,0,10,1,15.9,1
+KE-FARM-1477,Laikipia,Wheat,2.9,745.0,3,1,8,0,5.8,0
+KE-FARM-1478,Kitui,Sunflower,3.1,840.3,9,0,10,2,7.8,0
+KE-FARM-1479,Laikipia,Sunflower,1.2,377.3,3,1,7,0,9.4,1
+KE-FARM-1480,Meru,Beans,5.8,499.4,3,1,12,1,11.0,0
+KE-FARM-1481,Nyandarua,Wheat,5.6,677.7,1,0,14,0,1.0,0
+KE-FARM-1482,Kitui,Sunflower,3.6,467.1,2,0,9,3,27.1,0
+KE-FARM-1483,Kitui,Sorghum,1.0,804.7,3,1,12,2,9.1,0
+KE-FARM-1484,Laikipia,Maize,0.5,758.8,2,0,11,0,26.8,0
+KE-FARM-1485,Nakuru,Maize,0.5,392.3,8,1,13,2,10.0,1
+KE-FARM-1486,Kitui,Maize,3.6,488.5,6,0,15,0,5.6,0
+KE-FARM-1487,Laikipia,Wheat,7.0,715.5,7,1,1,2,8.4,0
+KE-FARM-1488,Uasin Gishu,Beans,7.8,709.6,1,1,6,0,17.7,1
+KE-FARM-1489,Laikipia,Sunflower,2.5,932.8,6,1,6,0,3.9,0
+KE-FARM-1490,Meru,Sorghum,6.1,468.0,2,1,2,0,31.3,1
+KE-FARM-1491,Nyandarua,Sorghum,11.7,818.9,6,1,11,0,6.3,0
+KE-FARM-1492,Uasin Gishu,Wheat,1.3,462.9,3,1,8,1,31.3,0
+KE-FARM-1493,Meru,Maize,2.0,675.0,7,1,6,0,21.3,0
+KE-FARM-1494,Meru,Wheat,10.7,733.9,3,0,11,0,14.6,0
+KE-FARM-1495,Meru,Beans,1.7,150.9,9,0,13,1,6.3,1
+KE-FARM-1496,Nakuru,Beans,9.8,736.7,3,1,10,2,8.8,0
+KE-FARM-1497,Meru,Sunflower,15.9,807.7,7,1,9,1,18.2,0
+KE-FARM-1498,Nakuru,Sunflower,4.3,764.4,4,0,10,0,7.9,0
+KE-FARM-1499,Meru,Beans,6.8,908.0,8,0,5,2,13.4,1
+KE-FARM-1500,Trans Nzoia,Beans,5.5,744.8,2,1,7,0,15.6,0
+KE-FARM-1501,Uasin Gishu,Beans,4.8,519.4,8,1,6,2,7.2,0
+KE-FARM-1502,Trans Nzoia,Wheat,1.5,785.9,9,1,11,2,7.7,1
+KE-FARM-1503,Meru,Beans,0.5,510.9,8,1,15,0,2.2,0
+KE-FARM-1504,Uasin Gishu,Sorghum,1.7,612.4,6,1,5,0,2.8,0
+KE-FARM-1505,Uasin Gishu,Maize,4.4,724.8,10,1,6,1,23.5,0
+KE-FARM-1506,Kitui,Beans,0.5,667.2,1,1,4,2,18.3,0
+KE-FARM-1507,Nyandarua,Maize,0.5,802.7,7,0,3,0,1.0,0
+KE-FARM-1508,Trans Nzoia,Wheat,0.6,973.3,1,1,13,1,20.4,0
+KE-FARM-1509,Nyandarua,Maize,5.0,429.4,7,1,1,1,1.0,0
+KE-FARM-1510,Uasin Gishu,Wheat,14.4,550.7,2,1,1,0,6.1,0
+KE-FARM-1511,Nakuru,Sorghum,16.3,647.5,8,0,6,1,1.0,0
+KE-FARM-1512,Uasin Gishu,Wheat,2.7,530.5,2,1,14,1,34.7,1
+KE-FARM-1513,Nyandarua,Wheat,8.1,588.6,3,0,9,1,35.9,0
+KE-FARM-1514,Trans Nzoia,Sunflower,5.3,716.4,3,0,8,1,9.4,0
+KE-FARM-1515,Meru,Beans,2.8,696.4,1,1,12,0,5.0,0
+KE-FARM-1516,Kitui,Beans,3.4,637.1,5,1,2,1,7.2,0
+KE-FARM-1517,Kitui,Sorghum,0.6,622.2,5,1,9,2,14.4,0
+KE-FARM-1518,Kitui,Sorghum,11.1,566.4,10,1,8,1,2.5,0
+KE-FARM-1519,Meru,Beans,1.7,810.7,5,1,14,1,5.8,0
+KE-FARM-1520,Kitui,Sunflower,2.4,849.5,9,1,14,0,13.4,0
+KE-FARM-1521,Trans Nzoia,Beans,4.5,752.8,6,1,12,1,5.0,0
+KE-FARM-1522,Meru,Sunflower,1.6,427.6,6,0,9,1,1.0,0
+KE-FARM-1523,Kitui,Sorghum,1.2,560.7,3,1,4,0,7.1,0
+KE-FARM-1524,Meru,Maize,4.0,629.9,5,1,9,1,13.4,0
+KE-FARM-1525,Nyandarua,Sorghum,0.5,458.9,10,0,2,1,37.6,0
+KE-FARM-1526,Trans Nzoia,Sorghum,5.1,611.9,7,1,13,2,1.0,0
+KE-FARM-1527,Laikipia,Wheat,2.9,603.3,3,1,1,0,7.8,0
+KE-FARM-1528,Nakuru,Wheat,3.7,762.6,2,1,13,1,6.0,0
+KE-FARM-1529,Kitui,Wheat,4.0,525.3,5,1,9,2,2.8,0
+KE-FARM-1530,Nakuru,Wheat,3.0,774.5,3,1,10,0,10.2,0
+KE-FARM-1531,Meru,Sunflower,3.5,456.4,5,0,8,0,1.8,0
+KE-FARM-1532,Nakuru,Beans,4.6,477.3,9,0,7,0,3.3,0
+KE-FARM-1533,Trans Nzoia,Maize,5.6,543.1,10,1,14,0,15.2,0
+KE-FARM-1534,Trans Nzoia,Sorghum,5.2,607.2,1,1,13,0,6.2,0
+KE-FARM-1535,Uasin Gishu,Sunflower,8.1,237.5,4,1,8,1,50.6,0
+KE-FARM-1536,Kitui,Maize,0.8,668.9,10,1,12,3,4.9,0
+KE-FARM-1537,Uasin Gishu,Sunflower,2.1,856.4,5,1,1,1,6.2,0
+KE-FARM-1538,Nakuru,Sunflower,11.8,697.7,2,1,14,0,3.6,0
+KE-FARM-1539,Laikipia,Sorghum,2.0,568.4,2,0,9,2,2.7,0
+KE-FARM-1540,Uasin Gishu,Beans,0.5,437.3,1,0,12,0,25.5,1
+KE-FARM-1541,Uasin Gishu,Wheat,3.0,328.0,8,1,10,0,13.8,0
+KE-FARM-1542,Trans Nzoia,Beans,0.5,353.5,2,1,11,2,4.1,0
+KE-FARM-1543,Laikipia,Sorghum,0.9,580.4,3,1,9,0,12.0,0
+KE-FARM-1544,Meru,Sorghum,25.6,916.0,2,1,15,1,33.8,0
+KE-FARM-1545,Nakuru,Sorghum,3.1,192.4,4,1,12,1,1.0,0
+KE-FARM-1546,Uasin Gishu,Maize,1.3,705.0,1,1,11,0,3.1,0
+KE-FARM-1547,Laikipia,Beans,21.0,498.3,3,1,9,1,2.2,0
+KE-FARM-1548,Kitui,Beans,13.6,549.7,5,1,13,0,20.4,0
+KE-FARM-1549,Laikipia,Sunflower,2.3,459.3,10,1,14,0,2.0,0
+KE-FARM-1550,Nakuru,Sunflower,1.2,394.9,1,1,6,0,3.7,0
+KE-FARM-1551,Laikipia,Sunflower,7.3,618.8,4,0,4,2,7.8,0
+KE-FARM-1552,Laikipia,Sorghum,5.0,639.4,6,1,13,0,9.7,0
+KE-FARM-1553,Laikipia,Beans,4.6,700.3,4,1,2,1,16.5,0
+KE-FARM-1554,Kitui,Sorghum,8.9,347.2,7,1,11,0,5.2,0
+KE-FARM-1555,Uasin Gishu,Maize,4.7,731.1,7,1,4,1,7.6,0
+KE-FARM-1556,Nakuru,Sunflower,1.3,733.8,6,1,7,0,33.7,0
+KE-FARM-1557,Kitui,Sorghum,4.7,663.7,9,0,1,0,3.5,0
+KE-FARM-1558,Laikipia,Sorghum,1.5,536.9,2,1,14,1,2.9,0
+KE-FARM-1559,Laikipia,Maize,5.7,646.3,10,0,9,0,12.4,0
+KE-FARM-1560,Uasin Gishu,Wheat,3.9,575.9,8,0,3,3,14.7,0
+KE-FARM-1561,Nakuru,Beans,0.5,745.3,8,1,13,0,5.4,0
+KE-FARM-1562,Trans Nzoia,Wheat,2.9,545.0,10,1,13,0,2.4,0
+KE-FARM-1563,Kitui,Sunflower,1.7,616.2,4,1,4,3,15.1,1
+KE-FARM-1564,Uasin Gishu,Sorghum,1.6,339.3,6,1,12,0,11.1,1
+KE-FARM-1565,Nakuru,Maize,3.7,645.8,6,1,5,0,20.9,0
+KE-FARM-1566,Kitui,Maize,1.6,487.6,5,0,12,0,18.6,0
+KE-FARM-1567,Laikipia,Beans,6.0,676.9,1,0,13,2,2.3,1
+KE-FARM-1568,Nakuru,Wheat,0.5,718.3,3,1,3,1,17.9,0
+KE-FARM-1569,Nakuru,Beans,4.3,508.5,7,0,4,0,1.9,0
+KE-FARM-1570,Meru,Sorghum,6.6,604.7,8,1,5,2,19.9,0
+KE-FARM-1571,Nakuru,Beans,4.5,626.2,2,1,12,1,14.7,0
+KE-FARM-1572,Trans Nzoia,Maize,2.8,655.2,3,1,1,0,8.4,0
+KE-FARM-1573,Nakuru,Maize,12.0,718.5,4,0,14,0,10.3,0
+KE-FARM-1574,Trans Nzoia,Sunflower,1.4,698.9,5,1,9,0,1.1,0
+KE-FARM-1575,Laikipia,Sunflower,0.5,543.0,3,1,10,0,1.0,0
+KE-FARM-1576,Trans Nzoia,Sorghum,2.3,839.7,5,0,13,0,4.0,0
+KE-FARM-1577,Kitui,Wheat,0.5,712.8,8,1,10,1,17.2,0
+KE-FARM-1578,Laikipia,Beans,12.3,810.8,8,1,13,2,6.3,0
+KE-FARM-1579,Laikipia,Sorghum,0.9,652.0,2,1,14,2,2.5,0
+KE-FARM-1580,Trans Nzoia,Sunflower,6.2,660.9,6,1,4,0,18.0,0
+KE-FARM-1581,Uasin Gishu,Beans,6.0,582.4,4,0,13,0,2.6,1
+KE-FARM-1582,Nyandarua,Sunflower,1.0,533.4,9,1,9,3,16.9,0
+KE-FARM-1583,Nakuru,Beans,3.9,746.3,10,0,4,1,6.0,0
+KE-FARM-1584,Meru,Wheat,0.5,639.7,2,0,14,2,6.2,0
+KE-FARM-1585,Nyandarua,Sorghum,2.6,580.3,8,0,1,0,3.2,0
+KE-FARM-1586,Nakuru,Beans,0.5,446.6,1,0,12,0,23.0,0
+KE-FARM-1587,Nakuru,Maize,10.2,833.3,6,1,5,1,1.0,0
+KE-FARM-1588,Laikipia,Maize,14.9,616.9,10,0,13,1,1.6,0
+KE-FARM-1589,Nakuru,Beans,1.0,416.0,1,1,9,0,10.1,0
+KE-FARM-1590,Meru,Beans,0.9,612.2,2,1,3,1,19.0,0
+KE-FARM-1591,Nakuru,Beans,5.6,569.9,3,1,5,0,1.0,0
+KE-FARM-1592,Trans Nzoia,Maize,1.2,563.7,9,1,3,0,13.2,0
+KE-FARM-1593,Nyandarua,Maize,9.0,686.4,5,1,12,1,13.6,0
+KE-FARM-1594,Trans Nzoia,Beans,3.4,570.1,10,1,3,2,8.7,1
+KE-FARM-1595,Meru,Sunflower,1.7,554.2,10,1,1,0,6.7,0
+KE-FARM-1596,Nakuru,Sunflower,7.2,804.4,2,1,2,1,3.9,1
+KE-FARM-1597,Kitui,Wheat,2.7,339.1,10,1,2,0,4.3,1
+KE-FARM-1598,Meru,Sorghum,9.7,592.3,5,1,9,2,11.2,0
+KE-FARM-1599,Laikipia,Sunflower,10.5,739.3,5,1,7,1,1.0,0
+KE-FARM-1600,Trans Nzoia,Maize,0.7,694.0,1,1,8,1,8.8,0
+KE-FARM-1601,Trans Nzoia,Sunflower,0.5,753.0,3,0,2,1,3.3,0
+KE-FARM-1602,Uasin Gishu,Wheat,16.5,903.2,5,0,9,0,6.3,0
+KE-FARM-1603,Nakuru,Wheat,9.5,854.8,9,0,13,1,8.2,0
+KE-FARM-1604,Laikipia,Sorghum,0.5,426.7,10,1,3,0,21.7,0
+KE-FARM-1605,Kitui,Sunflower,7.2,358.4,1,0,10,1,8.7,1
+KE-FARM-1606,Trans Nzoia,Maize,2.4,649.0,8,1,13,1,2.6,0
+KE-FARM-1607,Trans Nzoia,Maize,1.2,396.9,1,1,2,1,1.0,0
+KE-FARM-1608,Laikipia,Beans,8.4,311.0,9,1,12,0,9.9,0
+KE-FARM-1609,Meru,Maize,0.9,647.4,6,1,1,0,7.9,0
+KE-FARM-1610,Meru,Sorghum,11.8,685.1,1,1,9,2,11.1,0
+KE-FARM-1611,Nakuru,Sorghum,0.9,856.7,8,1,8,2,6.2,0
+KE-FARM-1612,Uasin Gishu,Maize,3.8,715.3,5,1,13,1,17.4,0
+KE-FARM-1613,Trans Nzoia,Maize,1.0,887.9,7,1,15,2,25.3,0
+KE-FARM-1614,Uasin Gishu,Beans,3.2,653.3,7,1,12,2,1.0,0
+KE-FARM-1615,Meru,Maize,4.6,429.6,7,1,11,0,13.6,0
+KE-FARM-1616,Meru,Beans,0.8,723.3,6,0,4,0,1.0,0
+KE-FARM-1617,Nyandarua,Beans,2.9,800.1,8,1,7,0,5.9,0
+KE-FARM-1618,Kitui,Maize,2.5,658.7,9,1,12,0,6.2,0
+KE-FARM-1619,Nakuru,Wheat,0.5,817.6,2,1,14,0,11.9,0
+KE-FARM-1620,Nyandarua,Wheat,6.8,581.5,7,1,3,0,4.3,0
+KE-FARM-1621,Kitui,Beans,1.6,681.9,2,1,3,1,17.2,0
+KE-FARM-1622,Nyandarua,Maize,3.4,573.9,6,1,4,0,4.2,0
+KE-FARM-1623,Nyandarua,Wheat,2.9,956.9,2,0,2,0,4.2,1
+KE-FARM-1624,Nakuru,Maize,2.9,726.2,10,1,14,0,2.5,0
+KE-FARM-1625,Nakuru,Maize,0.5,432.5,6,0,10,2,11.5,1
+KE-FARM-1626,Laikipia,Maize,2.2,877.9,2,1,4,1,1.0,0
+KE-FARM-1627,Uasin Gishu,Sunflower,2.4,490.0,1,1,10,0,4.5,0
+KE-FARM-1628,Uasin Gishu,Maize,5.3,602.1,7,0,3,0,3.1,0
+KE-FARM-1629,Laikipia,Sunflower,7.3,670.2,3,1,8,0,2.6,0
+KE-FARM-1630,Laikipia,Beans,3.1,682.5,4,1,11,1,1.0,0
+KE-FARM-1631,Meru,Wheat,0.5,672.6,6,0,2,1,2.1,0
+KE-FARM-1632,Kitui,Wheat,1.1,430.0,5,1,11,0,5.9,0
+KE-FARM-1633,Nyandarua,Wheat,0.7,673.1,4,0,9,1,7.0,0
+KE-FARM-1634,Laikipia,Wheat,0.5,765.1,9,1,3,1,3.1,0
+KE-FARM-1635,Trans Nzoia,Wheat,1.8,760.8,6,1,4,0,10.5,0
+KE-FARM-1636,Uasin Gishu,Wheat,1.0,404.7,6,1,13,1,4.1,0
+KE-FARM-1637,Laikipia,Wheat,1.0,501.7,2,1,10,0,4.6,0
+KE-FARM-1638,Trans Nzoia,Beans,0.5,443.3,6,1,14,1,15.3,0
+KE-FARM-1639,Trans Nzoia,Maize,0.5,651.0,7,0,15,0,8.0,0
+KE-FARM-1640,Trans Nzoia,Sorghum,0.5,367.3,8,1,10,1,30.6,1
+KE-FARM-1641,Meru,Sunflower,0.8,431.6,8,1,15,0,4.5,0
+KE-FARM-1642,Meru,Sorghum,2.3,500.2,9,0,15,1,17.6,0
+KE-FARM-1643,Trans Nzoia,Sorghum,2.9,330.5,10,1,3,1,13.4,0
+KE-FARM-1644,Kitui,Maize,0.6,595.8,3,0,3,0,22.1,0
+KE-FARM-1645,Meru,Maize,2.2,284.0,10,1,8,2,31.4,1
+KE-FARM-1646,Nyandarua,Maize,1.7,672.8,7,1,8,0,1.0,0
+KE-FARM-1647,Trans Nzoia,Wheat,0.8,540.4,7,1,13,0,1.0,0
+KE-FARM-1648,Nyandarua,Beans,0.5,506.4,1,1,13,2,11.2,0
+KE-FARM-1649,Nyandarua,Wheat,2.5,530.9,8,1,6,1,4.9,0
+KE-FARM-1650,Trans Nzoia,Beans,4.6,590.9,4,0,4,0,17.1,0
+KE-FARM-1651,Uasin Gishu,Beans,1.0,688.9,5,1,1,1,1.0,0
+KE-FARM-1652,Kitui,Sorghum,0.6,797.6,6,1,4,0,16.4,0
+KE-FARM-1653,Trans Nzoia,Sorghum,8.7,752.1,3,1,8,0,1.5,0
+KE-FARM-1654,Trans Nzoia,Beans,1.3,934.8,5,1,6,0,3.4,0
+KE-FARM-1655,Meru,Beans,1.0,701.3,10,0,2,0,34.8,0
+KE-FARM-1656,Trans Nzoia,Wheat,7.8,621.0,5,1,3,2,1.0,0
+KE-FARM-1657,Uasin Gishu,Wheat,6.8,531.4,1,0,12,2,4.3,1
+KE-FARM-1658,Meru,Sorghum,2.4,536.4,3,0,7,0,1.0,0
+KE-FARM-1659,Nakuru,Maize,2.7,680.9,3,1,11,0,19.2,0
+KE-FARM-1660,Nakuru,Beans,1.0,450.1,1,0,11,0,12.1,0
+KE-FARM-1661,Nyandarua,Wheat,0.5,634.3,7,0,4,1,16.1,0
+KE-FARM-1662,Kitui,Sorghum,3.4,597.2,1,1,4,2,7.5,0
+KE-FARM-1663,Nyandarua,Wheat,0.5,490.8,7,0,15,1,4.4,0
+KE-FARM-1664,Uasin Gishu,Beans,2.4,442.3,4,0,15,0,1.0,1
+KE-FARM-1665,Laikipia,Beans,11.3,978.7,9,0,5,1,3.3,0
+KE-FARM-1666,Kitui,Sunflower,12.2,390.5,7,0,8,0,7.2,0
+KE-FARM-1667,Nakuru,Maize,1.1,589.8,5,1,14,2,10.9,0
+KE-FARM-1668,Nyandarua,Sunflower,3.9,783.4,7,1,14,0,2.6,0
+KE-FARM-1669,Nakuru,Sorghum,2.6,679.4,9,1,7,1,1.5,0
+KE-FARM-1670,Uasin Gishu,Wheat,8.3,529.0,10,1,9,0,2.3,0
+KE-FARM-1671,Uasin Gishu,Sorghum,1.3,421.2,6,0,15,2,4.4,0
+KE-FARM-1672,Laikipia,Beans,0.5,619.5,1,0,5,2,1.6,0
+KE-FARM-1673,Laikipia,Sunflower,0.7,204.1,6,0,1,0,1.7,1
+KE-FARM-1674,Meru,Sunflower,1.7,625.5,1,1,4,3,1.0,0
+KE-FARM-1675,Kitui,Sunflower,1.5,605.2,4,1,6,1,19.4,0
+KE-FARM-1676,Uasin Gishu,Sorghum,6.3,760.5,8,1,6,1,2.5,0
+KE-FARM-1677,Nyandarua,Beans,4.6,428.5,5,1,9,1,17.3,1
+KE-FARM-1678,Nakuru,Wheat,1.4,551.5,5,0,10,1,5.8,0
+KE-FARM-1679,Trans Nzoia,Wheat,2.4,665.5,10,1,13,3,10.0,0
+KE-FARM-1680,Laikipia,Sorghum,0.5,630.8,8,1,5,0,1.0,0
+KE-FARM-1681,Trans Nzoia,Sunflower,9.1,398.6,8,1,5,1,8.8,0
+KE-FARM-1682,Nyandarua,Maize,11.0,502.9,1,1,6,0,3.4,1
+KE-FARM-1683,Laikipia,Sorghum,15.6,810.0,5,1,11,2,1.0,1
+KE-FARM-1684,Trans Nzoia,Sorghum,8.1,638.9,5,1,6,0,23.9,0
+KE-FARM-1685,Kitui,Beans,0.8,350.4,8,1,3,0,9.3,1
+KE-FARM-1686,Nyandarua,Wheat,0.5,732.5,1,1,6,0,2.8,0
+KE-FARM-1687,Nakuru,Sorghum,3.5,360.1,7,1,8,2,5.4,0
+KE-FARM-1688,Kitui,Sorghum,9.7,553.9,7,0,12,0,4.4,0
+KE-FARM-1689,Nyandarua,Sunflower,0.8,684.5,9,1,6,1,12.1,0
+KE-FARM-1690,Meru,Sunflower,0.5,782.1,2,1,12,0,9.4,0
+KE-FARM-1691,Laikipia,Maize,6.5,249.3,3,0,11,0,1.0,1
+KE-FARM-1692,Uasin Gishu,Beans,0.5,706.7,4,1,5,1,2.2,0
+KE-FARM-1693,Nakuru,Maize,2.1,729.3,1,0,3,0,6.5,1
+KE-FARM-1694,Kitui,Sunflower,4.5,516.4,7,1,1,1,5.9,0
+KE-FARM-1695,Kitui,Wheat,1.1,613.6,10,1,5,1,7.3,0
+KE-FARM-1696,Trans Nzoia,Sunflower,0.5,142.2,3,0,6,0,12.5,1
+KE-FARM-1697,Laikipia,Beans,5.9,187.8,3,0,14,0,11.5,1
+KE-FARM-1698,Uasin Gishu,Sunflower,4.0,766.3,3,1,6,0,4.7,0
+KE-FARM-1699,Nyandarua,Beans,17.9,519.2,8,1,14,0,21.0,0
+KE-FARM-1700,Uasin Gishu,Beans,1.7,548.1,9,1,6,0,1.0,0
+KE-FARM-1701,Laikipia,Beans,0.5,635.2,10,1,3,0,8.8,0
+KE-FARM-1702,Laikipia,Beans,5.3,545.1,2,1,15,0,29.9,0
+KE-FARM-1703,Meru,Beans,3.0,531.2,10,1,4,3,8.0,0
+KE-FARM-1704,Meru,Wheat,1.0,659.2,10,0,15,1,6.1,0
+KE-FARM-1705,Uasin Gishu,Maize,6.1,375.7,1,0,3,0,1.4,1
+KE-FARM-1706,Nyandarua,Sorghum,0.9,774.0,9,0,2,0,16.6,0
+KE-FARM-1707,Uasin Gishu,Maize,1.2,565.5,6,0,8,2,4.7,0
+KE-FARM-1708,Laikipia,Beans,0.5,449.2,9,1,7,0,12.1,1
+KE-FARM-1709,Laikipia,Wheat,2.0,429.0,6,0,11,1,2.2,1
+KE-FARM-1710,Trans Nzoia,Sunflower,2.2,606.4,2,1,8,1,1.0,0
+KE-FARM-1711,Meru,Wheat,2.9,554.0,1,1,13,0,3.6,0
+KE-FARM-1712,Trans Nzoia,Beans,4.9,367.7,8,0,6,0,3.3,0
+KE-FARM-1713,Nakuru,Wheat,9.5,509.7,3,1,11,1,20.7,0
+KE-FARM-1714,Laikipia,Wheat,0.6,478.6,1,0,15,0,20.0,0
+KE-FARM-1715,Trans Nzoia,Beans,0.5,789.3,8,1,12,0,7.6,0
+KE-FARM-1716,Uasin Gishu,Wheat,0.5,619.6,1,0,15,1,1.0,0
+KE-FARM-1717,Meru,Sorghum,0.6,835.4,8,1,14,0,2.6,0
+KE-FARM-1718,Meru,Sorghum,4.3,493.5,1,1,7,1,10.2,0
+KE-FARM-1719,Nyandarua,Wheat,5.2,556.3,9,1,1,0,1.1,0
+KE-FARM-1720,Uasin Gishu,Sunflower,6.2,658.0,9,1,10,0,12.1,0
+KE-FARM-1721,Nyandarua,Beans,1.1,690.6,9,1,5,0,1.0,0
+KE-FARM-1722,Trans Nzoia,Sorghum,1.5,708.1,3,1,4,1,11.5,0
+KE-FARM-1723,Kitui,Sunflower,2.6,466.8,4,1,10,3,18.6,0
+KE-FARM-1724,Nakuru,Wheat,0.5,471.0,5,1,3,1,6.3,0
+KE-FARM-1725,Uasin Gishu,Sunflower,3.8,546.7,6,1,2,2,17.7,0
+KE-FARM-1726,Uasin Gishu,Maize,16.5,822.1,9,0,14,0,15.2,1
+KE-FARM-1727,Uasin Gishu,Sorghum,1.8,449.9,4,1,14,4,11.1,0
+KE-FARM-1728,Nyandarua,Wheat,5.6,521.0,6,1,9,1,5.9,0
+KE-FARM-1729,Trans Nzoia,Beans,2.8,709.5,1,1,8,1,3.2,0
+KE-FARM-1730,Uasin Gishu,Wheat,0.5,701.5,2,0,10,2,19.7,0
+KE-FARM-1731,Kitui,Beans,3.5,683.3,8,1,15,1,10.5,0
+KE-FARM-1732,Uasin Gishu,Wheat,1.4,612.1,4,1,2,0,16.0,0
+KE-FARM-1733,Meru,Sunflower,0.5,440.2,10,1,6,1,8.0,0
+KE-FARM-1734,Nakuru,Sunflower,4.0,496.4,7,1,3,1,1.9,0
+KE-FARM-1735,Meru,Sunflower,7.8,769.0,4,0,3,0,38.8,0
+KE-FARM-1736,Meru,Maize,1.7,716.0,9,0,5,0,2.0,0
+KE-FARM-1737,Nakuru,Beans,2.0,399.8,9,0,7,0,24.2,0
+KE-FARM-1738,Kitui,Sunflower,8.9,730.4,4,1,7,0,2.3,0
+KE-FARM-1739,Trans Nzoia,Maize,6.7,796.3,8,1,11,1,4.7,0
+KE-FARM-1740,Meru,Beans,5.0,608.1,6,0,10,3,5.8,0
+KE-FARM-1741,Trans Nzoia,Wheat,1.1,663.9,1,1,1,1,25.4,0
+KE-FARM-1742,Meru,Maize,9.6,751.7,7,1,11,0,21.9,0
+KE-FARM-1743,Laikipia,Sorghum,0.7,495.6,1,0,7,1,17.3,1
+KE-FARM-1744,Nakuru,Maize,3.9,949.4,3,0,7,2,4.7,0
+KE-FARM-1745,Meru,Maize,0.5,783.5,8,1,6,0,1.0,0
+KE-FARM-1746,Laikipia,Beans,4.1,678.6,9,1,6,1,11.4,0
+KE-FARM-1747,Nyandarua,Wheat,1.3,594.8,3,1,13,1,5.3,0
+KE-FARM-1748,Laikipia,Sorghum,2.4,674.2,1,1,13,0,14.1,0
+KE-FARM-1749,Uasin Gishu,Sunflower,1.7,366.0,1,1,2,0,15.8,0
+KE-FARM-1750,Meru,Sunflower,0.8,912.3,7,1,3,0,5.8,0
+KE-FARM-1751,Laikipia,Maize,3.9,769.3,5,1,3,0,13.8,0
+KE-FARM-1752,Trans Nzoia,Beans,8.5,819.6,1,1,13,0,18.3,0
+KE-FARM-1753,Nyandarua,Beans,12.8,604.6,6,1,3,0,26.4,0
+KE-FARM-1754,Kitui,Sunflower,0.9,546.0,6,1,2,2,8.7,0
+KE-FARM-1755,Meru,Sorghum,5.1,498.9,4,0,9,1,15.1,0
+KE-FARM-1756,Uasin Gishu,Wheat,4.4,722.0,7,1,6,1,6.8,0
+KE-FARM-1757,Kitui,Sorghum,1.7,523.1,7,1,2,0,1.0,0
+KE-FARM-1758,Laikipia,Wheat,0.5,571.9,9,1,3,0,1.7,0
+KE-FARM-1759,Kitui,Sunflower,4.7,682.0,1,0,10,0,1.4,0
+KE-FARM-1760,Kitui,Wheat,11.6,501.1,5,0,6,0,1.9,0
+KE-FARM-1761,Nyandarua,Beans,4.0,756.6,10,1,4,2,1.0,0
+KE-FARM-1762,Kitui,Maize,2.3,597.3,3,0,7,2,19.6,1
+KE-FARM-1763,Kitui,Maize,3.0,373.8,7,1,6,1,8.2,0
+KE-FARM-1764,Meru,Sunflower,0.9,499.5,4,1,15,1,4.8,0
+KE-FARM-1765,Nyandarua,Beans,5.6,796.2,4,1,6,0,5.3,0
+KE-FARM-1766,Uasin Gishu,Sorghum,5.5,459.4,1,0,12,2,6.2,0
+KE-FARM-1767,Laikipia,Beans,0.6,734.1,1,0,3,2,1.0,0
+KE-FARM-1768,Nyandarua,Maize,8.4,618.3,10,0,11,1,3.2,0
+KE-FARM-1769,Nyandarua,Maize,1.3,574.2,2,0,8,0,19.1,1
+KE-FARM-1770,Nakuru,Beans,16.1,976.9,2,1,9,4,13.6,1
+KE-FARM-1771,Nyandarua,Beans,1.9,407.4,1,1,6,0,8.3,1
+KE-FARM-1772,Nakuru,Maize,0.8,489.0,8,0,2,2,6.6,0
+KE-FARM-1773,Laikipia,Sorghum,1.7,596.5,6,0,1,0,3.0,0
+KE-FARM-1774,Kitui,Sunflower,2.3,962.4,6,0,3,1,6.4,0
+KE-FARM-1775,Meru,Sunflower,0.5,596.8,10,1,3,0,9.1,0
+KE-FARM-1776,Meru,Beans,3.5,641.1,10,1,8,3,12.5,0
+KE-FARM-1777,Laikipia,Sunflower,3.6,549.6,9,1,5,0,1.8,0
+KE-FARM-1778,Laikipia,Maize,5.4,653.8,5,1,1,1,16.8,0
+KE-FARM-1779,Trans Nzoia,Maize,0.5,558.9,4,1,11,2,4.2,0
+KE-FARM-1780,Kitui,Beans,3.1,704.3,6,1,4,1,7.0,0
+KE-FARM-1781,Laikipia,Beans,0.5,716.1,8,0,7,1,9.4,0
+KE-FARM-1782,Nyandarua,Beans,4.8,564.9,1,1,5,0,6.7,0
+KE-FARM-1783,Meru,Sorghum,0.5,431.2,7,0,10,0,8.5,0
+KE-FARM-1784,Uasin Gishu,Sunflower,9.7,614.0,8,1,15,2,1.2,0
+KE-FARM-1785,Meru,Beans,4.8,810.3,9,0,13,0,5.7,0
+KE-FARM-1786,Nakuru,Wheat,2.8,476.0,8,1,6,1,3.3,0
+KE-FARM-1787,Meru,Wheat,2.3,650.1,7,0,14,1,1.0,0
+KE-FARM-1788,Trans Nzoia,Maize,0.6,419.1,3,1,10,2,2.1,1
+KE-FARM-1789,Kitui,Sunflower,1.4,444.0,2,0,4,1,9.2,0
+KE-FARM-1790,Laikipia,Beans,8.1,795.1,3,1,2,0,2.2,0
+KE-FARM-1791,Kitui,Wheat,9.4,703.7,4,1,9,0,2.0,0
+KE-FARM-1792,Laikipia,Sunflower,0.5,652.3,4,1,15,2,8.0,0
+KE-FARM-1793,Meru,Maize,3.6,251.7,6,1,2,1,23.5,0
+KE-FARM-1794,Uasin Gishu,Sorghum,5.1,517.1,7,1,2,1,15.5,0
+KE-FARM-1795,Uasin Gishu,Sunflower,3.9,691.0,4,0,13,1,23.5,0
+KE-FARM-1796,Trans Nzoia,Sunflower,0.5,382.6,10,1,12,0,8.7,0
+KE-FARM-1797,Nakuru,Sorghum,1.0,546.9,6,1,2,1,5.3,0
+KE-FARM-1798,Meru,Sunflower,1.2,715.0,9,1,1,2,13.1,0
+KE-FARM-1799,Laikipia,Maize,7.1,373.3,6,1,13,0,3.0,0
+KE-FARM-1800,Meru,Maize,2.5,348.1,3,1,12,1,1.0,0
+KE-FARM-1801,Trans Nzoia,Sorghum,2.7,375.9,1,1,12,3,4.2,0
+KE-FARM-1802,Nyandarua,Beans,10.9,650.2,10,1,3,0,3.6,0
+KE-FARM-1803,Nyandarua,Wheat,4.1,516.5,10,1,6,1,11.3,0
+KE-FARM-1804,Trans Nzoia,Beans,9.2,731.7,5,0,7,0,8.0,0
+KE-FARM-1805,Laikipia,Sunflower,2.4,618.2,10,0,1,2,1.5,1
+KE-FARM-1806,Kitui,Wheat,0.6,882.1,10,1,14,1,23.9,0
+KE-FARM-1807,Trans Nzoia,Sorghum,10.6,414.4,3,1,5,0,9.0,1
+KE-FARM-1808,Laikipia,Sorghum,2.5,649.8,8,1,5,0,6.1,0
+KE-FARM-1809,Uasin Gishu,Wheat,0.8,480.7,10,0,1,2,27.7,0
+KE-FARM-1810,Trans Nzoia,Maize,1.4,690.0,1,1,4,0,1.0,0
+KE-FARM-1811,Laikipia,Wheat,0.5,618.0,2,1,10,1,15.6,0
+KE-FARM-1812,Trans Nzoia,Sunflower,2.5,451.0,3,1,1,2,4.5,0
+KE-FARM-1813,Trans Nzoia,Maize,7.7,576.4,3,1,13,2,11.9,0
+KE-FARM-1814,Kitui,Sorghum,10.8,611.0,8,1,14,1,26.7,0
+KE-FARM-1815,Kitui,Wheat,10.8,510.1,5,0,15,0,7.3,0
+KE-FARM-1816,Laikipia,Beans,0.5,709.1,8,1,1,2,1.0,0
+KE-FARM-1817,Laikipia,Beans,1.9,445.3,6,1,12,0,1.0,0
+KE-FARM-1818,Nakuru,Sunflower,0.5,913.7,2,1,15,2,4.0,0
+KE-FARM-1819,Trans Nzoia,Beans,7.7,743.1,4,0,7,0,15.2,0
+KE-FARM-1820,Nyandarua,Wheat,1.8,652.3,9,1,7,1,3.4,0
+KE-FARM-1821,Trans Nzoia,Wheat,4.0,1026.8,4,0,3,0,4.1,0
+KE-FARM-1822,Trans Nzoia,Beans,5.0,553.6,5,1,7,2,15.3,0
+KE-FARM-1823,Laikipia,Wheat,2.2,691.7,5,0,3,0,1.2,0
+KE-FARM-1824,Trans Nzoia,Sunflower,1.5,633.4,10,0,2,1,18.8,0
+KE-FARM-1825,Meru,Maize,13.1,719.6,8,0,10,0,3.1,0
+KE-FARM-1826,Trans Nzoia,Sunflower,13.4,824.4,6,0,15,0,1.0,0
+KE-FARM-1827,Meru,Sunflower,1.4,682.3,10,0,4,0,1.2,0
+KE-FARM-1828,Kitui,Wheat,2.6,756.3,7,1,14,0,30.5,0
+KE-FARM-1829,Nyandarua,Maize,14.4,517.4,6,0,10,1,6.0,0
+KE-FARM-1830,Laikipia,Wheat,0.5,569.1,5,1,3,0,3.0,0
+KE-FARM-1831,Trans Nzoia,Sorghum,2.1,845.7,5,0,12,0,7.4,0
+KE-FARM-1832,Meru,Wheat,0.5,689.5,3,1,7,1,11.5,0
+KE-FARM-1833,Meru,Wheat,2.8,637.2,7,1,12,0,3.8,0
+KE-FARM-1834,Kitui,Wheat,0.5,487.0,10,0,12,1,12.9,0
+KE-FARM-1835,Meru,Maize,2.1,745.0,5,1,1,1,2.9,0
+KE-FARM-1836,Uasin Gishu,Wheat,1.0,482.8,7,0,6,0,1.2,0
+KE-FARM-1837,Nakuru,Maize,3.0,438.6,2,1,15,0,8.0,0
+KE-FARM-1838,Nyandarua,Beans,22.1,617.2,9,1,14,0,1.6,1
+KE-FARM-1839,Kitui,Sorghum,6.4,239.6,8,0,2,1,28.2,0
+KE-FARM-1840,Kitui,Maize,7.5,691.7,5,0,8,1,1.0,0
+KE-FARM-1841,Trans Nzoia,Beans,4.0,656.5,2,0,14,1,14.1,0
+KE-FARM-1842,Uasin Gishu,Maize,0.5,547.1,6,1,5,1,3.3,0
+KE-FARM-1843,Trans Nzoia,Maize,0.9,560.7,8,1,3,0,18.7,0
+KE-FARM-1844,Trans Nzoia,Sorghum,10.4,582.1,7,1,10,0,1.0,0
+KE-FARM-1845,Laikipia,Sunflower,1.8,481.6,8,1,7,2,30.6,0
+KE-FARM-1846,Laikipia,Sunflower,0.5,627.7,4,0,14,0,1.1,0
+KE-FARM-1847,Laikipia,Maize,4.8,562.6,3,0,11,0,15.5,0
+KE-FARM-1848,Uasin Gishu,Wheat,1.4,616.9,7,0,15,0,7.3,0
+KE-FARM-1849,Trans Nzoia,Beans,1.3,576.6,2,1,15,1,5.6,0
+KE-FARM-1850,Nakuru,Wheat,24.8,547.1,5,0,2,0,3.3,0
+KE-FARM-1851,Nyandarua,Wheat,7.8,641.8,7,1,5,1,18.4,0
+KE-FARM-1852,Laikipia,Maize,2.1,717.2,1,0,11,0,2.2,0
+KE-FARM-1853,Laikipia,Maize,15.7,521.3,4,0,8,1,12.8,0
+KE-FARM-1854,Kitui,Maize,4.2,659.3,2,1,13,2,5.9,0
+KE-FARM-1855,Trans Nzoia,Maize,5.4,677.9,6,1,11,0,65.0,0
+KE-FARM-1856,Trans Nzoia,Sunflower,0.5,407.4,1,1,1,0,9.5,1
+KE-FARM-1857,Uasin Gishu,Maize,0.5,746.5,7,1,15,0,1.1,0
+KE-FARM-1858,Uasin Gishu,Sunflower,4.0,908.5,3,1,1,1,5.4,1
+KE-FARM-1859,Laikipia,Sunflower,9.2,586.8,1,0,3,1,1.0,0
+KE-FARM-1860,Trans Nzoia,Maize,3.9,574.3,8,1,3,2,3.4,1
+KE-FARM-1861,Nakuru,Sorghum,0.6,568.0,7,1,13,1,4.2,0
+KE-FARM-1862,Nyandarua,Beans,0.5,693.1,2,0,7,0,19.2,0
+KE-FARM-1863,Trans Nzoia,Wheat,7.4,676.6,7,1,6,2,18.2,1
+KE-FARM-1864,Kitui,Sunflower,0.6,361.4,3,0,7,3,1.0,0
+KE-FARM-1865,Trans Nzoia,Beans,2.9,470.1,9,0,4,2,7.6,0
+KE-FARM-1866,Meru,Sorghum,0.5,676.1,8,1,11,1,2.5,0
+KE-FARM-1867,Uasin Gishu,Wheat,0.5,578.2,5,1,2,0,3.9,0
+KE-FARM-1868,Kitui,Wheat,4.5,425.1,7,1,2,1,1.0,1
+KE-FARM-1869,Nyandarua,Sunflower,4.7,825.0,3,0,10,1,13.9,1
+KE-FARM-1870,Laikipia,Maize,1.7,480.0,1,1,1,0,30.1,0
+KE-FARM-1871,Kitui,Sorghum,1.0,605.4,1,1,14,0,2.5,0
+KE-FARM-1872,Trans Nzoia,Sunflower,6.7,574.3,2,0,13,1,4.2,0
+KE-FARM-1873,Laikipia,Sorghum,1.0,438.2,8,1,14,0,2.3,1
+KE-FARM-1874,Trans Nzoia,Maize,3.1,627.7,1,1,9,0,26.6,1
+KE-FARM-1875,Laikipia,Maize,13.8,658.8,5,1,14,2,1.0,0
+KE-FARM-1876,Nyandarua,Sunflower,0.6,529.8,9,0,14,1,8.8,0
+KE-FARM-1877,Uasin Gishu,Maize,11.3,549.6,9,0,7,0,20.5,0
+KE-FARM-1878,Nyandarua,Beans,0.8,690.1,2,1,10,1,2.1,0
+KE-FARM-1879,Meru,Wheat,3.4,303.7,7,1,3,0,8.9,1
+KE-FARM-1880,Nakuru,Sunflower,1.9,473.2,1,1,2,0,1.0,1
+KE-FARM-1881,Uasin Gishu,Sorghum,13.4,632.0,3,0,14,1,16.9,0
+KE-FARM-1882,Nyandarua,Beans,1.3,521.0,6,1,3,1,3.2,0
+KE-FARM-1883,Meru,Sunflower,2.0,518.8,9,1,7,0,44.9,1
+KE-FARM-1884,Nakuru,Maize,16.3,735.3,10,0,5,1,25.5,0
+KE-FARM-1885,Meru,Maize,3.1,505.0,2,1,12,1,13.2,0
+KE-FARM-1886,Trans Nzoia,Maize,2.8,896.9,7,1,3,0,6.9,0
+KE-FARM-1887,Trans Nzoia,Maize,1.2,336.8,4,0,9,0,14.5,0
+KE-FARM-1888,Laikipia,Sorghum,4.8,268.2,2,0,2,1,1.4,0
+KE-FARM-1889,Uasin Gishu,Beans,0.5,731.8,3,1,7,0,3.7,0
+KE-FARM-1890,Trans Nzoia,Wheat,0.5,452.4,6,1,15,0,1.0,0
+KE-FARM-1891,Kitui,Sorghum,3.7,454.9,10,1,10,3,10.4,0
+KE-FARM-1892,Meru,Sorghum,1.7,747.7,9,0,6,1,16.4,0
+KE-FARM-1893,Uasin Gishu,Wheat,12.3,525.4,8,0,6,0,29.2,1
+KE-FARM-1894,Kitui,Wheat,9.3,736.6,10,1,14,3,11.6,0
+KE-FARM-1895,Trans Nzoia,Maize,5.0,508.4,9,1,7,2,13.2,0
+KE-FARM-1896,Laikipia,Sorghum,6.8,654.4,4,0,6,0,22.6,0
+KE-FARM-1897,Nyandarua,Sunflower,4.4,523.3,4,1,2,1,27.5,0
+KE-FARM-1898,Laikipia,Wheat,0.5,462.0,9,0,11,1,6.8,0
+KE-FARM-1899,Kitui,Wheat,5.8,859.6,8,0,5,1,1.2,0
+KE-FARM-1900,Nakuru,Beans,0.9,767.5,2,0,3,1,6.3,0
+KE-FARM-1901,Trans Nzoia,Sunflower,1.6,491.0,8,0,9,1,8.1,0
+KE-FARM-1902,Kitui,Sunflower,6.8,573.2,1,1,8,2,10.0,0
+KE-FARM-1903,Nakuru,Wheat,3.1,821.4,9,1,10,2,45.4,0
+KE-FARM-1904,Nakuru,Maize,7.9,451.8,9,1,11,1,25.0,0
+KE-FARM-1905,Meru,Beans,1.0,459.9,8,1,2,0,5.0,0
+KE-FARM-1906,Uasin Gishu,Sunflower,3.7,670.5,5,1,15,1,1.2,0
+KE-FARM-1907,Meru,Wheat,0.5,940.6,5,1,1,0,2.4,0
+KE-FARM-1908,Trans Nzoia,Sunflower,4.1,608.1,3,1,15,2,1.9,0
+KE-FARM-1909,Nakuru,Beans,5.8,757.5,5,1,4,0,4.4,0
+KE-FARM-1910,Kitui,Beans,3.5,447.4,4,1,4,0,20.9,0
+KE-FARM-1911,Nyandarua,Sorghum,1.2,654.2,1,1,12,0,5.8,0
+KE-FARM-1912,Nakuru,Wheat,0.5,546.1,9,0,10,1,8.4,0
+KE-FARM-1913,Kitui,Beans,0.5,880.0,10,1,11,0,2.0,0
+KE-FARM-1914,Nyandarua,Sorghum,3.9,839.8,4,1,2,0,6.8,0
+KE-FARM-1915,Meru,Sorghum,10.9,941.9,3,1,7,1,20.7,0
+KE-FARM-1916,Meru,Sunflower,0.9,495.7,6,0,13,0,14.8,0
+KE-FARM-1917,Uasin Gishu,Sunflower,5.3,605.3,1,1,15,2,1.0,0
+KE-FARM-1918,Kitui,Sorghum,8.1,656.3,5,1,3,1,19.8,0
+KE-FARM-1919,Nakuru,Sunflower,2.9,501.5,7,0,7,1,3.2,0
+KE-FARM-1920,Laikipia,Beans,4.4,619.7,2,1,7,0,11.0,0
+KE-FARM-1921,Meru,Maize,6.7,736.3,10,0,1,0,1.6,0
+KE-FARM-1922,Meru,Beans,1.2,517.4,9,0,6,0,11.2,0
+KE-FARM-1923,Uasin Gishu,Sorghum,1.4,494.5,6,1,4,0,1.0,0
+KE-FARM-1924,Nyandarua,Sorghum,0.5,484.6,2,1,11,1,9.2,0
+KE-FARM-1925,Uasin Gishu,Beans,13.2,398.4,8,1,8,0,10.4,0
+KE-FARM-1926,Nakuru,Sunflower,10.0,728.1,8,1,8,2,2.8,0
+KE-FARM-1927,Kitui,Sunflower,5.8,494.1,1,0,3,0,27.6,0
+KE-FARM-1928,Trans Nzoia,Sorghum,0.5,478.3,1,0,4,0,1.0,0
+KE-FARM-1929,Trans Nzoia,Wheat,2.4,679.4,1,0,15,0,22.2,0
+KE-FARM-1930,Kitui,Sunflower,0.5,598.4,4,0,1,1,4.8,0
+KE-FARM-1931,Nyandarua,Beans,0.5,521.2,4,1,10,0,12.5,0
+KE-FARM-1932,Meru,Sunflower,3.8,721.6,8,1,2,0,10.5,0
+KE-FARM-1933,Nyandarua,Beans,13.0,515.2,1,0,7,1,1.8,0
+KE-FARM-1934,Meru,Sorghum,9.3,273.5,10,0,15,1,3.8,1
+KE-FARM-1935,Meru,Sunflower,4.8,800.0,3,1,14,2,7.5,0
+KE-FARM-1936,Trans Nzoia,Beans,0.5,475.8,1,0,11,3,18.7,0
+KE-FARM-1937,Nyandarua,Sorghum,1.3,492.2,9,1,12,0,31.0,0
+KE-FARM-1938,Uasin Gishu,Wheat,1.5,492.8,10,1,15,2,1.0,1
+KE-FARM-1939,Meru,Beans,5.8,608.9,9,0,7,2,4.3,0
+KE-FARM-1940,Laikipia,Wheat,6.5,558.9,7,0,13,2,11.0,0
+KE-FARM-1941,Laikipia,Wheat,1.9,748.2,8,1,9,0,7.5,0
+KE-FARM-1942,Uasin Gishu,Maize,2.2,846.8,1,0,10,2,28.7,0
+KE-FARM-1943,Laikipia,Sunflower,0.5,498.1,5,0,9,0,1.0,0
+KE-FARM-1944,Nakuru,Beans,1.4,459.3,2,0,9,0,5.8,0
+KE-FARM-1945,Meru,Wheat,2.4,521.7,1,1,6,1,11.1,1
+KE-FARM-1946,Uasin Gishu,Maize,0.5,665.9,3,1,8,1,2.5,0
+KE-FARM-1947,Nyandarua,Sorghum,2.4,582.5,7,0,9,0,12.9,0
+KE-FARM-1948,Meru,Beans,7.7,524.9,1,1,12,0,1.0,0
+KE-FARM-1949,Uasin Gishu,Wheat,3.5,405.4,2,1,14,0,6.0,1
+KE-FARM-1950,Trans Nzoia,Sunflower,0.5,268.7,2,1,7,1,11.3,0
+KE-FARM-1951,Nyandarua,Maize,0.9,449.3,4,0,4,0,3.1,0
+KE-FARM-1952,Trans Nzoia,Wheat,2.6,789.7,3,1,14,1,1.0,0
+KE-FARM-1953,Meru,Sunflower,1.8,665.4,3,1,4,1,31.5,1
+KE-FARM-1954,Nyandarua,Wheat,1.8,571.3,10,0,6,0,24.5,0
+KE-FARM-1955,Laikipia,Beans,3.0,709.5,5,0,14,2,26.1,0
+KE-FARM-1956,Uasin Gishu,Beans,3.5,406.8,3,0,11,0,38.4,0
+KE-FARM-1957,Meru,Beans,6.4,608.5,7,0,4,2,2.0,0
+KE-FARM-1958,Nakuru,Maize,1.7,332.0,5,1,11,0,1.7,0
+KE-FARM-1959,Nyandarua,Beans,6.5,651.9,4,1,7,0,1.0,0
+KE-FARM-1960,Nyandarua,Sunflower,1.7,638.9,3,1,8,0,22.2,0
+KE-FARM-1961,Kitui,Wheat,0.5,642.5,4,0,8,0,14.0,0
+KE-FARM-1962,Meru,Sorghum,3.2,775.1,2,1,14,1,10.0,0
+KE-FARM-1963,Meru,Sunflower,3.5,716.4,1,1,8,1,26.3,0
+KE-FARM-1964,Trans Nzoia,Sunflower,10.9,418.7,3,1,2,0,8.6,1
+KE-FARM-1965,Kitui,Beans,5.2,777.4,2,1,14,3,1.4,0
+KE-FARM-1966,Laikipia,Maize,10.0,568.6,1,0,10,0,1.9,0
+KE-FARM-1967,Trans Nzoia,Wheat,9.6,304.5,1,1,2,0,1.4,0
+KE-FARM-1968,Kitui,Maize,3.7,583.7,2,1,2,0,3.7,0
+KE-FARM-1969,Trans Nzoia,Wheat,3.0,697.1,9,1,2,0,4.8,0
+KE-FARM-1970,Laikipia,Wheat,3.3,447.9,5,1,4,1,15.9,0
+KE-FARM-1971,Kitui,Maize,15.3,799.9,9,0,5,1,2.1,1
+KE-FARM-1972,Kitui,Sunflower,5.9,461.5,8,0,4,1,12.9,0
+KE-FARM-1973,Nakuru,Wheat,0.5,527.8,6,1,15,0,6.8,0
+KE-FARM-1974,Trans Nzoia,Maize,6.0,500.3,1,1,5,1,79.9,0
+KE-FARM-1975,Trans Nzoia,Wheat,0.7,343.7,10,1,4,2,15.0,0
+KE-FARM-1976,Nyandarua,Sorghum,2.4,451.0,5,0,7,1,34.7,0
+KE-FARM-1977,Laikipia,Sunflower,0.9,493.2,1,1,10,1,4.2,0
+KE-FARM-1978,Uasin Gishu,Beans,4.7,580.5,7,1,1,1,1.3,0
+KE-FARM-1979,Nakuru,Wheat,8.4,149.8,10,1,14,0,7.1,1
+KE-FARM-1980,Kitui,Sorghum,1.4,707.5,8,0,13,0,1.3,0
+KE-FARM-1981,Kitui,Beans,0.5,706.0,8,0,1,3,6.8,0
+KE-FARM-1982,Kitui,Beans,1.4,777.2,7,1,2,1,3.1,0
+KE-FARM-1983,Nakuru,Wheat,4.5,376.3,2,1,13,0,6.8,1
+KE-FARM-1984,Kitui,Maize,1.6,556.1,5,1,1,2,29.9,0
+KE-FARM-1985,Kitui,Wheat,1.3,741.2,4,1,12,3,3.4,0
+KE-FARM-1986,Laikipia,Sorghum,0.8,754.1,5,1,15,2,50.3,0
+KE-FARM-1987,Meru,Beans,2.8,821.8,10,0,10,0,2.6,0
+KE-FARM-1988,Meru,Wheat,1.3,615.4,9,0,12,0,2.3,0
+KE-FARM-1989,Nyandarua,Maize,5.3,591.6,4,0,12,2,7.9,1
+KE-FARM-1990,Nyandarua,Wheat,0.5,366.3,8,0,10,1,18.5,0
+KE-FARM-1991,Kitui,Sunflower,4.4,759.7,8,1,13,0,13.8,0
+KE-FARM-1992,Laikipia,Maize,1.1,531.0,2,1,14,0,12.9,0
+KE-FARM-1993,Kitui,Sorghum,2.7,605.1,6,0,11,1,3.3,0
+KE-FARM-1994,Nyandarua,Beans,1.3,595.1,5,1,3,0,1.0,0
+KE-FARM-1995,Nakuru,Wheat,5.1,240.8,2,1,6,0,1.8,0
+KE-FARM-1996,Nakuru,Maize,11.6,478.3,10,1,10,0,4.3,0
+KE-FARM-1997,Uasin Gishu,Sunflower,10.0,668.1,4,0,11,0,35.6,0
+KE-FARM-1998,Meru,Maize,3.5,592.7,7,1,6,0,25.2,0
+KE-FARM-1999,Laikipia,Sunflower,2.5,669.3,1,1,1,1,2.2,0
+KE-FARM-2000,Trans Nzoia,Sorghum,6.8,717.6,9,1,6,1,12.9,0
+KE-FARM-2001,Meru,Beans,4.6,476.5,10,1,5,2,8.7,0
+KE-FARM-2002,Trans Nzoia,Sorghum,0.8,522.7,1,0,7,3,1.0,0
+KE-FARM-2003,Uasin Gishu,Wheat,6.9,578.8,5,1,6,1,4.6,0
+KE-FARM-2004,Uasin Gishu,Maize,2.2,716.0,7,1,12,2,6.7,0
+KE-FARM-2005,Kitui,Sunflower,0.8,564.9,8,1,12,2,11.0,0
+KE-FARM-2006,Nyandarua,Sunflower,1.3,332.8,2,1,7,1,3.5,1
+KE-FARM-2007,Uasin Gishu,Maize,1.2,570.3,4,0,2,0,27.2,0
+KE-FARM-2008,Uasin Gishu,Maize,2.9,710.0,2,0,12,1,6.0,0
+KE-FARM-2009,Trans Nzoia,Wheat,1.1,803.6,4,1,1,0,2.9,0
+KE-FARM-2010,Nyandarua,Sorghum,0.5,642.1,6,0,14,1,3.8,0
+KE-FARM-2011,Uasin Gishu,Sunflower,0.5,377.1,6,1,7,0,13.9,1
+KE-FARM-2012,Meru,Wheat,3.5,539.0,2,0,9,0,10.2,0
+KE-FARM-2013,Uasin Gishu,Sorghum,5.3,671.3,4,0,2,1,13.6,0
+KE-FARM-2014,Nyandarua,Wheat,1.6,729.9,4,1,12,0,3.5,0
+KE-FARM-2015,Kitui,Sunflower,0.5,676.1,1,0,7,1,4.0,0
+KE-FARM-2016,Laikipia,Maize,0.5,562.3,2,1,3,1,5.1,0
+KE-FARM-2017,Nyandarua,Maize,9.8,728.8,3,1,6,1,2.1,0
+KE-FARM-2018,Trans Nzoia,Sorghum,2.7,503.9,5,1,3,1,11.7,0
+KE-FARM-2019,Laikipia,Beans,2.4,627.7,8,1,13,0,4.0,0
+KE-FARM-2020,Meru,Sorghum,0.5,712.5,6,0,10,1,3.9,0
+KE-FARM-2021,Nakuru,Beans,5.2,686.5,3,1,13,1,3.1,0
+KE-FARM-2022,Nyandarua,Wheat,3.0,689.9,6,1,11,3,6.0,0
+KE-FARM-2023,Kitui,Wheat,0.9,686.1,7,1,11,0,14.8,0
+KE-FARM-2024,Trans Nzoia,Sunflower,0.5,442.7,6,1,11,2,18.1,0
+KE-FARM-2025,Meru,Beans,1.9,602.6,10,1,5,1,16.3,0
+KE-FARM-2026,Laikipia,Sunflower,7.3,463.6,6,1,15,1,9.7,0
+KE-FARM-2027,Meru,Maize,8.0,556.6,1,1,2,1,3.3,0
+KE-FARM-2028,Nyandarua,Beans,3.7,424.7,3,0,8,2,13.3,0
+KE-FARM-2029,Uasin Gishu,Sorghum,5.2,651.7,7,0,14,2,1.0,1
+KE-FARM-2030,Kitui,Maize,0.5,305.2,4,1,8,2,16.0,1
+KE-FARM-2031,Nyandarua,Maize,3.5,692.6,4,0,7,1,15.2,0
+KE-FARM-2032,Nakuru,Sorghum,4.4,602.3,7,0,6,0,11.1,0
+KE-FARM-2033,Nyandarua,Maize,0.9,885.3,9,0,1,1,1.0,1
+KE-FARM-2034,Laikipia,Beans,8.5,569.3,2,1,8,0,59.3,0
+KE-FARM-2035,Laikipia,Sunflower,0.9,569.3,9,1,1,0,14.1,0
+KE-FARM-2036,Nyandarua,Maize,1.5,702.4,3,1,8,0,13.3,0
+KE-FARM-2037,Laikipia,Beans,3.9,578.0,6,1,11,2,1.0,0
+KE-FARM-2038,Uasin Gishu,Wheat,4.1,641.2,4,1,2,1,5.1,0
+KE-FARM-2039,Meru,Beans,4.8,749.2,1,1,8,0,1.0,0
+KE-FARM-2040,Nyandarua,Sunflower,0.5,559.9,9,1,10,1,4.5,0
+KE-FARM-2041,Kitui,Beans,7.6,779.3,6,1,12,1,8.5,0
+KE-FARM-2042,Uasin Gishu,Sorghum,3.0,348.1,8,1,4,0,21.1,0
+KE-FARM-2043,Meru,Sunflower,2.5,840.5,2,1,7,0,3.3,0
+KE-FARM-2044,Kitui,Wheat,15.9,331.8,7,1,5,0,9.8,1
+KE-FARM-2045,Kitui,Sorghum,5.4,802.8,6,1,8,1,1.8,0
+KE-FARM-2046,Kitui,Beans,0.5,320.0,2,1,12,0,4.4,0
+KE-FARM-2047,Meru,Sunflower,5.7,897.1,2,1,15,2,29.4,0
+KE-FARM-2048,Uasin Gishu,Wheat,0.5,624.1,4,1,6,1,13.8,0
+KE-FARM-2049,Kitui,Sorghum,0.5,458.3,4,1,14,1,7.9,0
+KE-FARM-2050,Kitui,Wheat,2.1,879.8,3,1,15,1,2.9,0
+KE-FARM-2051,Trans Nzoia,Beans,20.2,436.7,8,1,5,0,4.8,0
+KE-FARM-2052,Nyandarua,Wheat,0.8,565.9,7,1,1,1,1.7,0
+KE-FARM-2053,Meru,Maize,4.5,990.7,2,0,3,2,4.4,0
+KE-FARM-2054,Meru,Sorghum,0.8,659.3,3,1,10,1,1.6,0
+KE-FARM-2055,Laikipia,Wheat,5.2,296.1,10,1,9,1,15.9,0
+KE-FARM-2056,Meru,Beans,2.8,559.0,9,1,15,1,1.0,0
+KE-FARM-2057,Uasin Gishu,Beans,4.6,545.7,5,0,14,2,2.1,0
+KE-FARM-2058,Meru,Wheat,0.9,628.3,2,1,9,2,11.7,0
+KE-FARM-2059,Trans Nzoia,Beans,5.5,593.3,3,1,5,2,23.3,0
+KE-FARM-2060,Nyandarua,Sunflower,21.7,681.9,8,0,3,1,33.4,0
+KE-FARM-2061,Nyandarua,Sunflower,4.4,370.8,4,1,6,0,18.1,0
+KE-FARM-2062,Meru,Sunflower,2.7,517.8,2,1,5,0,2.4,0
+KE-FARM-2063,Kitui,Maize,10.3,646.8,2,1,15,4,3.4,0
+KE-FARM-2064,Nakuru,Wheat,0.5,485.7,6,1,1,1,20.5,0
+KE-FARM-2065,Nakuru,Maize,5.2,764.4,8,0,2,1,22.0,0
+KE-FARM-2066,Kitui,Beans,8.8,488.7,7,1,12,0,10.2,0
+KE-FARM-2067,Kitui,Maize,0.5,621.5,4,1,5,1,3.8,0
+KE-FARM-2068,Kitui,Beans,2.4,584.3,2,0,14,1,2.5,0
+KE-FARM-2069,Uasin Gishu,Beans,0.9,447.8,9,1,9,0,19.1,0
+KE-FARM-2070,Nakuru,Sorghum,3.3,609.1,4,1,12,0,2.3,0
+KE-FARM-2071,Kitui,Sunflower,4.2,403.2,9,1,4,1,10.8,0
+KE-FARM-2072,Uasin Gishu,Beans,1.4,533.5,5,0,9,0,34.4,0
+KE-FARM-2073,Laikipia,Sorghum,2.5,604.5,7,1,3,1,12.2,0
+KE-FARM-2074,Uasin Gishu,Sunflower,1.3,385.9,5,1,1,0,3.0,0
+KE-FARM-2075,Nakuru,Beans,1.8,693.5,2,0,6,1,3.3,1
+KE-FARM-2076,Meru,Beans,0.7,639.1,6,0,15,0,1.0,0
+KE-FARM-2077,Laikipia,Maize,8.7,679.8,7,0,10,2,11.6,0
+KE-FARM-2078,Nakuru,Maize,0.5,600.4,6,1,14,1,7.3,0
+KE-FARM-2079,Uasin Gishu,Sunflower,8.6,427.4,3,0,7,3,2.3,1
+KE-FARM-2080,Trans Nzoia,Beans,3.4,600.0,10,0,4,1,2.6,0
+KE-FARM-2081,Nyandarua,Wheat,1.6,693.5,8,1,10,1,1.0,0
+KE-FARM-2082,Nakuru,Maize,5.1,421.5,3,1,5,2,38.4,0
+KE-FARM-2083,Kitui,Sunflower,2.8,433.4,5,1,4,2,17.6,1
+KE-FARM-2084,Uasin Gishu,Beans,2.8,563.1,9,1,3,0,5.0,0
+KE-FARM-2085,Kitui,Beans,0.5,544.3,5,0,1,2,29.2,0
+KE-FARM-2086,Kitui,Wheat,2.0,597.6,7,1,13,1,11.3,0
+KE-FARM-2087,Kitui,Sunflower,1.1,556.2,7,0,6,1,13.9,0
+KE-FARM-2088,Kitui,Beans,0.5,624.0,5,1,10,0,11.4,0
+KE-FARM-2089,Kitui,Maize,1.8,783.3,2,1,5,2,14.1,0
+KE-FARM-2090,Laikipia,Wheat,0.5,680.8,5,0,11,0,1.9,0
+KE-FARM-2091,Nakuru,Sunflower,1.2,608.4,7,1,1,0,8.3,0
+KE-FARM-2092,Nakuru,Wheat,0.5,434.0,7,1,5,2,18.9,1
+KE-FARM-2093,Nyandarua,Maize,0.5,491.7,4,0,6,1,1.0,0
+KE-FARM-2094,Uasin Gishu,Sunflower,0.9,726.3,1,1,10,0,1.3,0
+KE-FARM-2095,Trans Nzoia,Wheat,30.0,529.7,6,1,5,0,2.8,1
+KE-FARM-2096,Laikipia,Sorghum,0.5,454.8,3,1,1,2,3.5,0
+KE-FARM-2097,Uasin Gishu,Maize,4.1,914.7,5,1,14,1,2.0,0
+KE-FARM-2098,Laikipia,Maize,0.6,828.7,4,1,5,2,9.8,0
+KE-FARM-2099,Nakuru,Maize,10.1,581.3,2,0,10,0,3.5,0
+KE-FARM-2100,Kitui,Sorghum,0.5,437.6,7,0,1,2,1.7,1
+KE-FARM-2101,Nyandarua,Sorghum,12.4,708.5,5,1,11,2,23.6,0
+KE-FARM-2102,Nyandarua,Beans,3.8,526.5,7,0,3,0,11.9,0
+KE-FARM-2103,Meru,Wheat,0.5,733.3,9,1,12,1,2.8,0
+KE-FARM-2104,Trans Nzoia,Beans,9.0,526.6,4,1,13,2,4.5,0
+KE-FARM-2105,Nyandarua,Wheat,3.0,846.8,5,0,2,1,13.5,0
+KE-FARM-2106,Kitui,Sorghum,1.2,522.2,9,0,13,0,15.6,0
+KE-FARM-2107,Nakuru,Sorghum,5.8,954.7,10,1,1,2,1.9,0
+KE-FARM-2108,Trans Nzoia,Beans,10.5,629.3,4,1,4,1,27.6,0
+KE-FARM-2109,Uasin Gishu,Sunflower,2.6,807.6,5,1,2,0,15.4,0
+KE-FARM-2110,Kitui,Beans,1.5,519.0,5,1,5,0,19.4,0
+KE-FARM-2111,Kitui,Wheat,6.2,403.3,8,0,10,1,1.6,0
+KE-FARM-2112,Nyandarua,Beans,4.6,254.1,4,1,1,0,1.5,0
+KE-FARM-2113,Trans Nzoia,Maize,8.8,791.5,4,0,12,1,3.6,0
+KE-FARM-2114,Nakuru,Wheat,4.7,610.2,7,1,10,1,1.0,0
+KE-FARM-2115,Meru,Wheat,1.1,412.9,5,1,1,2,1.0,0
+KE-FARM-2116,Laikipia,Sunflower,10.7,797.7,6,1,11,0,1.5,0
+KE-FARM-2117,Laikipia,Sorghum,0.5,773.4,6,1,10,1,12.5,0
+KE-FARM-2118,Nakuru,Wheat,1.2,807.4,6,1,4,1,1.0,0
+KE-FARM-2119,Nakuru,Sorghum,2.9,399.0,10,1,7,1,1.0,0
+KE-FARM-2120,Laikipia,Beans,3.3,787.0,5,1,14,3,28.9,1
+KE-FARM-2121,Meru,Maize,0.5,657.6,5,1,14,2,1.0,0
+KE-FARM-2122,Trans Nzoia,Sunflower,6.1,814.1,9,0,2,0,7.7,0
+KE-FARM-2123,Laikipia,Sorghum,1.8,681.4,8,1,2,2,10.3,1
+KE-FARM-2124,Nakuru,Wheat,2.1,626.0,4,0,1,0,31.8,0
+KE-FARM-2125,Nyandarua,Sorghum,6.6,789.0,7,0,5,0,23.0,0
+KE-FARM-2126,Uasin Gishu,Wheat,1.9,727.8,8,0,6,0,5.8,0
+KE-FARM-2127,Meru,Sorghum,0.5,762.3,9,1,13,1,28.5,0
+KE-FARM-2128,Kitui,Wheat,0.8,526.8,5,0,6,0,5.7,0
+KE-FARM-2129,Meru,Beans,12.5,574.1,3,1,2,1,11.1,0
+KE-FARM-2130,Nyandarua,Wheat,0.5,339.9,4,1,12,0,3.0,0
+KE-FARM-2131,Nyandarua,Wheat,1.8,516.0,10,0,12,1,10.1,0
+KE-FARM-2132,Kitui,Maize,2.8,718.6,6,1,7,1,7.7,0
+KE-FARM-2133,Nakuru,Wheat,2.7,684.6,10,0,6,1,9.3,0
+KE-FARM-2134,Laikipia,Maize,0.5,453.1,5,1,8,2,11.5,0
+KE-FARM-2135,Trans Nzoia,Sunflower,2.8,792.4,9,1,6,0,1.9,0
+KE-FARM-2136,Meru,Maize,1.9,1046.0,3,1,9,0,3.6,0
+KE-FARM-2137,Kitui,Beans,14.3,464.6,2,0,10,1,13.3,0
+KE-FARM-2138,Meru,Maize,0.7,569.1,6,1,2,1,1.8,0
+KE-FARM-2139,Nyandarua,Sunflower,1.7,506.8,7,1,7,0,4.2,0
+KE-FARM-2140,Laikipia,Beans,2.2,585.8,5,1,5,0,11.0,0
+KE-FARM-2141,Meru,Sorghum,2.0,641.1,1,1,1,0,27.8,0
+KE-FARM-2142,Trans Nzoia,Sorghum,4.4,495.4,3,0,3,1,1.0,1
+KE-FARM-2143,Nyandarua,Maize,1.0,558.5,3,1,4,2,7.3,0
+KE-FARM-2144,Trans Nzoia,Maize,1.0,613.1,4,0,12,1,1.0,0
+KE-FARM-2145,Laikipia,Sunflower,5.2,670.7,10,0,2,1,4.8,0
+KE-FARM-2146,Meru,Sunflower,2.8,820.0,6,1,7,0,1.9,0
+KE-FARM-2147,Uasin Gishu,Wheat,2.1,597.8,5,1,1,0,10.5,0
+KE-FARM-2148,Meru,Sunflower,0.7,515.7,1,1,3,2,14.2,0
+KE-FARM-2149,Laikipia,Wheat,0.8,704.5,6,0,12,0,2.8,0
+KE-FARM-2150,Meru,Beans,0.5,660.0,9,0,9,2,12.5,0
+KE-FARM-2151,Kitui,Maize,0.5,571.1,1,1,11,1,5.9,0
+KE-FARM-2152,Meru,Beans,3.3,672.8,8,1,14,1,3.3,0
+KE-FARM-2153,Nakuru,Sunflower,8.9,542.5,8,0,2,1,7.4,0
+KE-FARM-2154,Meru,Beans,1.4,520.4,3,1,5,1,4.8,1
+KE-FARM-2155,Meru,Beans,1.6,315.1,9,0,4,0,2.6,0
+KE-FARM-2156,Trans Nzoia,Beans,0.5,550.8,8,1,12,2,14.1,0
+KE-FARM-2157,Uasin Gishu,Sunflower,2.0,335.6,3,1,3,1,16.0,1
+KE-FARM-2158,Trans Nzoia,Beans,0.5,504.1,10,1,5,0,16.1,0
+KE-FARM-2159,Trans Nzoia,Wheat,10.0,686.9,5,1,6,1,4.8,0
+KE-FARM-2160,Nyandarua,Sunflower,4.5,374.2,3,1,1,1,1.9,0
+KE-FARM-2161,Nakuru,Beans,18.7,571.5,5,1,2,0,18.4,0
+KE-FARM-2162,Trans Nzoia,Sunflower,8.6,609.8,9,1,1,0,4.0,0
+KE-FARM-2163,Kitui,Sorghum,2.6,564.2,4,1,3,0,13.8,0
+KE-FARM-2164,Laikipia,Wheat,2.9,527.8,6,0,8,2,17.0,0
+KE-FARM-2165,Kitui,Beans,0.8,648.8,3,1,8,0,14.6,0
+KE-FARM-2166,Laikipia,Sorghum,2.5,669.6,3,0,4,2,4.9,0
+KE-FARM-2167,Meru,Sorghum,9.3,600.2,5,1,6,2,27.8,0
+KE-FARM-2168,Nyandarua,Sunflower,0.5,536.1,8,0,12,0,10.8,0
+KE-FARM-2169,Nakuru,Sorghum,8.0,729.7,8,1,9,1,8.6,0
+KE-FARM-2170,Kitui,Wheat,1.7,403.4,3,0,14,0,12.0,1
+KE-FARM-2171,Nakuru,Wheat,9.2,703.1,8,0,7,1,1.0,0
+KE-FARM-2172,Kitui,Maize,11.3,663.0,8,0,2,0,5.0,0
+KE-FARM-2173,Meru,Wheat,4.4,629.9,3,1,11,2,21.3,1
+KE-FARM-2174,Laikipia,Sorghum,4.4,598.5,10,1,2,0,1.8,0
+KE-FARM-2175,Uasin Gishu,Wheat,2.4,316.5,10,1,3,1,5.4,0
+KE-FARM-2176,Nyandarua,Sunflower,7.2,808.1,2,0,8,1,5.2,0
+KE-FARM-2177,Kitui,Maize,13.0,725.8,10,1,10,0,4.4,0
+KE-FARM-2178,Kitui,Sorghum,6.0,455.8,2,1,15,2,8.3,1
+KE-FARM-2179,Meru,Maize,3.9,713.8,9,0,9,1,55.7,0
+KE-FARM-2180,Nyandarua,Sorghum,3.7,628.3,7,1,13,1,3.0,0
+KE-FARM-2181,Laikipia,Sunflower,7.6,512.5,6,1,14,0,12.2,0
+KE-FARM-2182,Laikipia,Maize,3.1,778.8,7,1,3,2,14.2,0
+KE-FARM-2183,Kitui,Beans,6.5,535.4,8,0,9,1,8.8,0
+KE-FARM-2184,Uasin Gishu,Sorghum,2.8,803.4,1,1,12,0,1.0,0
+KE-FARM-2185,Uasin Gishu,Beans,0.5,680.1,8,0,12,0,8.5,0
+KE-FARM-2186,Nakuru,Maize,1.9,743.5,3,1,10,1,30.7,0
+KE-FARM-2187,Nyandarua,Beans,2.4,686.9,3,1,12,2,4.2,0
+KE-FARM-2188,Nyandarua,Beans,0.6,679.9,6,1,8,0,10.2,0
+KE-FARM-2189,Laikipia,Maize,0.5,632.3,4,1,5,1,32.0,0
+KE-FARM-2190,Nakuru,Sunflower,3.1,491.0,4,0,11,1,16.0,0
+KE-FARM-2191,Meru,Beans,0.5,609.4,4,1,10,1,11.7,0
+KE-FARM-2192,Nyandarua,Beans,1.4,737.5,10,0,3,0,35.5,1
+KE-FARM-2193,Nakuru,Sunflower,5.5,707.9,9,1,11,1,1.9,0
+KE-FARM-2194,Nakuru,Beans,13.3,675.2,8,1,7,1,14.8,0
+KE-FARM-2195,Kitui,Beans,5.1,285.6,3,1,9,0,5.2,0
+KE-FARM-2196,Laikipia,Beans,19.6,568.0,1,1,12,2,4.5,0
+KE-FARM-2197,Nakuru,Wheat,4.8,552.3,1,1,6,3,7.4,0
+KE-FARM-2198,Uasin Gishu,Sunflower,1.4,434.5,1,0,3,1,1.0,0
+KE-FARM-2199,Uasin Gishu,Beans,4.5,735.6,4,1,5,1,3.7,0
+KE-FARM-2200,Trans Nzoia,Sunflower,4.8,296.2,6,0,7,1,1.8,0
+KE-FARM-2201,Laikipia,Sorghum,1.9,725.5,4,1,8,0,1.5,0
+KE-FARM-2202,Kitui,Sorghum,0.5,799.4,3,0,13,1,4.1,0
+KE-FARM-2203,Meru,Beans,4.9,568.5,8,1,14,1,16.2,0
+KE-FARM-2204,Trans Nzoia,Sunflower,0.5,588.8,8,0,12,0,2.2,0
+KE-FARM-2205,Uasin Gishu,Sunflower,4.0,745.1,6,1,4,2,7.6,0
+KE-FARM-2206,Kitui,Sunflower,0.7,485.5,9,1,2,0,13.8,0
+KE-FARM-2207,Trans Nzoia,Wheat,3.3,699.1,10,1,10,1,2.8,0
+KE-FARM-2208,Laikipia,Sorghum,2.8,462.3,1,0,2,1,25.8,0
+KE-FARM-2209,Kitui,Sunflower,0.5,417.4,8,1,12,0,20.1,0
+KE-FARM-2210,Laikipia,Sunflower,1.8,644.4,6,0,3,2,2.9,0
+KE-FARM-2211,Nakuru,Wheat,3.7,596.0,1,1,8,0,45.7,0
+KE-FARM-2212,Nyandarua,Wheat,7.6,341.8,4,1,1,1,11.1,0
+KE-FARM-2213,Nakuru,Sunflower,8.8,812.3,5,1,14,0,3.4,0
+KE-FARM-2214,Laikipia,Maize,2.6,537.8,7,0,7,1,11.4,0
+KE-FARM-2215,Kitui,Sunflower,5.2,676.6,8,1,6,1,11.0,0
+KE-FARM-2216,Uasin Gishu,Sunflower,1.5,840.8,9,1,14,0,9.3,0
+KE-FARM-2217,Meru,Wheat,1.7,637.1,6,0,2,2,12.4,1
+KE-FARM-2218,Uasin Gishu,Wheat,0.9,791.0,10,1,9,1,3.1,0
+KE-FARM-2219,Kitui,Sunflower,3.3,470.5,9,1,13,0,38.6,0
+KE-FARM-2220,Nakuru,Sunflower,1.5,813.1,4,0,12,0,19.5,0
+KE-FARM-2221,Meru,Sunflower,0.5,476.1,8,1,5,2,13.7,0
+KE-FARM-2222,Kitui,Wheat,4.6,514.3,3,1,2,0,1.0,0
+KE-FARM-2223,Laikipia,Sunflower,4.9,381.8,4,0,3,3,8.9,1
+KE-FARM-2224,Uasin Gishu,Sunflower,1.8,640.3,10,1,7,1,12.3,0
+KE-FARM-2225,Laikipia,Beans,0.5,694.6,4,1,7,0,19.2,0
+KE-FARM-2226,Meru,Maize,2.2,715.0,6,0,10,0,29.2,0
+KE-FARM-2227,Meru,Sorghum,2.3,385.3,9,1,1,0,24.8,0
+KE-FARM-2228,Uasin Gishu,Maize,4.4,656.2,6,1,15,2,5.2,0
+KE-FARM-2229,Laikipia,Beans,1.5,661.8,1,1,10,1,22.7,0
+KE-FARM-2230,Trans Nzoia,Sorghum,4.6,692.2,5,1,14,0,1.0,0
+KE-FARM-2231,Laikipia,Sunflower,8.2,484.1,9,1,11,0,4.3,0
+KE-FARM-2232,Meru,Beans,1.1,224.2,5,1,11,0,1.2,0
+KE-FARM-2233,Laikipia,Sunflower,15.4,706.0,6,0,12,0,21.5,0
+KE-FARM-2234,Kitui,Wheat,2.0,578.1,3,1,4,2,26.3,1
+KE-FARM-2235,Nakuru,Beans,1.2,642.0,8,1,6,0,3.0,0
+KE-FARM-2236,Trans Nzoia,Wheat,2.2,585.8,10,0,8,3,4.6,0
+KE-FARM-2237,Nyandarua,Beans,0.5,635.2,4,1,3,3,41.3,0
+KE-FARM-2238,Kitui,Beans,0.5,710.6,4,0,14,1,8.3,0
+KE-FARM-2239,Nakuru,Wheat,2.1,321.4,5,1,3,0,6.9,1
+KE-FARM-2240,Nyandarua,Sorghum,5.7,771.2,10,1,8,0,6.9,0
+KE-FARM-2241,Uasin Gishu,Maize,9.2,572.7,9,1,8,1,11.9,0
+KE-FARM-2242,Nyandarua,Sunflower,4.4,844.1,8,0,8,0,30.9,0
+KE-FARM-2243,Kitui,Beans,0.5,531.1,7,1,1,1,4.6,0
+KE-FARM-2244,Laikipia,Sunflower,4.5,497.8,5,0,8,1,1.9,0
+KE-FARM-2245,Kitui,Wheat,4.0,577.7,9,1,8,0,2.0,0
+KE-FARM-2246,Nyandarua,Sunflower,6.6,675.0,9,1,2,1,1.0,0
+KE-FARM-2247,Meru,Wheat,7.0,558.8,10,1,12,2,8.1,0
+KE-FARM-2248,Nakuru,Sunflower,8.1,685.9,10,1,9,1,26.5,0
+KE-FARM-2249,Nakuru,Maize,2.1,541.9,2,1,7,1,12.5,0
+KE-FARM-2250,Nyandarua,Maize,4.8,605.2,4,0,8,0,49.6,0
+KE-FARM-2251,Nakuru,Maize,1.2,935.5,8,0,2,1,24.0,0
+KE-FARM-2252,Meru,Maize,29.3,653.6,1,1,4,0,6.8,0
+KE-FARM-2253,Kitui,Maize,0.8,665.6,5,1,7,0,6.7,0
+KE-FARM-2254,Nakuru,Maize,0.5,379.1,8,0,6,2,9.9,1
+KE-FARM-2255,Nyandarua,Wheat,0.6,803.1,2,1,7,0,1.2,0
+KE-FARM-2256,Trans Nzoia,Beans,6.0,760.0,2,1,1,0,9.4,0
+KE-FARM-2257,Trans Nzoia,Sunflower,2.4,492.8,8,1,8,0,6.2,0
+KE-FARM-2258,Uasin Gishu,Maize,2.4,757.0,10,1,13,0,10.3,0
+KE-FARM-2259,Nakuru,Wheat,12.4,649.5,9,1,7,1,8.3,0
+KE-FARM-2260,Kitui,Wheat,10.1,607.0,7,0,13,2,3.7,0
+KE-FARM-2261,Nyandarua,Wheat,1.5,793.6,8,0,4,2,9.4,0
+KE-FARM-2262,Nakuru,Beans,0.9,523.2,5,1,1,3,4.6,0
+KE-FARM-2263,Laikipia,Sunflower,7.5,491.6,1,1,15,0,2.2,0
+KE-FARM-2264,Meru,Beans,9.5,631.1,4,1,8,1,11.2,0
+KE-FARM-2265,Nakuru,Sorghum,3.1,679.2,2,1,10,0,3.7,1
+KE-FARM-2266,Nakuru,Wheat,4.0,744.9,3,1,7,0,22.0,1
+KE-FARM-2267,Trans Nzoia,Sorghum,1.2,577.4,3,1,8,1,2.2,0
+KE-FARM-2268,Meru,Maize,6.5,472.5,9,1,10,1,9.2,0
+KE-FARM-2269,Nyandarua,Maize,4.0,979.3,10,1,1,0,8.5,0
+KE-FARM-2270,Nakuru,Beans,2.8,437.0,4,1,5,1,2.2,0
+KE-FARM-2271,Trans Nzoia,Sunflower,0.5,608.3,2,1,9,0,5.8,0
+KE-FARM-2272,Uasin Gishu,Sorghum,9.9,717.0,3,0,5,0,11.3,0
+KE-FARM-2273,Meru,Sunflower,3.8,772.7,3,0,13,0,3.8,0
+KE-FARM-2274,Trans Nzoia,Beans,0.9,514.9,7,1,14,0,1.2,0
+KE-FARM-2275,Trans Nzoia,Maize,3.7,318.8,8,1,14,1,9.6,1
+KE-FARM-2276,Kitui,Sunflower,4.5,511.5,6,1,10,0,2.5,0
+KE-FARM-2277,Trans Nzoia,Sunflower,3.0,729.2,4,1,12,0,11.4,0
+KE-FARM-2278,Kitui,Maize,5.1,695.6,6,0,3,0,18.3,0
+KE-FARM-2279,Nakuru,Sorghum,3.5,700.5,1,0,9,1,1.3,0
+KE-FARM-2280,Nakuru,Maize,11.8,706.7,10,1,13,0,5.8,0
+KE-FARM-2281,Uasin Gishu,Sunflower,0.5,801.0,8,1,9,0,5.9,0
+KE-FARM-2282,Laikipia,Sorghum,0.5,483.6,1,1,4,1,10.0,0
+KE-FARM-2283,Laikipia,Sorghum,0.8,420.3,5,0,4,0,4.1,1
+KE-FARM-2284,Laikipia,Maize,4.7,655.6,2,1,11,1,5.4,0
+KE-FARM-2285,Kitui,Sunflower,4.1,442.7,6,1,8,0,1.0,0
+KE-FARM-2286,Meru,Beans,8.9,410.9,9,1,7,0,1.3,0
+KE-FARM-2287,Meru,Sunflower,5.3,783.6,5,1,11,1,8.4,0
+KE-FARM-2288,Uasin Gishu,Wheat,2.8,637.6,4,0,5,1,2.4,0
+KE-FARM-2289,Meru,Beans,19.2,604.3,2,1,6,1,1.6,1
+KE-FARM-2290,Laikipia,Sorghum,1.2,607.4,3,1,15,2,3.9,0
+KE-FARM-2291,Laikipia,Beans,7.2,584.1,6,1,3,0,1.8,0
+KE-FARM-2292,Trans Nzoia,Sorghum,2.2,782.6,8,1,14,0,1.0,0
+KE-FARM-2293,Meru,Sorghum,4.2,372.8,8,0,15,1,3.3,1
+KE-FARM-2294,Nakuru,Beans,5.2,366.6,5,1,6,0,1.8,0
+KE-FARM-2295,Nakuru,Sorghum,4.0,459.5,5,1,13,0,16.1,0
+KE-FARM-2296,Trans Nzoia,Sorghum,0.6,643.4,10,0,8,0,1.0,0
+KE-FARM-2297,Trans Nzoia,Wheat,2.3,870.8,3,0,10,1,13.8,0
+KE-FARM-2298,Trans Nzoia,Sunflower,3.3,730.4,7,1,14,0,4.8,0
+KE-FARM-2299,Nakuru,Sunflower,7.6,688.9,6,0,13,0,11.2,0
+KE-FARM-2300,Laikipia,Wheat,2.3,588.0,1,1,11,2,1.0,1
+KE-FARM-2301,Trans Nzoia,Beans,10.0,400.1,4,1,9,1,25.3,0
+KE-FARM-2302,Uasin Gishu,Maize,2.3,677.2,6,1,3,1,14.6,0
+KE-FARM-2303,Kitui,Maize,3.2,903.9,6,1,8,1,1.5,0
+KE-FARM-2304,Trans Nzoia,Maize,6.4,564.0,3,0,12,3,2.5,1
+KE-FARM-2305,Kitui,Wheat,3.5,515.9,6,0,3,0,10.3,0
+KE-FARM-2306,Nyandarua,Wheat,12.9,564.7,10,1,2,0,25.5,0
+KE-FARM-2307,Trans Nzoia,Sorghum,4.3,690.0,6,1,5,1,5.9,0
+KE-FARM-2308,Nakuru,Maize,3.0,616.8,9,1,14,1,6.6,0
+KE-FARM-2309,Meru,Beans,0.5,736.5,9,1,4,1,2.7,0
+KE-FARM-2310,Trans Nzoia,Beans,2.1,595.0,2,0,13,1,4.8,0
+KE-FARM-2311,Meru,Maize,1.4,563.8,4,0,5,3,3.4,0
+KE-FARM-2312,Nyandarua,Maize,5.5,634.4,9,1,6,2,4.3,0
+KE-FARM-2313,Uasin Gishu,Maize,0.9,519.1,4,1,15,1,1.0,0
+KE-FARM-2314,Meru,Wheat,0.9,861.1,8,0,3,0,1.0,0
+KE-FARM-2315,Kitui,Wheat,0.8,723.5,10,0,1,0,11.4,0
+KE-FARM-2316,Laikipia,Wheat,0.5,435.0,3,0,15,2,11.5,0
+KE-FARM-2317,Trans Nzoia,Sunflower,1.5,488.1,3,0,4,1,4.0,0
+KE-FARM-2318,Nyandarua,Beans,8.7,684.8,9,1,6,2,21.7,0
+KE-FARM-2319,Nyandarua,Beans,6.0,627.5,10,1,2,1,3.1,0
+KE-FARM-2320,Meru,Sorghum,5.3,645.4,8,1,2,1,5.0,0
+KE-FARM-2321,Uasin Gishu,Wheat,6.4,571.2,1,1,1,0,13.1,0
+KE-FARM-2322,Nakuru,Sunflower,1.3,668.3,10,1,9,1,13.6,0
+KE-FARM-2323,Trans Nzoia,Sunflower,8.7,574.7,2,1,3,0,19.7,0
+KE-FARM-2324,Nyandarua,Beans,0.6,684.5,3,0,2,1,1.0,0
+KE-FARM-2325,Uasin Gishu,Wheat,1.6,716.0,2,1,4,1,2.0,0
+KE-FARM-2326,Laikipia,Sorghum,3.5,841.0,3,0,6,3,10.2,1
+KE-FARM-2327,Nyandarua,Wheat,0.5,522.8,8,0,1,1,4.1,0
+KE-FARM-2328,Uasin Gishu,Maize,5.2,598.3,6,0,9,0,1.0,0
+KE-FARM-2329,Nakuru,Wheat,2.0,417.2,7,1,9,3,8.8,0
+KE-FARM-2330,Nakuru,Maize,6.1,873.9,10,0,8,2,5.0,0
+KE-FARM-2331,Nyandarua,Maize,2.7,303.7,10,0,6,1,4.5,0
+KE-FARM-2332,Kitui,Sorghum,0.8,852.4,6,1,4,0,3.1,0
+KE-FARM-2333,Nyandarua,Beans,5.3,614.0,1,1,2,1,1.0,0
+KE-FARM-2334,Meru,Wheat,1.2,662.8,3,1,8,0,2.0,0
+KE-FARM-2335,Trans Nzoia,Maize,2.7,575.1,1,1,7,0,6.4,0
+KE-FARM-2336,Uasin Gishu,Wheat,0.5,604.7,10,0,12,1,3.2,0
+KE-FARM-2337,Nyandarua,Beans,3.8,688.2,9,0,14,0,20.7,0
+KE-FARM-2338,Trans Nzoia,Beans,4.4,354.5,9,1,4,1,1.5,0
+KE-FARM-2339,Meru,Sunflower,1.9,502.2,5,1,3,1,20.8,0
+KE-FARM-2340,Trans Nzoia,Beans,12.4,473.2,4,1,15,0,5.2,0
+KE-FARM-2341,Nyandarua,Sorghum,8.3,667.1,9,1,6,0,3.2,0
+KE-FARM-2342,Nakuru,Maize,4.9,600.7,9,1,15,0,3.6,0
+KE-FARM-2343,Uasin Gishu,Sunflower,5.0,692.7,3,1,15,1,4.0,0
+KE-FARM-2344,Uasin Gishu,Sorghum,1.2,624.7,5,1,1,1,7.1,0
+KE-FARM-2345,Nakuru,Wheat,4.3,758.8,3,0,2,2,4.4,0
+KE-FARM-2346,Kitui,Maize,0.9,489.0,10,1,7,2,10.4,0
+KE-FARM-2347,Nyandarua,Beans,0.6,608.7,2,0,11,0,5.5,0
+KE-FARM-2348,Uasin Gishu,Maize,30.0,766.4,1,0,3,0,11.1,1
+KE-FARM-2349,Nyandarua,Wheat,3.9,736.4,10,0,14,0,9.3,0
+KE-FARM-2350,Meru,Sunflower,2.3,378.1,2,1,13,3,2.8,1
+KE-FARM-2351,Nyandarua,Sunflower,1.4,446.8,8,0,1,0,16.8,0
+KE-FARM-2352,Trans Nzoia,Sunflower,3.7,587.7,8,0,2,0,16.0,0
+KE-FARM-2353,Nakuru,Beans,0.5,564.8,3,1,10,0,45.1,0
+KE-FARM-2354,Kitui,Sorghum,0.5,590.2,7,1,10,0,1.9,0
+KE-FARM-2355,Nyandarua,Sorghum,0.5,719.4,7,1,14,0,18.8,0
+KE-FARM-2356,Kitui,Maize,2.8,643.4,2,1,9,1,20.6,0
+KE-FARM-2357,Kitui,Beans,3.7,652.2,9,0,7,1,10.3,0
+KE-FARM-2358,Meru,Sunflower,0.5,700.6,3,0,7,1,7.1,0
+KE-FARM-2359,Laikipia,Sunflower,5.1,761.1,2,0,14,1,31.5,0
+KE-FARM-2360,Nakuru,Wheat,1.0,141.6,3,1,10,0,36.0,1
+KE-FARM-2361,Kitui,Wheat,4.6,542.0,2,1,8,4,10.3,0
+KE-FARM-2362,Uasin Gishu,Sunflower,16.0,467.6,8,0,15,1,4.5,0
+KE-FARM-2363,Trans Nzoia,Sunflower,4.7,671.3,5,0,12,1,17.0,0
+KE-FARM-2364,Uasin Gishu,Beans,8.6,530.7,3,1,12,0,1.0,0
+KE-FARM-2365,Meru,Sorghum,11.8,611.4,5,1,8,3,3.4,0
+KE-FARM-2366,Meru,Wheat,2.7,727.8,8,1,9,1,42.4,0
+KE-FARM-2367,Uasin Gishu,Sorghum,4.8,509.6,7,0,2,1,16.8,1
+KE-FARM-2368,Nakuru,Beans,7.6,654.4,6,0,14,0,28.1,0
+KE-FARM-2369,Uasin Gishu,Sunflower,1.8,833.1,1,1,8,2,9.0,0
+KE-FARM-2370,Nyandarua,Sorghum,1.2,724.7,10,1,8,0,5.2,0
+KE-FARM-2371,Uasin Gishu,Sunflower,11.7,362.1,1,1,13,2,39.0,1
+KE-FARM-2372,Trans Nzoia,Sunflower,5.2,556.2,1,1,5,1,3.7,0
+KE-FARM-2373,Trans Nzoia,Maize,1.0,653.4,10,1,5,0,14.2,0
+KE-FARM-2374,Laikipia,Sorghum,2.4,682.9,8,1,4,1,8.2,0
+KE-FARM-2375,Trans Nzoia,Sorghum,6.4,562.1,8,0,14,0,2.6,0
+KE-FARM-2376,Uasin Gishu,Sunflower,3.2,504.0,7,1,5,0,1.0,0
+KE-FARM-2377,Trans Nzoia,Beans,4.2,610.2,6,1,2,0,4.8,0
+KE-FARM-2378,Nakuru,Maize,5.6,437.0,4,0,2,0,7.9,0
+KE-FARM-2379,Kitui,Sunflower,3.9,765.0,1,1,5,0,2.0,0
+KE-FARM-2380,Trans Nzoia,Wheat,3.1,880.3,9,1,11,1,5.4,0
+KE-FARM-2381,Nyandarua,Wheat,5.5,659.2,1,1,13,0,9.6,0
+KE-FARM-2382,Nakuru,Maize,5.2,565.1,4,1,3,0,12.5,0
+KE-FARM-2383,Laikipia,Beans,4.0,741.1,3,1,1,1,1.0,0
+KE-FARM-2384,Nyandarua,Sunflower,1.8,715.8,7,1,9,0,10.9,0
+KE-FARM-2385,Uasin Gishu,Sorghum,2.1,558.7,5,1,2,0,1.0,0
+KE-FARM-2386,Kitui,Maize,14.1,592.8,5,1,14,2,1.0,0
+KE-FARM-2387,Uasin Gishu,Beans,0.5,508.6,4,1,12,0,1.7,0
+KE-FARM-2388,Kitui,Sorghum,1.3,624.7,1,0,14,0,10.6,0
+KE-FARM-2389,Kitui,Wheat,2.7,644.8,5,1,10,1,1.0,0
+KE-FARM-2390,Uasin Gishu,Wheat,7.2,483.0,4,1,2,0,1.0,0
+KE-FARM-2391,Nyandarua,Sorghum,0.7,438.8,10,1,14,1,1.3,0
+KE-FARM-2392,Nyandarua,Maize,1.3,401.1,8,0,4,1,29.9,0
+KE-FARM-2393,Kitui,Wheat,0.5,662.5,2,1,2,1,23.8,0
+KE-FARM-2394,Nyandarua,Sunflower,4.9,598.3,8,1,7,1,1.0,0
+KE-FARM-2395,Kitui,Sorghum,1.1,587.5,1,1,15,0,3.6,0
+KE-FARM-2396,Kitui,Sorghum,2.0,669.7,4,1,12,0,29.4,0
+KE-FARM-2397,Nakuru,Wheat,2.3,464.9,3,1,10,0,1.0,0
+KE-FARM-2398,Meru,Maize,8.9,439.5,5,0,15,0,1.0,0
+KE-FARM-2399,Nakuru,Sunflower,2.1,636.2,5,1,1,2,1.0,0
+KE-FARM-2400,Uasin Gishu,Maize,0.6,340.7,5,0,11,0,37.5,0
+KE-FARM-2401,Meru,Beans,3.0,561.2,4,1,2,0,13.6,0
+KE-FARM-2402,Trans Nzoia,Beans,13.2,970.0,8,1,11,0,2.4,0
+KE-FARM-2403,Uasin Gishu,Wheat,3.7,397.7,3,1,5,0,1.0,0
+KE-FARM-2404,Laikipia,Wheat,16.4,535.5,4,1,15,1,33.6,0
+KE-FARM-2405,Nakuru,Wheat,7.4,281.6,1,1,2,1,5.5,0
+KE-FARM-2406,Nyandarua,Beans,0.5,564.9,7,0,9,1,9.1,0
+KE-FARM-2407,Nakuru,Maize,4.3,895.0,1,0,4,0,3.3,0
+KE-FARM-2408,Nyandarua,Maize,1.4,670.0,2,1,9,1,14.2,0
+KE-FARM-2409,Meru,Wheat,3.3,507.9,7,1,11,1,2.2,0
+KE-FARM-2410,Laikipia,Sunflower,1.3,927.2,1,1,12,1,15.5,0
+KE-FARM-2411,Meru,Maize,1.7,338.6,3,0,1,2,2.6,1
+KE-FARM-2412,Laikipia,Beans,10.3,668.1,6,0,1,3,1.0,0
+KE-FARM-2413,Nakuru,Sorghum,0.9,609.7,6,0,1,1,6.5,0
+KE-FARM-2414,Nyandarua,Sorghum,8.3,562.9,6,0,14,1,16.8,0
+KE-FARM-2415,Meru,Sorghum,0.5,721.1,2,1,4,0,4.9,0
+KE-FARM-2416,Laikipia,Sunflower,0.5,422.7,2,0,9,0,1.0,0
+KE-FARM-2417,Kitui,Wheat,7.7,646.9,6,1,8,0,8.1,0
+KE-FARM-2418,Uasin Gishu,Beans,4.0,627.8,10,0,7,0,11.4,0
+KE-FARM-2419,Uasin Gishu,Sunflower,5.5,469.3,5,1,15,0,13.5,0
+KE-FARM-2420,Meru,Beans,0.9,892.5,7,1,1,0,5.1,0
+KE-FARM-2421,Nyandarua,Beans,3.1,572.7,7,0,3,0,1.0,0
+KE-FARM-2422,Kitui,Wheat,5.3,579.2,5,1,9,0,8.8,0
+KE-FARM-2423,Meru,Sorghum,3.9,445.8,8,0,15,0,4.0,0
+KE-FARM-2424,Nakuru,Wheat,2.6,575.5,10,0,9,2,29.4,0
+KE-FARM-2425,Laikipia,Sunflower,12.9,950.2,6,1,5,1,7.0,0
+KE-FARM-2426,Nakuru,Sunflower,4.5,562.1,5,1,12,0,6.4,0
+KE-FARM-2427,Uasin Gishu,Sunflower,9.5,677.8,4,1,13,0,3.7,0
+KE-FARM-2428,Laikipia,Wheat,5.2,742.6,7,1,6,1,4.1,0
+KE-FARM-2429,Meru,Beans,5.3,572.8,4,1,11,1,7.2,0
+KE-FARM-2430,Nakuru,Beans,0.5,538.6,5,0,13,0,3.7,0
+KE-FARM-2431,Trans Nzoia,Maize,1.8,670.8,5,1,6,1,22.3,0
+KE-FARM-2432,Nyandarua,Sunflower,7.8,563.8,1,0,10,0,5.8,0
+KE-FARM-2433,Kitui,Beans,1.1,550.2,1,1,4,1,3.5,0
+KE-FARM-2434,Kitui,Maize,0.5,741.0,3,1,1,0,1.7,0
+KE-FARM-2435,Nyandarua,Beans,1.6,589.6,3,0,5,0,11.2,0
+KE-FARM-2436,Trans Nzoia,Sunflower,1.0,782.0,2,1,13,1,1.0,0
+KE-FARM-2437,Uasin Gishu,Sorghum,10.4,586.2,2,1,1,0,6.0,1
+KE-FARM-2438,Laikipia,Sunflower,8.1,402.4,6,1,1,0,8.0,0
+KE-FARM-2439,Nyandarua,Wheat,2.8,100.0,1,0,11,0,4.2,1
+KE-FARM-2440,Trans Nzoia,Beans,0.5,324.3,6,1,5,1,13.9,0
+KE-FARM-2441,Meru,Beans,5.0,350.1,5,1,5,0,11.3,0
+KE-FARM-2442,Kitui,Wheat,3.9,640.0,6,0,7,1,35.5,0
+KE-FARM-2443,Trans Nzoia,Wheat,14.1,454.3,5,1,2,0,7.1,0
+KE-FARM-2444,Uasin Gishu,Sorghum,3.3,303.9,7,0,15,1,7.7,1
+KE-FARM-2445,Uasin Gishu,Beans,1.6,580.4,1,0,6,0,2.8,0
+KE-FARM-2446,Nakuru,Beans,2.9,437.7,3,1,2,2,4.9,0
+KE-FARM-2447,Nyandarua,Sorghum,15.5,669.5,6,1,15,0,1.0,0
+KE-FARM-2448,Nakuru,Maize,4.8,665.7,1,1,13,0,11.7,0
+KE-FARM-2449,Kitui,Sorghum,4.5,681.6,7,1,10,1,3.7,0
+KE-FARM-2450,Trans Nzoia,Sunflower,1.1,216.3,4,0,5,1,7.8,0
+KE-FARM-2451,Laikipia,Beans,5.4,606.8,3,0,4,1,2.9,0
+KE-FARM-2452,Laikipia,Wheat,5.5,581.8,10,1,11,0,9.7,0
+KE-FARM-2453,Uasin Gishu,Sunflower,1.5,416.8,9,0,10,2,5.9,1
+KE-FARM-2454,Laikipia,Beans,2.6,279.4,1,1,5,1,6.6,0
+KE-FARM-2455,Laikipia,Sorghum,1.4,583.7,8,1,2,0,28.6,0
+KE-FARM-2456,Kitui,Sunflower,1.2,759.6,1,0,8,0,12.2,1
+KE-FARM-2457,Laikipia,Beans,0.5,212.7,5,0,8,0,3.0,0
+KE-FARM-2458,Trans Nzoia,Maize,1.3,475.1,10,1,6,2,7.0,0
+KE-FARM-2459,Laikipia,Maize,3.2,619.7,8,1,3,1,6.3,0
+KE-FARM-2460,Meru,Wheat,0.5,768.7,6,1,4,0,15.9,0
+KE-FARM-2461,Laikipia,Beans,1.3,553.1,7,1,1,0,17.9,0
+KE-FARM-2462,Laikipia,Maize,8.5,889.7,8,1,9,3,3.3,0
+KE-FARM-2463,Nakuru,Sorghum,3.6,330.7,6,0,10,1,17.2,0
+KE-FARM-2464,Trans Nzoia,Beans,3.7,297.5,6,0,5,0,2.0,1
+KE-FARM-2465,Uasin Gishu,Sorghum,2.1,752.7,6,1,14,2,14.4,0
+KE-FARM-2466,Nakuru,Sorghum,4.5,247.6,5,0,8,0,2.9,1
+KE-FARM-2467,Nyandarua,Maize,0.8,669.2,8,0,3,3,3.5,0
+KE-FARM-2468,Trans Nzoia,Beans,6.8,555.8,2,1,4,1,19.1,0
+KE-FARM-2469,Meru,Sunflower,0.5,464.8,7,1,4,0,5.4,0
+KE-FARM-2470,Trans Nzoia,Maize,4.3,536.0,4,0,8,2,46.6,0
+KE-FARM-2471,Nyandarua,Maize,1.7,406.6,1,1,15,1,1.6,0
+KE-FARM-2472,Nyandarua,Beans,5.5,552.2,5,1,12,0,6.2,0
+KE-FARM-2473,Nyandarua,Beans,3.2,602.6,3,0,9,2,13.2,0
+KE-FARM-2474,Kitui,Sorghum,2.4,537.6,4,1,3,1,1.0,0
+KE-FARM-2475,Uasin Gishu,Beans,0.7,512.3,7,0,7,1,1.6,0
+KE-FARM-2476,Laikipia,Sorghum,4.1,638.1,5,1,9,0,1.0,0
+KE-FARM-2477,Trans Nzoia,Maize,14.7,848.9,4,0,2,0,49.4,0
+KE-FARM-2478,Kitui,Wheat,7.0,560.1,1,1,4,3,14.3,1
+KE-FARM-2479,Laikipia,Sunflower,0.5,723.0,6,0,3,2,4.7,1
+KE-FARM-2480,Laikipia,Maize,1.9,455.1,10,1,8,1,1.7,0
+KE-FARM-2481,Meru,Beans,10.4,399.9,6,1,4,0,1.0,0
+KE-FARM-2482,Nyandarua,Sunflower,2.8,668.0,7,1,9,0,7.6,0
+KE-FARM-2483,Uasin Gishu,Wheat,4.3,565.0,1,1,1,0,37.3,1
+KE-FARM-2484,Meru,Wheat,9.7,769.4,4,0,1,1,11.2,0
+KE-FARM-2485,Nakuru,Sorghum,8.3,798.8,9,1,4,1,4.5,0
+KE-FARM-2486,Kitui,Sunflower,2.8,725.9,10,0,3,1,6.9,0
+KE-FARM-2487,Kitui,Sorghum,2.3,722.6,6,1,3,1,68.2,0
+KE-FARM-2488,Uasin Gishu,Maize,1.7,100.0,2,0,10,2,7.3,1
+KE-FARM-2489,Laikipia,Sunflower,5.1,666.7,4,1,12,0,33.3,0
+KE-FARM-2490,Kitui,Maize,1.4,729.4,6,1,2,0,1.0,0
+KE-FARM-2491,Uasin Gishu,Sorghum,1.2,409.2,4,1,14,1,12.8,0
+KE-FARM-2492,Kitui,Sunflower,1.8,601.3,10,0,10,0,9.9,0
+KE-FARM-2493,Kitui,Sorghum,0.8,443.6,7,1,10,0,11.6,0
+KE-FARM-2494,Nyandarua,Sunflower,4.8,754.1,3,1,2,0,8.5,0
+KE-FARM-2495,Nakuru,Sorghum,3.8,456.6,6,1,8,2,1.0,1
+KE-FARM-2496,Nyandarua,Wheat,2.6,481.1,4,1,1,0,1.6,0
+KE-FARM-2497,Nakuru,Sorghum,2.0,530.4,3,1,14,0,25.5,0
+KE-FARM-2498,Kitui,Wheat,9.6,937.4,3,1,15,2,2.7,0
+KE-FARM-2499,Meru,Sorghum,0.5,750.7,2,0,8,0,49.5,1
+KE-FARM-2500,Laikipia,Sunflower,5.9,841.9,3,1,10,0,11.4,0
+KE-FARM-2501,Kitui,Sunflower,9.3,328.0,10,0,3,2,5.9,0
+KE-FARM-2502,Nakuru,Sunflower,2.4,409.6,1,1,2,0,25.3,0
+KE-FARM-2503,Nakuru,Beans,3.2,800.8,3,1,9,0,15.8,0
+KE-FARM-2504,Nakuru,Maize,11.6,336.0,9,1,5,1,5.6,1
+KE-FARM-2505,Kitui,Sunflower,1.0,499.2,4,1,15,0,1.0,0
+KE-FARM-2506,Uasin Gishu,Wheat,2.9,908.3,3,1,14,1,20.3,0
+KE-FARM-2507,Meru,Sunflower,2.6,455.5,8,1,5,1,14.5,0
+KE-FARM-2508,Uasin Gishu,Beans,1.2,326.9,1,1,13,1,15.6,0
+KE-FARM-2509,Laikipia,Wheat,6.8,607.1,5,1,6,1,13.7,0
+KE-FARM-2510,Kitui,Beans,9.2,333.0,1,0,4,0,3.2,0
+KE-FARM-2511,Nakuru,Wheat,6.1,785.6,7,0,7,2,19.6,1
+KE-FARM-2512,Meru,Sorghum,0.9,465.8,5,0,7,1,1.0,0
+KE-FARM-2513,Meru,Maize,0.5,435.7,2,1,11,1,2.7,1
+KE-FARM-2514,Trans Nzoia,Maize,3.7,604.4,1,1,9,0,1.0,0
+KE-FARM-2515,Laikipia,Beans,0.5,539.3,7,0,6,1,1.2,0
+KE-FARM-2516,Meru,Maize,4.5,637.9,1,1,13,1,7.6,0
+KE-FARM-2517,Kitui,Beans,3.0,678.2,3,1,1,1,1.0,1
+KE-FARM-2518,Nakuru,Beans,4.3,567.4,6,1,9,0,2.0,0
+KE-FARM-2519,Nakuru,Beans,3.6,425.8,6,1,12,1,2.6,0
+KE-FARM-2520,Meru,Maize,2.2,709.6,7,0,13,1,10.7,0
+KE-FARM-2521,Uasin Gishu,Beans,0.9,496.0,1,0,10,0,6.3,0
+KE-FARM-2522,Laikipia,Maize,1.5,469.6,7,0,9,1,6.1,0
+KE-FARM-2523,Nakuru,Beans,3.0,621.4,2,0,5,0,14.6,0
+KE-FARM-2524,Meru,Sunflower,4.2,310.7,6,0,7,0,6.1,0
+KE-FARM-2525,Nakuru,Beans,6.0,658.6,8,1,1,0,4.3,0
+KE-FARM-2526,Meru,Wheat,5.8,629.4,5,0,4,0,32.8,0
+KE-FARM-2527,Laikipia,Beans,14.4,768.3,10,0,12,2,1.0,1
+KE-FARM-2528,Meru,Sorghum,1.3,524.9,3,0,10,0,3.6,0
+KE-FARM-2529,Trans Nzoia,Beans,0.5,798.7,8,1,4,0,9.4,0
+KE-FARM-2530,Meru,Wheat,1.7,679.4,8,1,5,1,15.3,0
+KE-FARM-2531,Meru,Wheat,5.4,596.0,4,1,6,3,17.0,0
+KE-FARM-2532,Kitui,Maize,2.3,872.5,8,0,4,0,1.0,0
+KE-FARM-2533,Laikipia,Sunflower,6.8,614.3,5,1,6,2,12.3,0
+KE-FARM-2534,Kitui,Beans,3.2,522.2,5,0,10,1,12.7,0
+KE-FARM-2535,Meru,Maize,10.6,618.6,3,0,7,1,2.4,1
+KE-FARM-2536,Laikipia,Sunflower,11.8,519.2,7,1,3,0,1.2,0
+KE-FARM-2537,Trans Nzoia,Beans,0.5,656.0,9,1,9,0,13.9,0
+KE-FARM-2538,Laikipia,Sorghum,2.4,798.1,9,1,8,0,2.9,0
+KE-FARM-2539,Nakuru,Beans,3.8,598.8,1,1,1,0,1.0,0
+KE-FARM-2540,Kitui,Wheat,1.2,613.5,1,1,13,0,2.5,0
+KE-FARM-2541,Laikipia,Wheat,2.1,719.7,10,0,2,0,1.0,0
+KE-FARM-2542,Trans Nzoia,Sorghum,4.5,778.1,5,1,2,0,2.9,0
+KE-FARM-2543,Nyandarua,Maize,1.0,532.1,1,0,10,2,4.1,0
+KE-FARM-2544,Meru,Sunflower,3.7,625.9,4,1,9,0,3.2,0
+KE-FARM-2545,Laikipia,Beans,4.8,720.3,1,0,12,0,25.2,1
+KE-FARM-2546,Meru,Wheat,0.5,649.5,2,1,9,3,2.6,0
+KE-FARM-2547,Uasin Gishu,Maize,2.8,320.7,2,1,9,1,6.3,1
+KE-FARM-2548,Nakuru,Sorghum,1.2,747.4,4,1,1,2,31.6,0
+KE-FARM-2549,Kitui,Wheat,5.2,678.4,8,0,7,2,21.1,1
+KE-FARM-2550,Nakuru,Sorghum,0.8,689.1,2,0,15,0,3.7,0
+KE-FARM-2551,Uasin Gishu,Beans,8.9,421.2,9,0,12,0,4.0,0
+KE-FARM-2552,Uasin Gishu,Sunflower,2.3,622.9,9,1,11,0,9.0,0
+KE-FARM-2553,Kitui,Wheat,0.9,726.5,2,1,13,0,25.0,0
+KE-FARM-2554,Laikipia,Wheat,2.3,467.9,1,1,3,2,1.0,0
+KE-FARM-2555,Uasin Gishu,Beans,2.1,506.9,10,0,11,3,5.0,1
+KE-FARM-2556,Nyandarua,Maize,2.2,729.1,10,1,9,1,19.0,0
+KE-FARM-2557,Meru,Sunflower,3.5,499.9,9,0,8,0,5.3,0
+KE-FARM-2558,Meru,Wheat,2.9,568.7,2,0,3,0,12.7,1
+KE-FARM-2559,Trans Nzoia,Sunflower,0.6,444.8,8,1,1,0,11.8,0
+KE-FARM-2560,Uasin Gishu,Wheat,0.5,873.0,3,1,9,1,2.3,0
+KE-FARM-2561,Uasin Gishu,Sunflower,5.2,678.1,1,0,13,0,6.0,0
+KE-FARM-2562,Nyandarua,Sorghum,3.3,561.7,1,0,10,1,8.4,0
+KE-FARM-2563,Nakuru,Wheat,1.8,533.6,10,1,1,1,12.6,0
+KE-FARM-2564,Nakuru,Sunflower,6.6,415.7,2,0,15,1,17.3,0
+KE-FARM-2565,Meru,Maize,2.0,583.5,7,1,3,1,14.3,0
+KE-FARM-2566,Meru,Sorghum,6.4,699.8,6,1,13,1,1.0,0
+KE-FARM-2567,Laikipia,Sorghum,1.5,478.5,2,1,6,1,11.1,0
+KE-FARM-2568,Kitui,Maize,0.5,615.8,4,0,6,1,6.9,0
+KE-FARM-2569,Nyandarua,Sunflower,10.8,544.9,2,0,14,2,8.5,0
+KE-FARM-2570,Kitui,Beans,2.0,807.0,1,1,11,0,4.7,0
+KE-FARM-2571,Kitui,Maize,6.3,504.5,3,1,10,1,12.5,0
+KE-FARM-2572,Trans Nzoia,Sunflower,1.3,716.6,4,0,4,0,11.2,0
+KE-FARM-2573,Kitui,Maize,4.2,809.1,10,0,2,0,8.7,1
+KE-FARM-2574,Trans Nzoia,Maize,8.3,543.4,5,0,13,1,19.8,0
+KE-FARM-2575,Kitui,Wheat,0.5,511.7,5,1,10,0,1.1,0
+KE-FARM-2576,Nyandarua,Sunflower,7.1,738.4,7,1,6,1,3.6,0
+KE-FARM-2577,Trans Nzoia,Beans,3.4,332.8,10,1,10,0,6.8,0
+KE-FARM-2578,Nakuru,Wheat,3.7,664.6,8,1,5,2,31.8,0
+KE-FARM-2579,Trans Nzoia,Maize,3.0,363.7,9,1,13,0,1.0,0
+KE-FARM-2580,Trans Nzoia,Maize,8.3,783.4,7,1,6,1,4.1,0
+KE-FARM-2581,Nyandarua,Maize,0.5,562.2,5,0,7,4,26.0,0
+KE-FARM-2582,Nyandarua,Sunflower,1.2,586.4,9,0,11,2,22.8,0
+KE-FARM-2583,Trans Nzoia,Sunflower,8.3,491.4,8,0,9,0,20.0,0
+KE-FARM-2584,Uasin Gishu,Wheat,5.6,362.6,10,1,12,1,3.7,1
+KE-FARM-2585,Nyandarua,Beans,0.5,789.9,9,1,12,3,18.8,0
+KE-FARM-2586,Laikipia,Wheat,2.9,574.3,10,1,14,1,7.0,0
+KE-FARM-2587,Laikipia,Sorghum,3.0,1081.3,8,0,7,0,9.7,0
+KE-FARM-2588,Nakuru,Maize,2.0,478.5,6,0,4,3,2.7,1
+KE-FARM-2589,Kitui,Maize,1.4,503.0,4,0,10,2,12.3,0
+KE-FARM-2590,Trans Nzoia,Maize,4.6,465.4,9,1,5,1,4.0,0
+KE-FARM-2591,Uasin Gishu,Wheat,0.9,573.6,9,0,15,0,4.2,0
+KE-FARM-2592,Nakuru,Wheat,6.4,836.3,10,0,13,1,10.1,1
+KE-FARM-2593,Trans Nzoia,Maize,6.5,751.5,10,1,6,0,2.7,0
+KE-FARM-2594,Nyandarua,Wheat,2.1,374.3,9,0,13,2,2.5,1
+KE-FARM-2595,Laikipia,Sunflower,1.3,780.6,10,1,9,1,4.6,0
+KE-FARM-2596,Meru,Sunflower,1.3,702.4,3,0,5,2,15.1,0
+KE-FARM-2597,Uasin Gishu,Wheat,2.6,672.2,3,1,5,0,2.5,0
+KE-FARM-2598,Meru,Maize,5.1,497.4,6,1,7,0,15.5,0
+KE-FARM-2599,Laikipia,Wheat,1.8,508.5,6,1,2,0,11.9,0
+KE-FARM-2600,Kitui,Wheat,3.8,620.6,6,1,3,1,11.4,0
+KE-FARM-2601,Kitui,Wheat,1.9,517.0,5,1,12,0,6.4,0
+KE-FARM-2602,Meru,Sorghum,1.5,796.9,5,1,2,1,13.7,0
+KE-FARM-2603,Nyandarua,Sunflower,0.5,510.6,2,1,10,1,1.0,0
+KE-FARM-2604,Trans Nzoia,Beans,0.5,308.0,7,1,10,1,3.6,1
+KE-FARM-2605,Nyandarua,Beans,1.0,404.8,4,0,12,1,11.4,0
+KE-FARM-2606,Meru,Sorghum,2.1,414.3,3,1,14,0,43.7,0
+KE-FARM-2607,Nyandarua,Wheat,7.6,560.5,8,0,2,0,1.0,0
+KE-FARM-2608,Laikipia,Sorghum,6.4,632.4,4,1,3,0,7.1,0
+KE-FARM-2609,Uasin Gishu,Sorghum,1.2,608.1,4,1,6,0,25.7,0
+KE-FARM-2610,Nyandarua,Maize,1.1,669.1,8,1,5,1,19.9,0
+KE-FARM-2611,Laikipia,Sunflower,1.0,562.2,1,0,11,1,1.0,0
+KE-FARM-2612,Uasin Gishu,Beans,1.7,567.5,9,1,15,2,7.5,1
+KE-FARM-2613,Kitui,Wheat,2.8,862.8,7,0,14,3,1.0,1
+KE-FARM-2614,Trans Nzoia,Beans,2.3,780.8,2,1,13,1,15.6,0
+KE-FARM-2615,Meru,Beans,1.0,661.2,6,0,5,2,3.7,0
+KE-FARM-2616,Kitui,Sunflower,0.6,737.5,8,1,2,2,14.5,0
+KE-FARM-2617,Trans Nzoia,Beans,0.5,311.1,5,0,2,1,29.0,0
+KE-FARM-2618,Kitui,Beans,0.7,476.6,6,0,12,0,37.3,0
+KE-FARM-2619,Nakuru,Sorghum,4.9,535.2,10,1,1,1,22.5,0
+KE-FARM-2620,Kitui,Sunflower,1.1,478.4,8,1,3,1,2.3,0
+KE-FARM-2621,Laikipia,Maize,2.5,368.1,6,0,12,2,2.2,0
+KE-FARM-2622,Uasin Gishu,Wheat,3.6,663.1,9,1,12,1,9.8,0
+KE-FARM-2623,Kitui,Beans,8.7,807.9,9,0,11,1,7.9,0
+KE-FARM-2624,Nyandarua,Wheat,8.8,598.1,9,1,14,1,1.0,0
+KE-FARM-2625,Trans Nzoia,Maize,5.5,697.2,6,1,7,0,5.0,0
+KE-FARM-2626,Kitui,Wheat,0.5,593.6,9,0,11,2,23.7,0
+KE-FARM-2627,Uasin Gishu,Maize,3.4,533.8,3,1,5,1,22.9,0
+KE-FARM-2628,Laikipia,Sorghum,6.2,737.9,5,0,7,2,2.3,0
+KE-FARM-2629,Nakuru,Beans,0.5,385.8,2,1,9,0,4.8,1
+KE-FARM-2630,Trans Nzoia,Maize,3.2,320.5,8,1,6,0,8.2,0
+KE-FARM-2631,Meru,Wheat,7.8,383.7,4,1,2,0,19.2,1
+KE-FARM-2632,Uasin Gishu,Beans,2.6,728.0,6,0,1,5,7.6,0
+KE-FARM-2633,Meru,Sorghum,0.5,613.1,6,0,1,1,34.5,0
+KE-FARM-2634,Uasin Gishu,Beans,0.5,656.5,5,0,10,0,16.0,0
+KE-FARM-2635,Uasin Gishu,Maize,2.2,851.5,1,1,9,0,30.6,0
+KE-FARM-2636,Laikipia,Sorghum,0.7,425.5,7,1,14,0,13.1,0
+KE-FARM-2637,Laikipia,Wheat,4.4,780.6,10,1,6,1,21.0,0
+KE-FARM-2638,Laikipia,Sorghum,4.9,540.6,8,1,6,0,17.8,0
+KE-FARM-2639,Kitui,Sorghum,0.8,517.7,1,0,4,2,2.9,1
+KE-FARM-2640,Nyandarua,Sunflower,8.8,612.2,10,0,12,0,2.6,0
+KE-FARM-2641,Uasin Gishu,Sorghum,2.3,635.7,7,0,14,0,20.0,0
+KE-FARM-2642,Trans Nzoia,Sorghum,0.6,568.4,4,0,2,2,1.0,0
+KE-FARM-2643,Meru,Beans,5.8,691.5,6,0,10,1,5.3,0
+KE-FARM-2644,Laikipia,Wheat,6.2,612.8,9,1,3,0,17.2,0
+KE-FARM-2645,Kitui,Beans,4.1,570.1,5,0,3,1,16.8,0
+KE-FARM-2646,Laikipia,Beans,7.7,537.6,8,0,8,1,1.5,0
+KE-FARM-2647,Meru,Maize,5.3,635.8,5,1,6,0,6.7,0
+KE-FARM-2648,Meru,Beans,8.6,396.5,2,0,7,0,6.5,0
+KE-FARM-2649,Uasin Gishu,Sunflower,2.3,438.8,4,1,9,1,3.9,0
+KE-FARM-2650,Laikipia,Sunflower,5.5,544.9,2,0,1,0,24.9,0
+KE-FARM-2651,Meru,Maize,30.0,681.7,7,1,2,0,10.6,0
+KE-FARM-2652,Nyandarua,Wheat,5.2,921.4,7,1,15,1,39.2,0
+KE-FARM-2653,Nyandarua,Wheat,0.5,576.1,3,0,9,1,1.0,0
+KE-FARM-2654,Laikipia,Beans,2.9,333.9,7,1,5,0,5.0,1
+KE-FARM-2655,Kitui,Beans,3.5,481.5,1,1,4,1,18.0,1
+KE-FARM-2656,Meru,Beans,0.8,698.8,1,1,1,0,5.5,0
+KE-FARM-2657,Uasin Gishu,Wheat,13.2,454.5,9,0,9,1,3.0,0
+KE-FARM-2658,Uasin Gishu,Sorghum,0.8,404.1,6,1,11,0,61.2,0
+KE-FARM-2659,Kitui,Sunflower,0.8,698.1,5,1,13,0,20.6,0
+KE-FARM-2660,Uasin Gishu,Sorghum,9.9,669.7,6,1,9,0,7.9,0
+KE-FARM-2661,Nakuru,Sorghum,2.5,379.1,6,0,4,1,8.2,0
+KE-FARM-2662,Laikipia,Wheat,0.5,465.8,1,0,9,1,1.0,0
+KE-FARM-2663,Uasin Gishu,Sorghum,3.6,786.7,5,0,10,0,39.6,0
+KE-FARM-2664,Nyandarua,Maize,3.7,727.9,9,0,13,0,16.4,0
+KE-FARM-2665,Meru,Beans,0.5,420.4,4,0,1,0,1.0,1
+KE-FARM-2666,Trans Nzoia,Maize,14.4,301.7,3,0,15,0,1.9,0
+KE-FARM-2667,Kitui,Sunflower,3.1,640.3,1,0,5,1,17.2,0
+KE-FARM-2668,Trans Nzoia,Beans,3.3,555.6,2,0,1,1,1.0,0
+KE-FARM-2669,Uasin Gishu,Sorghum,2.9,627.3,3,1,4,2,28.4,1
+KE-FARM-2670,Trans Nzoia,Sunflower,3.8,695.2,4,0,12,1,80.0,0
+KE-FARM-2671,Trans Nzoia,Beans,1.2,456.6,7,0,5,1,21.8,0
+KE-FARM-2672,Nakuru,Sorghum,1.4,535.2,6,0,14,1,13.4,0
+KE-FARM-2673,Nyandarua,Maize,2.9,465.1,8,1,11,0,6.7,0
+KE-FARM-2674,Kitui,Beans,6.6,470.5,9,1,3,1,1.0,0
+KE-FARM-2675,Nyandarua,Sorghum,0.5,684.7,6,1,2,3,13.1,0
+KE-FARM-2676,Nakuru,Maize,3.7,621.6,7,0,6,1,5.1,0
+KE-FARM-2677,Nakuru,Sunflower,6.6,365.6,4,1,11,0,8.4,0
+KE-FARM-2678,Trans Nzoia,Sunflower,0.7,708.8,2,1,13,0,3.5,0
+KE-FARM-2679,Laikipia,Sunflower,0.5,547.5,9,0,3,1,2.8,0
+KE-FARM-2680,Meru,Sunflower,1.5,715.7,9,1,10,0,3.9,0
+KE-FARM-2681,Meru,Wheat,3.5,447.8,4,1,1,0,16.8,0
+KE-FARM-2682,Trans Nzoia,Beans,0.6,461.1,3,1,11,0,5.6,0
+KE-FARM-2683,Meru,Beans,2.2,637.8,10,1,13,0,3.7,0
+KE-FARM-2684,Nakuru,Wheat,3.2,435.5,6,1,5,1,5.7,0
+KE-FARM-2685,Nyandarua,Sorghum,3.7,558.8,3,0,2,2,1.0,1
+KE-FARM-2686,Meru,Sorghum,1.3,418.5,1,1,15,0,22.1,0
+KE-FARM-2687,Kitui,Sunflower,2.0,541.3,4,0,2,2,8.0,0
+KE-FARM-2688,Trans Nzoia,Maize,6.0,595.2,1,1,15,2,1.1,1
+KE-FARM-2689,Laikipia,Sorghum,11.3,602.3,2,0,4,0,3.4,0
+KE-FARM-2690,Trans Nzoia,Maize,7.9,545.3,3,1,4,1,41.1,0
+KE-FARM-2691,Uasin Gishu,Beans,3.3,650.0,8,0,4,0,9.0,0
+KE-FARM-2692,Trans Nzoia,Maize,2.1,622.2,10,1,7,1,3.4,0
+KE-FARM-2693,Nakuru,Beans,1.6,586.6,4,0,1,1,5.6,0
+KE-FARM-2694,Nyandarua,Wheat,0.5,506.1,4,0,13,0,3.0,0
+KE-FARM-2695,Nyandarua,Wheat,0.5,760.2,10,1,8,2,1.0,1
+KE-FARM-2696,Kitui,Sunflower,4.7,657.9,9,0,12,0,18.5,0
+KE-FARM-2697,Meru,Sorghum,1.2,444.6,7,1,13,2,3.5,0
+KE-FARM-2698,Nakuru,Sunflower,1.2,697.3,2,0,10,2,18.2,1
+KE-FARM-2699,Uasin Gishu,Beans,25.3,731.3,3,1,9,0,6.5,1
+KE-FARM-2700,Nakuru,Sunflower,0.8,587.8,4,0,10,1,2.0,0
+KE-FARM-2701,Trans Nzoia,Maize,0.6,597.7,4,0,13,1,16.2,0
+KE-FARM-2702,Nakuru,Beans,0.5,291.2,10,1,14,0,4.7,0
+KE-FARM-2703,Nakuru,Wheat,3.5,473.5,8,1,15,0,12.3,0
+KE-FARM-2704,Kitui,Sorghum,4.0,726.6,10,0,6,0,18.2,0
+KE-FARM-2705,Uasin Gishu,Beans,1.8,482.6,10,1,4,0,33.0,0
+KE-FARM-2706,Trans Nzoia,Beans,3.1,576.0,6,0,6,1,1.0,0
+KE-FARM-2707,Laikipia,Maize,6.2,471.2,3,0,10,1,1.0,0
+KE-FARM-2708,Kitui,Sorghum,6.8,634.6,9,1,7,1,8.0,0
+KE-FARM-2709,Laikipia,Wheat,12.7,659.1,10,0,6,0,3.1,0
+KE-FARM-2710,Kitui,Beans,7.0,663.1,8,1,11,0,6.3,0
+KE-FARM-2711,Nyandarua,Beans,3.3,429.1,9,1,1,1,1.0,0
+KE-FARM-2712,Kitui,Maize,0.8,616.0,5,1,5,1,7.0,0
+KE-FARM-2713,Meru,Sunflower,0.5,836.5,3,1,8,0,1.3,0
+KE-FARM-2714,Nakuru,Wheat,0.5,712.3,4,0,15,1,18.2,0
+KE-FARM-2715,Nyandarua,Sorghum,4.4,614.0,5,0,8,1,14.2,0
+KE-FARM-2716,Uasin Gishu,Beans,6.6,310.4,9,0,12,1,1.0,1
+KE-FARM-2717,Laikipia,Beans,2.8,562.6,9,0,10,2,18.1,0
+KE-FARM-2718,Kitui,Wheat,0.5,847.0,3,1,9,0,3.9,0
+KE-FARM-2719,Nakuru,Sunflower,3.1,797.8,7,1,4,0,4.4,0
+KE-FARM-2720,Uasin Gishu,Beans,11.0,669.2,6,1,10,1,2.0,0
+KE-FARM-2721,Meru,Wheat,3.6,492.1,4,1,6,1,18.0,0
+KE-FARM-2722,Uasin Gishu,Maize,6.6,607.8,5,0,7,1,5.2,0
+KE-FARM-2723,Nakuru,Sunflower,6.4,716.0,10,1,5,2,1.0,0
+KE-FARM-2724,Meru,Sorghum,10.8,741.1,2,1,15,1,33.9,0
+KE-FARM-2725,Uasin Gishu,Beans,5.9,646.9,7,1,11,1,3.0,0
+KE-FARM-2726,Meru,Wheat,5.5,728.3,4,0,8,4,27.5,0
+KE-FARM-2727,Kitui,Maize,1.1,591.2,2,1,3,0,3.6,0
+KE-FARM-2728,Kitui,Sorghum,0.5,584.6,6,1,8,0,17.8,0
+KE-FARM-2729,Nakuru,Wheat,2.9,531.2,2,1,15,0,10.9,0
+KE-FARM-2730,Nakuru,Wheat,0.5,663.7,10,1,14,0,19.8,0
+KE-FARM-2731,Meru,Sorghum,13.1,750.1,2,1,5,0,37.3,0
+KE-FARM-2732,Trans Nzoia,Maize,1.4,706.3,7,1,1,3,20.5,0
+KE-FARM-2733,Nyandarua,Maize,7.7,417.3,1,1,13,1,5.2,1
+KE-FARM-2734,Uasin Gishu,Sunflower,2.0,425.3,7,0,6,1,16.8,0
+KE-FARM-2735,Uasin Gishu,Beans,1.6,765.5,10,1,2,1,12.4,0
+KE-FARM-2736,Trans Nzoia,Sorghum,10.9,626.5,5,1,15,0,1.0,0
+KE-FARM-2737,Trans Nzoia,Sorghum,1.8,632.3,1,1,7,1,26.6,0
+KE-FARM-2738,Trans Nzoia,Sorghum,2.0,629.0,6,1,15,1,6.3,0
+KE-FARM-2739,Laikipia,Maize,0.5,862.7,7,1,15,2,1.4,0
+KE-FARM-2740,Laikipia,Beans,4.4,533.1,1,1,9,1,5.5,0
+KE-FARM-2741,Meru,Sunflower,1.4,767.5,9,0,3,3,9.2,0
+KE-FARM-2742,Laikipia,Wheat,3.5,635.0,7,0,14,0,8.5,0
+KE-FARM-2743,Kitui,Wheat,3.6,359.9,1,1,10,1,8.6,0
+KE-FARM-2744,Kitui,Sorghum,5.1,476.3,3,1,14,0,3.0,1
+KE-FARM-2745,Nakuru,Beans,5.5,508.9,5,1,4,2,10.0,0
+KE-FARM-2746,Meru,Maize,2.9,764.0,4,1,4,0,23.8,0
+KE-FARM-2747,Uasin Gishu,Beans,1.6,784.1,2,1,4,1,4.9,0
+KE-FARM-2748,Nyandarua,Beans,7.3,653.1,1,0,3,0,10.0,0
+KE-FARM-2749,Nakuru,Maize,1.5,521.6,4,1,5,0,2.8,0
+KE-FARM-2750,Uasin Gishu,Sorghum,2.8,463.4,7,0,9,0,1.0,0
+KE-FARM-2751,Uasin Gishu,Beans,2.1,770.6,4,1,15,1,8.8,0
+KE-FARM-2752,Meru,Wheat,7.7,407.3,9,1,11,0,1.0,0
+KE-FARM-2753,Trans Nzoia,Maize,2.3,584.4,8,1,8,1,12.9,0
+KE-FARM-2754,Trans Nzoia,Sunflower,2.0,954.7,8,1,10,0,11.1,0
+KE-FARM-2755,Nakuru,Sorghum,4.7,522.0,5,1,2,2,4.6,0
+KE-FARM-2756,Trans Nzoia,Maize,3.7,409.2,1,1,12,0,5.3,0
+KE-FARM-2757,Uasin Gishu,Sunflower,0.5,335.2,9,1,9,1,25.0,0
+KE-FARM-2758,Trans Nzoia,Sunflower,2.8,960.6,2,0,12,0,1.0,0
+KE-FARM-2759,Laikipia,Beans,5.3,652.3,6,1,10,0,8.3,0
+KE-FARM-2760,Trans Nzoia,Beans,19.4,469.6,10,1,2,0,25.7,1
+KE-FARM-2761,Uasin Gishu,Beans,4.0,571.6,5,1,7,1,24.5,0
+KE-FARM-2762,Meru,Maize,1.9,500.6,10,1,5,2,8.8,1
+KE-FARM-2763,Nakuru,Maize,1.0,320.5,8,0,15,1,4.8,1
+KE-FARM-2764,Nyandarua,Sorghum,8.2,718.2,3,0,13,1,1.0,0
+KE-FARM-2765,Trans Nzoia,Beans,6.7,605.1,6,1,7,0,1.9,0
+KE-FARM-2766,Kitui,Sunflower,1.1,705.7,6,0,5,0,11.4,0
+KE-FARM-2767,Kitui,Wheat,0.9,601.0,10,1,12,0,1.0,0
+KE-FARM-2768,Uasin Gishu,Sorghum,5.0,619.7,3,0,6,3,21.5,1
+KE-FARM-2769,Nyandarua,Maize,1.5,264.8,7,1,8,1,8.9,0
+KE-FARM-2770,Nyandarua,Sorghum,1.5,736.2,4,0,1,1,1.0,0
+KE-FARM-2771,Laikipia,Sorghum,0.7,436.8,5,1,13,0,2.7,0
+KE-FARM-2772,Nyandarua,Sorghum,1.2,475.2,9,1,11,1,9.0,0
+KE-FARM-2773,Kitui,Sorghum,2.2,520.8,6,0,13,1,1.0,0
+KE-FARM-2774,Meru,Wheat,5.3,291.2,10,0,12,1,15.1,1
+KE-FARM-2775,Uasin Gishu,Beans,1.6,512.6,4,1,1,1,25.2,0
+KE-FARM-2776,Uasin Gishu,Sunflower,1.6,502.2,8,1,5,0,32.5,0
+KE-FARM-2777,Trans Nzoia,Sorghum,1.3,543.3,9,0,15,1,13.2,0
+KE-FARM-2778,Trans Nzoia,Sorghum,2.6,344.8,10,1,1,0,19.4,1
+KE-FARM-2779,Trans Nzoia,Sorghum,0.8,739.2,5,1,3,0,9.4,0
+KE-FARM-2780,Kitui,Beans,2.7,659.7,2,1,10,1,6.1,0
+KE-FARM-2781,Kitui,Maize,4.9,470.4,6,1,15,1,12.5,0
+KE-FARM-2782,Kitui,Maize,0.5,512.8,8,1,9,0,2.5,0
+KE-FARM-2783,Kitui,Wheat,0.5,725.7,5,1,14,0,1.2,0
+KE-FARM-2784,Kitui,Maize,0.5,561.4,1,1,13,1,14.3,0
+KE-FARM-2785,Kitui,Sorghum,3.1,413.9,8,0,7,0,31.7,0
+KE-FARM-2786,Meru,Sorghum,7.7,587.5,9,1,12,1,8.6,0
+KE-FARM-2787,Kitui,Sorghum,0.5,436.8,1,1,6,0,6.6,0
+KE-FARM-2788,Nyandarua,Wheat,11.0,493.8,8,1,8,1,7.6,0
+KE-FARM-2789,Nyandarua,Sorghum,0.5,592.4,10,1,8,1,6.5,0
+KE-FARM-2790,Laikipia,Maize,7.4,758.3,2,1,6,0,5.8,1
+KE-FARM-2791,Meru,Beans,2.6,903.5,4,0,4,0,29.4,0
+KE-FARM-2792,Trans Nzoia,Beans,4.3,804.4,2,1,4,0,6.5,0
+KE-FARM-2793,Nakuru,Sunflower,2.9,589.2,2,1,4,1,1.0,0
+KE-FARM-2794,Kitui,Maize,2.6,938.6,10,0,6,0,14.5,0
+KE-FARM-2795,Laikipia,Sorghum,7.2,683.7,3,1,1,1,5.0,0
+KE-FARM-2796,Nakuru,Beans,5.6,453.0,8,1,12,0,12.4,0
+KE-FARM-2797,Nyandarua,Maize,2.6,614.2,4,1,2,0,8.7,0
+KE-FARM-2798,Laikipia,Beans,0.5,501.5,7,1,6,0,12.5,0
+KE-FARM-2799,Laikipia,Sorghum,0.5,412.8,10,1,14,0,1.0,0
+KE-FARM-2800,Uasin Gishu,Beans,6.5,423.9,3,1,14,0,1.0,1
+KE-FARM-2801,Nyandarua,Sunflower,3.0,577.9,10,1,11,0,4.8,0
+KE-FARM-2802,Nyandarua,Sunflower,2.6,713.1,3,1,1,2,11.8,1
+KE-FARM-2803,Meru,Beans,4.6,760.2,2,0,9,0,2.5,0
+KE-FARM-2804,Laikipia,Maize,7.8,413.3,6,1,12,1,5.7,0
+KE-FARM-2805,Kitui,Maize,4.0,554.5,6,0,6,2,39.5,0
+KE-FARM-2806,Nyandarua,Maize,5.8,673.0,1,1,7,0,2.4,0
+KE-FARM-2807,Laikipia,Beans,5.8,622.8,7,1,14,0,18.8,0
+KE-FARM-2808,Meru,Maize,1.8,704.2,4,1,12,0,17.5,0
+KE-FARM-2809,Kitui,Sorghum,1.3,534.8,3,1,1,0,22.2,0
+KE-FARM-2810,Meru,Sunflower,6.5,790.9,8,0,8,0,24.7,0
+KE-FARM-2811,Uasin Gishu,Sorghum,1.9,599.4,2,1,12,1,7.1,0
+KE-FARM-2812,Kitui,Maize,9.3,713.7,9,1,12,1,11.5,0
+KE-FARM-2813,Laikipia,Sorghum,0.5,542.9,8,1,12,0,9.6,0
+KE-FARM-2814,Nyandarua,Maize,0.5,608.8,8,1,12,2,3.7,0
+KE-FARM-2815,Nyandarua,Beans,10.5,360.6,3,1,12,0,3.3,1
+KE-FARM-2816,Laikipia,Sorghum,4.2,474.5,4,1,5,1,4.2,0
+KE-FARM-2817,Laikipia,Beans,1.9,568.9,2,1,5,2,2.5,1
+KE-FARM-2818,Laikipia,Beans,5.6,615.0,2,1,14,4,14.2,1
+KE-FARM-2819,Trans Nzoia,Wheat,4.5,1002.2,4,1,6,0,33.4,0
+KE-FARM-2820,Kitui,Maize,3.0,542.7,6,1,7,3,20.2,0
+KE-FARM-2821,Nyandarua,Sunflower,0.5,393.5,5,1,7,0,2.5,0
+KE-FARM-2822,Kitui,Maize,6.7,855.4,1,0,5,0,1.0,0
+KE-FARM-2823,Meru,Sunflower,8.0,761.8,10,1,1,2,14.2,0
+KE-FARM-2824,Nyandarua,Maize,0.8,426.5,1,0,11,1,4.9,1
+KE-FARM-2825,Trans Nzoia,Beans,7.6,669.8,6,0,9,1,17.4,0
+KE-FARM-2826,Laikipia,Sorghum,8.4,725.3,3,0,15,0,15.1,0
+KE-FARM-2827,Uasin Gishu,Sorghum,3.2,624.6,3,0,6,2,9.8,0
+KE-FARM-2828,Laikipia,Wheat,4.3,648.9,7,1,13,0,2.9,0
+KE-FARM-2829,Laikipia,Sunflower,1.9,505.2,1,0,9,0,1.1,0
+KE-FARM-2830,Trans Nzoia,Sunflower,1.3,675.6,1,0,11,0,2.9,0
+KE-FARM-2831,Kitui,Sunflower,5.1,526.3,10,0,4,0,7.1,0
+KE-FARM-2832,Nyandarua,Beans,7.9,203.2,3,0,2,1,38.9,1
+KE-FARM-2833,Laikipia,Sunflower,4.2,629.4,8,0,13,1,1.0,0
+KE-FARM-2834,Nyandarua,Sorghum,2.9,348.6,1,1,13,0,2.2,0
+KE-FARM-2835,Nakuru,Beans,0.7,752.0,10,1,3,1,9.9,0
+KE-FARM-2836,Meru,Maize,0.5,430.4,4,1,12,0,3.6,0
+KE-FARM-2837,Kitui,Sunflower,2.4,232.0,9,1,4,1,19.6,0
+KE-FARM-2838,Nyandarua,Sunflower,0.5,334.6,4,0,10,0,1.5,0
+KE-FARM-2839,Uasin Gishu,Maize,3.4,593.8,10,0,12,2,33.0,1
+KE-FARM-2840,Meru,Sunflower,1.9,628.0,8,0,8,0,24.3,0
+KE-FARM-2841,Uasin Gishu,Maize,5.7,388.1,7,1,3,1,21.9,0
+KE-FARM-2842,Laikipia,Beans,1.5,439.1,3,0,8,1,1.9,1
+KE-FARM-2843,Meru,Sorghum,3.6,598.8,7,1,6,1,4.0,0
+KE-FARM-2844,Nyandarua,Maize,3.1,745.8,7,0,4,1,16.3,0
+KE-FARM-2845,Meru,Wheat,0.5,418.5,10,0,14,1,16.5,1
+KE-FARM-2846,Laikipia,Maize,0.5,656.9,3,1,7,0,12.2,0
+KE-FARM-2847,Trans Nzoia,Sunflower,1.4,339.2,2,1,15,0,5.9,1
+KE-FARM-2848,Kitui,Beans,8.6,647.4,9,1,14,1,3.7,0
+KE-FARM-2849,Uasin Gishu,Beans,0.6,713.4,1,1,11,0,33.0,1
+KE-FARM-2850,Laikipia,Maize,5.0,678.6,7,1,13,0,1.5,0
+KE-FARM-2851,Trans Nzoia,Sorghum,14.5,749.2,4,1,5,1,1.0,0
+KE-FARM-2852,Meru,Wheat,6.3,739.2,2,1,5,0,1.0,0
+KE-FARM-2853,Meru,Beans,1.1,877.0,2,0,9,2,14.9,0
+KE-FARM-2854,Laikipia,Sunflower,9.6,616.3,8,1,13,1,1.0,0
+KE-FARM-2855,Nyandarua,Sunflower,0.5,877.5,7,1,3,0,7.7,0
+KE-FARM-2856,Meru,Sorghum,2.5,458.4,7,1,10,2,4.6,0
+KE-FARM-2857,Nyandarua,Beans,8.7,569.2,5,1,15,0,1.6,0
+KE-FARM-2858,Nyandarua,Maize,4.1,582.7,10,1,4,0,13.5,0
+KE-FARM-2859,Kitui,Sunflower,2.1,443.6,8,1,5,2,1.0,0
+KE-FARM-2860,Nyandarua,Sorghum,1.4,245.9,2,1,1,1,3.8,0
+KE-FARM-2861,Nakuru,Beans,1.9,730.4,2,1,7,1,8.3,1
+KE-FARM-2862,Kitui,Beans,2.8,460.5,5,1,8,1,5.1,0
+KE-FARM-2863,Trans Nzoia,Beans,1.5,539.9,1,1,15,1,3.0,0
+KE-FARM-2864,Trans Nzoia,Beans,13.9,837.7,6,0,6,0,26.0,0
+KE-FARM-2865,Meru,Beans,10.8,685.8,4,1,9,1,26.7,0
+KE-FARM-2866,Meru,Sunflower,8.2,861.0,6,0,3,0,5.4,0
+KE-FARM-2867,Nyandarua,Sorghum,2.2,618.1,7,1,2,2,5.0,0
+KE-FARM-2868,Kitui,Beans,4.7,683.3,3,0,5,0,3.7,0
+KE-FARM-2869,Kitui,Wheat,9.3,563.9,8,1,13,0,19.4,0
+KE-FARM-2870,Nakuru,Wheat,7.6,472.7,7,1,9,1,8.4,0
+KE-FARM-2871,Nyandarua,Sorghum,2.1,682.8,1,0,11,0,1.0,0
+KE-FARM-2872,Nakuru,Maize,0.5,534.6,6,0,1,1,19.2,0
+KE-FARM-2873,Nyandarua,Maize,0.5,696.7,7,1,1,0,7.7,0
+KE-FARM-2874,Uasin Gishu,Maize,3.4,514.4,4,0,10,1,5.4,0
+KE-FARM-2875,Uasin Gishu,Wheat,4.1,573.7,2,0,3,2,4.1,1
+KE-FARM-2876,Laikipia,Maize,7.6,585.7,10,1,10,0,1.0,0
+KE-FARM-2877,Nyandarua,Sunflower,1.4,761.5,9,1,3,2,31.4,0
+KE-FARM-2878,Kitui,Beans,0.7,536.3,7,1,5,0,13.5,0
+KE-FARM-2879,Meru,Wheat,1.9,778.0,1,1,4,1,1.4,0
+KE-FARM-2880,Trans Nzoia,Sorghum,1.7,464.3,8,0,6,2,7.2,0
+KE-FARM-2881,Laikipia,Sorghum,0.6,640.5,3,0,12,2,8.1,0
+KE-FARM-2882,Meru,Beans,4.5,496.9,4,0,8,1,1.8,0
+KE-FARM-2883,Uasin Gishu,Wheat,2.8,767.4,5,1,8,0,5.6,0
+KE-FARM-2884,Nyandarua,Maize,5.1,477.2,1,1,15,0,10.4,0
+KE-FARM-2885,Laikipia,Maize,1.7,492.5,6,0,11,1,3.3,0
+KE-FARM-2886,Nyandarua,Sunflower,1.6,411.6,10,1,4,2,4.0,1
+KE-FARM-2887,Uasin Gishu,Sunflower,2.6,615.5,6,1,1,1,1.3,0
+KE-FARM-2888,Laikipia,Maize,8.4,688.7,2,1,13,0,5.3,0
+KE-FARM-2889,Uasin Gishu,Sorghum,0.5,672.5,10,1,14,0,8.8,0
+KE-FARM-2890,Nakuru,Sorghum,6.5,578.4,6,1,14,1,1.2,0
+KE-FARM-2891,Uasin Gishu,Sunflower,1.8,500.9,8,1,7,0,9.5,0
+KE-FARM-2892,Kitui,Beans,7.7,558.2,6,1,6,0,5.1,0
+KE-FARM-2893,Kitui,Maize,6.5,563.9,4,1,5,0,11.3,0
+KE-FARM-2894,Nyandarua,Sunflower,1.7,637.9,4,1,4,3,3.8,0
+KE-FARM-2895,Trans Nzoia,Sunflower,4.7,627.6,9,1,6,2,8.4,0
+KE-FARM-2896,Uasin Gishu,Maize,0.7,861.0,6,0,8,0,9.5,0
+KE-FARM-2897,Meru,Maize,9.1,605.9,8,0,6,0,11.7,0
+KE-FARM-2898,Kitui,Sorghum,2.1,654.1,8,1,3,0,14.1,0
+KE-FARM-2899,Trans Nzoia,Beans,2.4,610.7,7,1,9,0,1.5,0
+KE-FARM-2900,Nakuru,Beans,4.9,551.0,3,1,3,0,33.6,0
+KE-FARM-2901,Laikipia,Maize,6.9,653.1,10,1,4,2,18.6,0
+KE-FARM-2902,Laikipia,Wheat,1.1,536.9,1,0,13,0,8.3,0
+KE-FARM-2903,Kitui,Sunflower,4.3,591.3,5,1,5,1,22.1,0
+KE-FARM-2904,Trans Nzoia,Sunflower,2.0,773.9,10,0,11,0,4.8,0
+KE-FARM-2905,Kitui,Maize,1.8,527.2,10,1,2,1,1.0,0
+KE-FARM-2906,Laikipia,Wheat,4.7,658.1,2,1,11,3,13.0,0
+KE-FARM-2907,Uasin Gishu,Sorghum,2.0,227.8,10,1,10,0,28.7,0
+KE-FARM-2908,Trans Nzoia,Maize,1.7,572.2,2,0,15,0,1.8,0
+KE-FARM-2909,Nyandarua,Maize,7.2,526.2,7,1,11,0,10.3,0
+KE-FARM-2910,Uasin Gishu,Sunflower,0.5,618.0,3,1,10,1,16.8,0
+KE-FARM-2911,Uasin Gishu,Maize,4.5,564.6,8,1,2,2,23.5,0
+KE-FARM-2912,Uasin Gishu,Maize,1.1,621.2,9,1,6,1,3.2,0
+KE-FARM-2913,Nyandarua,Maize,0.5,543.2,8,1,15,0,1.4,0
+KE-FARM-2914,Nakuru,Sunflower,0.7,658.0,6,1,14,1,2.8,0
+KE-FARM-2915,Meru,Sorghum,3.7,342.8,5,1,2,2,8.6,1
+KE-FARM-2916,Kitui,Sorghum,4.9,616.7,3,0,10,1,25.1,0
+KE-FARM-2917,Laikipia,Maize,0.5,459.4,3,1,1,1,8.7,0
+KE-FARM-2918,Kitui,Sunflower,0.5,775.2,7,1,8,0,25.2,0
+KE-FARM-2919,Trans Nzoia,Sorghum,9.3,457.0,5,0,10,0,14.7,0
+KE-FARM-2920,Nakuru,Sorghum,0.5,749.3,6,0,14,2,9.1,0
+KE-FARM-2921,Trans Nzoia,Sorghum,9.0,598.3,6,0,10,2,1.0,0
+KE-FARM-2922,Kitui,Sunflower,1.0,325.7,9,0,13,1,4.1,1
+KE-FARM-2923,Laikipia,Sunflower,5.4,468.6,1,1,1,1,1.0,0
+KE-FARM-2924,Nyandarua,Maize,1.5,727.2,8,1,10,0,3.9,0
+KE-FARM-2925,Kitui,Beans,7.8,718.7,10,1,14,1,1.0,0
+KE-FARM-2926,Uasin Gishu,Sorghum,4.8,405.1,5,1,6,2,1.8,0
+KE-FARM-2927,Kitui,Beans,2.1,834.4,6,1,12,2,5.3,0
+KE-FARM-2928,Uasin Gishu,Sunflower,0.5,596.3,6,1,14,1,7.2,0
+KE-FARM-2929,Nyandarua,Sunflower,5.3,732.7,1,1,1,0,2.4,0
+KE-FARM-2930,Kitui,Sunflower,3.8,418.2,3,1,8,0,13.2,1
+KE-FARM-2931,Nakuru,Beans,0.5,531.6,6,1,14,1,8.9,0
+KE-FARM-2932,Nakuru,Sunflower,0.5,662.4,9,1,5,0,11.8,0
+KE-FARM-2933,Trans Nzoia,Maize,6.6,553.0,6,0,3,0,13.2,1
+KE-FARM-2934,Nyandarua,Sunflower,1.2,161.9,6,1,5,2,13.0,1
+KE-FARM-2935,Nakuru,Wheat,4.0,571.4,1,1,15,0,27.5,0
+KE-FARM-2936,Kitui,Beans,2.4,305.3,9,1,13,0,2.7,0
+KE-FARM-2937,Nyandarua,Wheat,8.0,439.4,4,1,1,1,3.1,0
+KE-FARM-2938,Laikipia,Sunflower,10.0,389.6,2,0,1,0,1.0,0
+KE-FARM-2939,Uasin Gishu,Maize,23.0,769.9,1,1,12,1,9.0,1
+KE-FARM-2940,Kitui,Sorghum,0.7,817.0,3,1,14,1,5.0,0
+KE-FARM-2941,Uasin Gishu,Sunflower,8.0,651.2,3,1,4,1,6.9,0
+KE-FARM-2942,Uasin Gishu,Maize,1.2,565.5,5,0,9,1,1.9,0
+KE-FARM-2943,Nyandarua,Beans,3.6,604.3,1,1,14,1,10.5,1
+KE-FARM-2944,Nyandarua,Wheat,2.8,769.8,7,1,9,1,9.7,0
+KE-FARM-2945,Trans Nzoia,Wheat,0.5,302.5,1,1,1,0,3.1,0
+KE-FARM-2946,Uasin Gishu,Wheat,10.8,438.7,4,0,3,0,6.3,1
+KE-FARM-2947,Trans Nzoia,Beans,0.5,750.6,6,0,13,0,22.5,0
+KE-FARM-2948,Uasin Gishu,Maize,4.7,781.8,1,1,12,0,14.9,0
+KE-FARM-2949,Trans Nzoia,Beans,6.1,688.5,7,0,4,1,2.6,0
+KE-FARM-2950,Trans Nzoia,Wheat,6.3,443.3,10,1,2,0,21.1,1
+KE-FARM-2951,Laikipia,Sunflower,0.6,748.4,7,1,7,1,1.0,0
+KE-FARM-2952,Trans Nzoia,Sorghum,2.4,804.2,3,1,3,0,5.3,0
+KE-FARM-2953,Nyandarua,Beans,7.1,707.7,4,1,1,0,1.0,0
+KE-FARM-2954,Trans Nzoia,Beans,1.4,225.9,6,0,1,2,25.8,1
+KE-FARM-2955,Uasin Gishu,Maize,2.5,618.7,7,1,3,0,1.0,0
+KE-FARM-2956,Trans Nzoia,Maize,1.3,687.8,4,1,6,0,1.6,0
+KE-FARM-2957,Nakuru,Beans,2.5,522.7,10,1,4,3,24.7,0
+KE-FARM-2958,Meru,Wheat,8.8,628.0,9,1,1,1,8.7,0
+KE-FARM-2959,Uasin Gishu,Sorghum,2.4,523.0,9,1,7,1,15.9,0
+KE-FARM-2960,Nakuru,Maize,3.2,470.8,9,0,2,1,1.0,0
+KE-FARM-2961,Uasin Gishu,Wheat,2.1,826.6,10,1,12,0,5.4,0
+KE-FARM-2962,Nyandarua,Sunflower,2.5,632.3,6,1,5,0,41.6,0
+KE-FARM-2963,Meru,Maize,0.5,434.1,2,1,8,0,8.7,0
+KE-FARM-2964,Meru,Wheat,1.3,393.5,2,1,7,0,19.0,0
+KE-FARM-2965,Nyandarua,Wheat,2.3,470.9,4,0,11,0,33.1,0
+KE-FARM-2966,Meru,Sorghum,4.0,471.7,9,1,12,0,11.6,0
+KE-FARM-2967,Nyandarua,Sorghum,2.4,622.0,3,1,8,1,4.0,0
+KE-FARM-2968,Nakuru,Sunflower,1.6,672.8,6,0,13,0,3.7,0
+KE-FARM-2969,Laikipia,Wheat,2.0,672.7,2,1,10,1,1.0,0
+KE-FARM-2970,Uasin Gishu,Wheat,1.1,487.5,1,0,14,1,5.6,0
+KE-FARM-2971,Nyandarua,Sorghum,10.3,738.1,5,1,11,1,24.7,0
+KE-FARM-2972,Uasin Gishu,Maize,3.0,784.2,8,0,6,1,6.5,0
+KE-FARM-2973,Nakuru,Maize,0.5,561.0,10,1,7,1,24.2,0
+KE-FARM-2974,Laikipia,Beans,0.5,445.2,10,0,9,1,17.0,0
+KE-FARM-2975,Nakuru,Sorghum,14.4,615.0,2,1,6,2,41.5,0
+KE-FARM-2976,Meru,Beans,1.0,924.0,10,1,9,0,29.5,0
+KE-FARM-2977,Uasin Gishu,Sorghum,6.6,441.3,9,0,15,0,12.3,0
+KE-FARM-2978,Kitui,Sunflower,0.5,521.1,8,1,13,0,20.5,0
+KE-FARM-2979,Laikipia,Wheat,10.2,608.6,3,0,12,0,13.8,0
+KE-FARM-2980,Meru,Sunflower,8.3,681.2,1,1,2,3,12.2,0
+KE-FARM-2981,Laikipia,Sorghum,3.4,302.2,4,1,13,1,12.6,0
+KE-FARM-2982,Meru,Wheat,0.5,795.9,8,1,2,0,12.8,0
+KE-FARM-2983,Nakuru,Maize,1.2,793.8,3,1,14,1,4.8,0
+KE-FARM-2984,Nyandarua,Maize,2.1,536.3,10,1,2,2,5.5,0
+KE-FARM-2985,Uasin Gishu,Beans,2.5,1006.0,2,0,6,1,3.5,0
+KE-FARM-2986,Trans Nzoia,Sorghum,1.4,784.2,7,1,2,1,1.6,0
+KE-FARM-2987,Trans Nzoia,Sorghum,0.5,776.2,4,0,3,0,6.1,0
+KE-FARM-2988,Nakuru,Maize,3.6,778.1,6,1,13,2,23.0,0
+KE-FARM-2989,Uasin Gishu,Sunflower,3.0,773.8,5,0,8,1,10.5,0
+KE-FARM-2990,Uasin Gishu,Wheat,1.3,596.7,2,1,8,1,1.0,0
+KE-FARM-2991,Nakuru,Sunflower,0.5,581.9,10,0,11,0,16.7,0
+KE-FARM-2992,Uasin Gishu,Sunflower,20.9,458.5,2,1,12,0,27.4,0
+KE-FARM-2993,Nyandarua,Maize,2.6,513.4,9,0,4,0,17.7,0
+KE-FARM-2994,Nakuru,Maize,5.6,553.4,10,0,9,0,13.0,0
+KE-FARM-2995,Nyandarua,Maize,2.4,609.8,2,1,8,0,1.6,0
+KE-FARM-2996,Uasin Gishu,Beans,0.5,839.7,8,0,1,0,4.3,0
+KE-FARM-2997,Nakuru,Sunflower,1.5,284.6,8,1,8,0,8.3,0
+KE-FARM-2998,Uasin Gishu,Sorghum,1.5,801.7,1,1,1,0,1.0,0
+KE-FARM-2999,Nakuru,Wheat,7.3,448.2,1,0,15,2,1.1,1
+KE-FARM-3000,Uasin Gishu,Beans,4.2,584.3,4,1,4,0,27.2,0
