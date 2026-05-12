@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GoMyCode Data Science — Capstone Projects</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0d0d0d;
+    --surface: #141414;
+    --surface2: #1c1c1c;
+    --border: #2a2a2a;
+    --text: #e8e4dc;
+    --muted: #6b6560;
+    --accent1: #c8f060;   /* actuary: acid green */
+    --accent2: #ff8c42;   /* vet: warm amber */
+    --accent3: #5eb8ff;   /* economist: cool blue */
+    --tag-bg: #1e1e1e;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Lora', Georgia, serif;
+    font-size: 16px;
+    line-height: 1.75;
+    min-height: 100vh;
+  }
+
+  /* ── NOISE TEXTURE OVERLAY ── */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.6;
+  }
+
+  /* ── HEADER ── */
+  header {
+    position: relative;
+    padding: 80px 40px 60px;
+    border-bottom: 1px solid var(--border);
+    overflow: hidden;
+  }
+
+  header::after {
+    content: 'CAPSTONE';
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    transform: translateY(-50%) rotate(90deg);
+    font-family: 'Syne', sans-serif;
+    font-size: 120px;
+    font-weight: 800;
+    color: var(--border);
+    letter-spacing: -4px;
+    pointer-events: none;
+    white-space: nowrap;
+  }
+
+  .header-eyebrow {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 20px;
+  }
+
+  header h1 {
+    font-family: 'Syne', sans-serif;
+    font-size: clamp(32px, 5vw, 56px);
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: -1px;
+    max-width: 700px;
+  }
+
+  header h1 span {
+    display: block;
+    background: linear-gradient(135deg, var(--accent1), var(--accent3));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .header-meta {
+    margin-top: 28px;
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+  }
+
+  .meta-item {
+    font-family: 'DM Mono', monospace;
+    font-size: 12px;
+    color: var(--muted);
+  }
+
+  .meta-item strong {
+    display: block;
+    color: var(--text);
+    font-weight: 500;
+    margin-bottom: 2px;
+  }
+
+  /* ── NAV TABS ── */
+  .nav-tabs {
+    display: flex;
+    border-bottom: 1px solid var(--border);
+    padding: 0 40px;
+    gap: 4px;
+    overflow-x: auto;
+  }
+
+  .nav-tab {
+    font-family: 'DM Mono', monospace;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 16px 20px;
+    border: none;
+    background: none;
+    color: var(--muted);
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: color 0.2s, border-color 0.2s;
+    white-space: nowrap;
+    text-decoration: none;
+  }
+
+  .nav-tab:hover { color: var(--text); }
+  .nav-tab.p1 { border-bottom-color: var(--accent1); color: var(--accent1); }
+  .nav-tab.p2 { border-bottom-color: var(--accent2); color: var(--accent2); }
+  .nav-tab.p3 { border-bottom-color: var(--accent3); color: var(--accent3); }
+
+  /* ── MAIN LAYOUT ── */
+  main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 40px 120px;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* ── PROJECT CARD ── */
+  .project {
+    margin-bottom: 100px;
+    opacity: 0;
+    transform: translateY(24px);
+    animation: fadeUp 0.6s forwards;
+  }
+
+  .project:nth-child(1) { animation-delay: 0.1s; }
+  .project:nth-child(2) { animation-delay: 0.25s; }
+  .project:nth-child(3) { animation-delay: 0.4s; }
+
+  @keyframes fadeUp {
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .project-header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 24px;
+    align-items: start;
+    margin-bottom: 40px;
+  }
+
+  .project-number {
+    font-family: 'Syne', sans-serif;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 1;
+    opacity: 0.12;
+    letter-spacing: -3px;
+    margin-top: -8px;
+  }
+
+  .p1 .project-number { color: var(--accent1); opacity: 0.2; }
+  .p2 .project-number { color: var(--accent2); opacity: 0.2; }
+  .p3 .project-number { color: var(--accent3); opacity: 0.2; }
+
+  .project-title-group {}
+
+  .project-tag {
+    display: inline-block;
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+  }
+
+  .p1 .project-tag { background: rgba(200,240,96,0.12); color: var(--accent1); }
+  .p2 .project-tag { background: rgba(255,140,66,0.12); color: var(--accent2); }
+  .p3 .project-tag { background: rgba(94,184,255,0.12); color: var(--accent3); }
+
+  .project-title {
+    font-family: 'Syne', sans-serif;
+    font-size: clamp(22px, 3vw, 30px);
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+  }
+
+  .project-divider {
+    width: 100%;
+    height: 1px;
+    background: var(--border);
+    margin-bottom: 40px;
+    position: relative;
+  }
+
+  .p1 .project-divider::before { background: var(--accent1); }
+  .p2 .project-divider::before { background: var(--accent2); }
+  .p3 .project-divider::before { background: var(--accent3); }
+
+  .project-divider::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 80px;
+  }
+
+  /* ── TWO-COLUMN GRID ── */
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin-bottom: 32px;
+  }
+
+  @media (max-width: 700px) {
+    .two-col { grid-template-columns: 1fr; }
+    header, .nav-tabs, main { padding-left: 20px; padding-right: 20px; }
+    header::after { display: none; }
+  }
+
+  /* ── SECTION LABEL ── */
+  .section-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 12px;
+  }
+
+  /* ── BLOCK ── */
+  .block {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 24px;
+  }
+
+  .block p, .block li {
+    font-size: 14.5px;
+    color: #c8c4bc;
+    line-height: 1.7;
+  }
+
+  .block ul {
+    padding-left: 18px;
+  }
+
+  .block ul li {
+    margin-bottom: 6px;
+  }
+
+  /* ── PROBLEM STATEMENT ── */
+  .problem-block {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left-width: 3px;
+    border-radius: 4px;
+    padding: 24px 28px;
+    margin-bottom: 32px;
+    font-size: 15px;
+    color: #c8c4bc;
+    font-style: italic;
+  }
+
+  .p1 .problem-block { border-left-color: var(--accent1); }
+  .p2 .problem-block { border-left-color: var(--accent2); }
+  .p3 .problem-block { border-left-color: var(--accent3); }
+
+  /* ── DATASET TABLE ── */
+  .dataset-block {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 32px;
+  }
+
+  .dataset-header {
+    padding: 14px 20px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .dataset-header span {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .dataset-stats {
+    display: flex;
+    gap: 20px;
+  }
+
+  .stat {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+  }
+
+  .stat-val {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text);
+    line-height: 1.2;
+  }
+
+  .stat-lbl {
+    color: var(--muted);
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .columns-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1px;
+    background: var(--border);
+  }
+
+  .col-item {
+    background: var(--surface2);
+    padding: 10px 16px;
+  }
+
+  .col-name {
+    font-family: 'DM Mono', monospace;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text);
+    display: block;
+  }
+
+  .col-type {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+  }
+
+  .col-target .col-name { color: var(--accent1); }
+  .p2 .col-target .col-name { color: var(--accent2); }
+  .p3 .col-target .col-name { color: var(--accent3); }
+
+  /* ── RUBRIC TABLE ── */
+  .rubric-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13.5px;
+    margin-bottom: 32px;
+  }
+
+  .rubric-table th {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .rubric-table td {
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--border);
+    color: #c8c4bc;
+    vertical-align: top;
+  }
+
+  .rubric-table tr:last-child td {
+    border-bottom: none;
+    font-family: 'DM Mono', monospace;
+    font-weight: 500;
+    color: var(--text);
+  }
+
+  .marks {
+    font-family: 'DM Mono', monospace;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+
+  .p1 .marks { color: var(--accent1); }
+  .p2 .marks { color: var(--accent2); }
+  .p3 .marks { color: var(--accent3); }
+
+  /* ── STRETCH GOAL ── */
+  .stretch {
+    background: var(--surface);
+    border: 1px dashed var(--border);
+    border-radius: 4px;
+    padding: 20px 24px;
+    margin-bottom: 32px;
+  }
+
+  .stretch-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
+  .p1 .stretch-label { color: var(--accent1); }
+  .p2 .stretch-label { color: var(--accent2); }
+  .p3 .stretch-label { color: var(--accent3); }
+
+  .stretch p {
+    font-size: 14px;
+    color: #c8c4bc;
+  }
+
+  /* ── DOWNLOAD BUTTON ── */
+  .download-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'DM Mono', monospace;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    padding: 12px 20px;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: opacity 0.2s, transform 0.15s;
+    cursor: pointer;
+    border: none;
+  }
+
+  .download-btn:hover { opacity: 0.85; transform: translateY(-1px); }
+
+  .p1 .download-btn { background: var(--accent1); color: #0d0d0d; }
+  .p2 .download-btn { background: var(--accent2); color: #0d0d0d; }
+  .p3 .download-btn { background: var(--accent3); color: #0d0d0d; }
+
+  .download-icon { font-size: 14px; }
+
+  /* ── SEPARATOR ── */
+  .project-sep {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin-bottom: 80px;
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    border-top: 1px solid var(--border);
+    padding: 32px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: gap;
+  }
+
+  .footer-brand {
+    font-family: 'Syne', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+  }
+
+  .footer-note {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <p class="header-eyebrow">GoMyCode Nairobi &nbsp;/&nbsp; Data Science Cohort &nbsp;/&nbsp; Capstone Projects</p>
+  <h1>Three Briefs.<br><span>Real Problems.</span></h1>
+  <div class="header-meta">
+    <div class="meta-item"><strong>Projects</strong>3 independent briefs</div>
+    <div class="meta-item"><strong>Format</strong>Classification (all three)</div>
+    <div class="meta-item"><strong>Datasets</strong>Custom-generated, Kenya-contextualised</div>
+    <div class="meta-item"><strong>Deliverables</strong>Notebook + README + Brief for non-technical audience</div>
+  </div>
+</header>
+
+<nav class="nav-tabs">
+  <a class="nav-tab p1" href="#project1">01 &mdash; Crop Insurance</a>
+  <a class="nav-tab p2" href="#project2">02 &mdash; Livestock Outbreak</a>
+  <a class="nav-tab p3" href="#project3">03 &mdash; Informal Lending</a>
+</nav>
+
+<main>
+
+  <!-- ══════════════════════════════════════
+       PROJECT 1: CROP INSURANCE (ACTUARY)
+  ══════════════════════════════════════ -->
+  <section class="project p1" id="project1">
+    <div class="project-header">
+      <div class="project-number">01</div>
+      <div class="project-title-group">
+        <span class="project-tag">Actuarial Science &nbsp;·&nbsp; Classification</span>
+        <h2 class="project-title">Predicting Crop Insurance Claim Risk for Kenyan Smallholder Farmers</h2>
+      </div>
+    </div>
+    <div class="project-divider"></div>
+
+    <div class="section-label">The Business Problem</div>
+    <div class="problem-block">
+      An agricultural insurer currently prices smallholder policies using broad county-level averages. A predictive model that identifies individual-farm risk factors could reduce unexpected payout exposure and allow more accurate premium pricing. Your model is the risk engine that makes that possible.
+    </div>
+
+    <div class="section-label">Dataset</div>
+    <div class="dataset-block">
+      <div class="dataset-header">
+        <span>crop_insurance_claims.csv</span>
+        <div class="dataset-stats">
+          <div class="stat"><span class="stat-val">3,000</span><span class="stat-lbl">Rows</span></div>
+          <div class="stat"><span class="stat-val">11</span><span class="stat-lbl">Columns</span></div>
+          <div class="stat"><span class="stat-val">~12%</span><span class="stat-lbl">Claim Rate</span></div>
+        </div>
+      </div>
+      <div class="columns-grid">
+        <div class="col-item"><span class="col-name">farmer_id</span><span class="col-type">ID / string</span></div>
+        <div class="col-item"><span class="col-name">county</span><span class="col-type">categorical</span></div>
+        <div class="col-item"><span class="col-name">crop_type</span><span class="col-type">categorical</span></div>
+        <div class="col-item"><span class="col-name">farm_size_acres</span><span class="col-type">float</span></div>
+        <div class="col-item"><span class="col-name">rainfall_received_mm</span><span class="col-type">float</span></div>
+        <div class="col-item"><span class="col-name">soil_quality_score</span><span class="col-type">int (1–10)</span></div>
+        <div class="col-item"><span class="col-name">fertilizer_used</span><span class="col-type">binary</span></div>
+        <div class="col-item"><span class="col-name">years_insured</span><span class="col-type">int</span></div>
+        <div class="col-item"><span class="col-name">previous_claims_3yr</span><span class="col-type">int</span></div>
+        <div class="col-item"><span class="col-name">distance_to_market_km</span><span class="col-type">float</span></div>
+        <div class="col-item col-target"><span class="col-name">claim_filed ★</span><span class="col-type">target / binary</span></div>
+      </div>
+    </div>
+
+    <div class="two-col">
+      <div>
+        <div class="section-label">What You Must Build</div>
+        <div class="block">
+          <ul>
+            <li>EDA with at least 5 visualisations focused on which features separate claimants from non-claimants</li>
+            <li>Preprocessing pipeline: encode categoricals, scale numerics, handle any class imbalance consciously</li>
+            <li>At least two classifiers: Logistic Regression + one of Random Forest, Decision Tree, or KNN</li>
+            <li>Model comparison using accuracy, precision, recall, and F1-score — and a written argument for which metric matters most here</li>
+            <li>A feature importance or coefficient plot with written interpretation</li>
+            <li>A 200-word underwriting memo presenting findings to a risk committee (not a data science team)</li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div class="section-label">Deliverables</div>
+        <div class="block">
+          <ul>
+            <li>Clean, commented Jupyter notebook</li>
+            <li>Underwriting memo as a markdown cell inside the notebook</li>
+            <li>README explaining how to run the notebook</li>
+          </ul>
+        </div>
+        <br>
+        <div class="section-label">Key Thinking Prompt</div>
+        <div class="block">
+          <p>In insurance, a false negative means paying a claim you didn't predict. A false positive means flagging a farmer as high-risk when they are not — which affects their premium. Which error is more costly to the business, and how does your choice of model reflect that?</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-label">Rubric</div>
+    <div class="block" style="padding:0; overflow:hidden; margin-bottom:32px;">
+      <table class="rubric-table">
+        <thead>
+          <tr><th>Criteria</th><th>Marks</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>EDA quality and insight depth — are the visualisations telling a story?</td><td class="marks">20</td></tr>
+          <tr><td>Preprocessing correctness — encoding, scaling, imbalance handling with justification</td><td class="marks">20</td></tr>
+          <tr><td>Model implementation and correctness — both models trained and evaluated properly</td><td class="marks">25</td></tr>
+          <tr><td>Evaluation and metric selection — right metric chosen and argued for</td><td class="marks">20</td></tr>
+          <tr><td>Underwriting memo — does it make sense to a non-data audience?</td><td class="marks">10</td></tr>
+          <tr><td>Code readability and comments</td><td class="marks">5</td></tr>
+          <tr><td><strong>Total</strong></td><td class="marks"><strong>100</strong></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="stretch">
+      <div class="stretch-label">Stretch Goal</div>
+      <p>Using your model's predicted probabilities, calculate an expected loss per risk segment (multiply predicted probability by a dummy claim payout amount). Rank counties by total expected loss and present the top three as a prioritisation list for the underwriting team.</p>
+    </div>
+
+    <a class="download-btn" href="crop_insurance_claims.csv" download>
+      <span class="download-icon">↓</span> Download crop_insurance_claims.csv
+    </a>
+  </section>
+
+  <hr class="project-sep">
+
+  <!-- ══════════════════════════════════════
+       PROJECT 2: LIVESTOCK OUTBREAK (VET)
+  ══════════════════════════════════════ -->
+  <section class="project p2" id="project2">
+    <div class="project-header">
+      <div class="project-number">02</div>
+      <div class="project-title-group">
+        <span class="project-tag">Veterinary Science &nbsp;·&nbsp; Classification</span>
+        <h2 class="project-title">Predicting Disease Outbreak Risk at Kenyan Livestock Markets</h2>
+      </div>
+    </div>
+    <div class="project-divider"></div>
+
+    <div class="section-label">The Business Problem</div>
+    <div class="problem-block">
+      The Kenya Veterinary Board can only deploy mobile vaccination teams to 30% of county livestock markets in any given month. Your model ranks markets by outbreak risk so deployment decisions are data-driven, not based on who calls the most.
+    </div>
+
+    <div class="section-label">Dataset</div>
+    <div class="dataset-block">
+      <div class="dataset-header">
+        <span>livestock_market_outbreak_risk.csv</span>
+        <div class="dataset-stats">
+          <div class="stat"><span class="stat-val">2,500</span><span class="stat-lbl">Rows</span></div>
+          <div class="stat"><span class="stat-val">11</span><span class="stat-lbl">Columns</span></div>
+          <div class="stat"><span class="stat-val">~32%</span><span class="stat-lbl">Outbreak Rate</span></div>
+        </div>
+      </div>
+      <div class="columns-grid">
+        <div class="col-item"><span class="col-name">market_id</span><span class="col-type">ID / string</span></div>
+        <div class="col-item"><span class="col-name">county</span><span class="col-type">categorical</span></div>
+        <div class="col-item"><span class="col-name">season</span><span class="col-type">categorical</span></div>
+        <div class="col-item"><span class="col-name">primary_animal_type</span><span class="col-type">categorical</span></div>
+        <div class="col-item"><span class="col-name">weekly_animal_throughput</span><span class="col-type">int</span></div>
+        <div class="col-item"><span class="col-name">vaccination_coverage_pct</span><span class="col-type">float (0–100)</span></div>
+        <div class="col-item"><span class="col-name">distance_to_water_source_km</span><span class="col-type">float</span></div>
+        <div class="col-item"><span class="col-name">vet_inspections_per_month</span><span class="col-type">int</span></div>
+        <div class="col-item"><span class="col-name">prev_outbreaks_2yr</span><span class="col-type">int</span></div>
+        <div class="col-item"><span class="col-name">market_density_score</span><span class="col-type">int (1–10)</span></div>
+        <div class="col-item col-target"><span class="col-name">outbreak_risk_flag ★</span><span class="col-type">target / binary</span></div>
+      </div>
+    </div>
+
+    <div class="two-col">
+      <div>
+        <div class="section-label">What You Must Build</div>
+        <div class="block">
+          <ul>
+            <li>EDA with at least 5 visualisations — pay particular attention to how season and vaccination coverage interact with the target</li>
+            <li>Preprocessing pipeline with justified encoding and scaling choices</li>
+            <li>At least two classifiers with recall as the primary evaluation metric — explain in writing why missing a true outbreak is the critical failure here</li>
+            <li>A confusion matrix for each model with a plain-English caption: what does each quadrant mean in a veterinary deployment context?</li>
+            <li>A ranked output table: the top 15 highest-risk markets from the test set, formatted as a deployment briefing table</li>
+            <li>A 150-word data gap note: what information would make this model better if you had it?</li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div class="section-label">Deliverables</div>
+        <div class="block">
+          <ul>
+            <li>Clean, commented Jupyter notebook</li>
+            <li>Ranked market briefing table exported as a CSV</li>
+            <li>Data gap note as a markdown cell inside the notebook</li>
+            <li>README explaining how to run the notebook</li>
+          </ul>
+        </div>
+        <br>
+        <div class="section-label">Key Thinking Prompt</div>
+        <div class="block">
+          <p>With 32% positive cases, this is not a severely imbalanced dataset. But the cost of a false negative (missing a high-risk market) is real — animals die, disease spreads, livelihoods collapse. Does your model reflect that asymmetry in how you've chosen your evaluation metrics and thresholds?</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-label">Rubric</div>
+    <div class="block" style="padding:0; overflow:hidden; margin-bottom:32px;">
+      <table class="rubric-table">
+        <thead>
+          <tr><th>Criteria</th><th>Marks</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>EDA quality — do visualisations surface meaningful seasonal and geographic patterns?</td><td class="marks">20</td></tr>
+          <tr><td>Preprocessing correctness and justification</td><td class="marks">15</td></tr>
+          <tr><td>Model implementation and correctness</td><td class="marks">25</td></tr>
+          <tr><td>Recall-focused evaluation with confusion matrix interpretation</td><td class="marks">20</td></tr>
+          <tr><td>Ranked deployment table — is it formatted for a non-technical user?</td><td class="marks">10</td></tr>
+          <tr><td>Data gap note quality and depth</td><td class="marks">5</td></tr>
+          <tr><td>Code readability and comments</td><td class="marks">5</td></tr>
+          <tr><td><strong>Total</strong></td><td class="marks"><strong>100</strong></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="stretch">
+      <div class="stretch-label">Stretch Goal</div>
+      <p>Build a composite deployment urgency score: combine the model's predicted outbreak probability with the vaccination coverage gap (100 minus vaccination_coverage_pct) into a single weighted score. Re-rank your top 15 markets using this score and explain whether the ranking changes significantly and why.</p>
+    </div>
+
+    <a class="download-btn" href="livestock_market_outbreak_risk.csv" download>
+      <span class="download-icon">↓</span> Download livestock_market_outbreak_risk.csv
+    </a>
+  </section>
+
+  <hr class="project-sep">
+
+  <!-- ══════════════════════════════════════
+       PROJECT 3: INFORMAL LENDING (ECON)
+  ══════════════════════════════════════ -->
+  <section class="project p3" id="project3">
+    <div class="project-header">
+      <div class="project-number">03</div>
+      <div class="project-title-group">
+        <span class="project-tag">Economics &nbsp;·&nbsp; Classification &nbsp;·&nbsp; Credit Risk</span>
+        <h2 class="project-title">Predicting Loan Default in Kenya's Informal Economy</h2>
+      </div>
+    </div>
+    <div class="project-divider"></div>
+
+    <div class="section-label">The Business Problem</div>
+    <div class="problem-block">
+      A Nairobi-based microfinance institution lends to informal sector workers: market traders, boda boda operators, kiosk owners, and jua kali artisans. These borrowers have no formal credit history. Your model scores default risk using alternative data — mobile money behaviour, group lending membership, and repayment track record — without penalising people simply for being unbanked.
+    </div>
+
+    <div class="section-label">Dataset</div>
+    <div class="dataset-block">
+      <div class="dataset-header">
+        <span>informal_loan_default.csv</span>
+        <div class="dataset-stats">
+          <div class="stat"><span class="stat-val">4,000</span><span class="stat-lbl">Rows</span></div>
+          <div class="stat"><span class="stat-val">14</span><span class="stat-lbl">Columns</span></div>
+          <div class="stat"><span class="stat-val">~17%</span><span class="stat-lbl">Default Rate</span></div>
+        </div>
+      </div>
+      <div class="columns-grid">
+        <div class="col-item"><span class="col-name">borrower_id</span><span class="col-type">ID / string</span></div>
+        <div class="col-item"><span class="col-name">business_type</span><span class="col-type">categorical</span></div>
+        <div class="col-item"><span class="col-name">loan_purpose</span><span class="col-type">categorical</span></div>
+        <div class="col-item"><span class="col-name">loan_amount_ksh</span><span class="col-type">float</span></div>
+        <div class="col-item"><span class="col-name">loan_term_months</span><span class="col-type">int</span></div>
+        <div class="col-item"><span class="col-name">mpesa_transactions_monthly</span><span class="col-type">int</span></div>
+        <div class="col-item"><span class="col-name">mpesa_avg_balance_ksh</span><span class="col-type">float — 15% missing</span></div>
+        <div class="col-item"><span class="col-name">prev_loans_repaid</span><span class="col-type">int</span></div>
+        <div class="col-item"><span class="col-name">prev_loans_defaulted</span><span class="col-type">int</span></div>
+        <div class="col-item"><span class="col-name">group_lending_member</span><span class="col-type">binary</span></div>
+        <div class="col-item"><span class="col-name">dependants</span><span class="col-type">int</span></div>
+        <div class="col-item"><span class="col-name">business_age_months</span><span class="col-type">int</span></div>
+        <div class="col-item"><span class="col-name">has_mobile_money_savings</span><span class="col-type">binary</span></div>
+        <div class="col-item col-target"><span class="col-name">loan_defaulted ★</span><span class="col-type">target / binary</span></div>
+      </div>
+    </div>
+
+    <div class="two-col">
+      <div>
+        <div class="section-label">What You Must Build</div>
+        <div class="block">
+          <ul>
+            <li>EDA with explicit attention to the missing values in <code>mpesa_avg_balance_ksh</code> — document the pattern and your imputation decision</li>
+            <li>Engineer at least one new feature from existing columns (e.g. loan-to-balance ratio, repayment reliability score)</li>
+            <li>Preprocessing pipeline including encoding, scaling, and missing value handling</li>
+            <li>At least two classifiers with a written argument for which metric matters most in a lending context: precision, recall, or F1</li>
+            <li>A Gini coefficient calculated on your best model's predicted probabilities, with a plain-English interpretation</li>
+            <li>A 200-word policy note: what should the MFI do with borderline borrowers — those scoring between 0.4 and 0.6 probability of default?</li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div class="section-label">Deliverables</div>
+        <div class="block">
+          <ul>
+            <li>Clean, commented Jupyter notebook</li>
+            <li>Gini coefficient with plain-English interpretation as a markdown cell</li>
+            <li>Policy note as a markdown cell inside the notebook</li>
+            <li>README explaining how to run the notebook</li>
+          </ul>
+        </div>
+        <br>
+        <div class="section-label">Key Thinking Prompt</div>
+        <div class="block">
+          <p>The missing values in <code>mpesa_avg_balance_ksh</code> are not random — informal workers often have inconsistent mobile money usage. Does your imputation method make an assumption about why the data is missing? State it explicitly.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-label">Rubric</div>
+    <div class="block" style="padding:0; overflow:hidden; margin-bottom:32px;">
+      <table class="rubric-table">
+        <thead>
+          <tr><th>Criteria</th><th>Marks</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>EDA quality — missing data identified, documented, and handled with reasoning</td><td class="marks">20</td></tr>
+          <tr><td>Feature engineering — at least one new feature with clear justification</td><td class="marks">15</td></tr>
+          <tr><td>Model implementation and correctness</td><td class="marks">25</td></tr>
+          <tr><td>Evaluation and metric selection — Gini calculated and interpreted correctly</td><td class="marks">20</td></tr>
+          <tr><td>Policy note — practical, realistic, written for a lending manager not a data scientist</td><td class="marks">15</td></tr>
+          <tr><td>Code readability and comments</td><td class="marks">5</td></tr>
+          <tr><td><strong>Total</strong></td><td class="marks"><strong>100</strong></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="stretch">
+      <div class="stretch-label">Stretch Goal</div>
+      <p>Implement a three-tier decision output using probability thresholds: Approve (below 0.35), Refer to Human Review (0.35 to 0.60), and Decline (above 0.60). Justify your threshold choices with reference to the business cost of each error type, then show the distribution of borrowers across the three tiers.</p>
+    </div>
+
+    <a class="download-btn" href="informal_loan_default.csv" download>
+      <span class="download-icon">↓</span> Download informal_loan_default.csv
+    </a>
+  </section>
+
+</main>
+
+<footer>
+  <span class="footer-brand">GoMyCode Nairobi &nbsp;·&nbsp; Data Science Cohort</span>
+  <span class="footer-note">Datasets are custom-generated for this cohort. Do not share externally.</span>
+</footer>
+
+</body>
+</html>
